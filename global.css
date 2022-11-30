@@ -1,0 +1,24 @@
+aside#media_image-2 {
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+}
+
+aside#media_image-2 h2 {
+  color: red;
+}
+
+aside#media_image-2 img {
+  border: 1px solid #aaa;
+  animation: shake 1s;
+}
+
+@keyframes shake {
+  50% {
+    transform: scale(1.2) rotate(-20deg);
+    box-shadow: 5px 10px #ddd;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
