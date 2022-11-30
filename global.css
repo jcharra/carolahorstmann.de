@@ -10,11 +10,14 @@ aside#media_image-2 h2 {
 
 aside#media_image-2 img {
   border: 1px solid #aaa;
-  animation: jump 1s;
+  animation: jump 5s;
 }
 
 @keyframes jump {
-  50% {
+  80% {
+    transform: scale(1) rotate(0);
+  }
+  90% {
     transform: scale(1.2) rotate(-20deg);
     box-shadow: 5px 10px #ddd;
   }
