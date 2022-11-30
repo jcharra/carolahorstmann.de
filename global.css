@@ -16,6 +16,7 @@ aside#media_image-2 img {
 @keyframes jump {
   80% {
     transform: scale(1) rotate(0);
+    box-shadow: 0 0 white;
   }
   90% {
     transform: scale(1.2) rotate(-20deg);
