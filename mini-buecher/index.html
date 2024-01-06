@@ -19,12 +19,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//s.w.org" />
     <link rel="dns-prefetch" href="//v0.wordpress.com" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Website von Carola Horstmann &raquo; Feed"
-      href="/feed/"
-    />
+    <link rel="alternate" type="application/rss+xml" title="Website von Carola Horstmann &raquo; Feed" href="/feed/" />
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -38,8 +33,7 @@
         svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         svgExt: ".svg",
         source: {
-          concatemoji:
-            "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
+          concatemoji: "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
         },
       };
       /*! This file is auto-generated */
@@ -51,69 +45,43 @@
           p = i.getContext && i.getContext("2d");
         function s(e, t) {
           var a = String.fromCharCode,
-            e =
-              (p.clearRect(0, 0, i.width, i.height),
-              p.fillText(a.apply(this, e), 0, 0),
-              i.toDataURL());
-          return (
-            p.clearRect(0, 0, i.width, i.height),
-            p.fillText(a.apply(this, t), 0, 0),
-            e === i.toDataURL()
-          );
+            e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+          return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL();
         }
         function c(e) {
           var t = a.createElement("script");
-          (t.src = e),
-            (t.defer = t.type = "text/javascript"),
-            a.getElementsByTagName("head")[0].appendChild(t);
+          (t.src = e), (t.defer = t.type = "text/javascript"), a.getElementsByTagName("head")[0].appendChild(t);
         }
         for (
-          o = Array("flag", "emoji"),
-            t.supports = { everything: !0, everythingExceptFlag: !0 },
-            r = 0;
+          o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0;
           r < o.length;
           r++
         )
           (t.supports[o[r]] = (function (e) {
             if (!p || !p.fillText) return !1;
-            switch (
-              ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
-            ) {
+            switch (((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)) {
               case "flag":
-                return s(
-                  [127987, 65039, 8205, 9895, 65039],
-                  [127987, 65039, 8203, 9895, 65039]
-                )
+                return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039])
                   ? !1
-                  : !s(
-                      [55356, 56826, 55356, 56819],
-                      [55356, 56826, 8203, 55356, 56819]
-                    ) &&
+                  : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) &&
                       !s(
                         [
-                          55356, 57332, 56128, 56423, 56128, 56418, 56128,
-                          56421, 56128, 56430, 56128, 56423, 56128, 56447,
+                          55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128,
+                          56447,
                         ],
                         [
-                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418,
-                          8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128,
-                          56423, 8203, 56128, 56447,
+                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430,
+                          8203, 56128, 56423, 8203, 56128, 56447,
                         ]
                       );
               case "emoji":
-                return !s(
-                  [129777, 127995, 8205, 129778, 127999],
-                  [129777, 127995, 8203, 129778, 127999]
-                );
+                return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]);
             }
             return !1;
           })(o[r])),
             (t.supports.everything = t.supports.everything && t.supports[o[r]]),
-            "flag" !== o[r] &&
-              (t.supports.everythingExceptFlag =
-                t.supports.everythingExceptFlag && t.supports[o[r]]);
-        (t.supports.everythingExceptFlag =
-          t.supports.everythingExceptFlag && !t.supports.flag),
+            "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag),
           (t.DOMReady = !1),
           (t.readyCallback = function () {
             t.DOMReady = !0;
@@ -123,8 +91,7 @@
               t.readyCallback();
             }),
             a.addEventListener
-              ? (a.addEventListener("DOMContentLoaded", n, !1),
-                e.addEventListener("load", n, !1))
+              ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1))
               : (e.attachEvent("onload", n),
                 a.attachEvent("onreadystatechange", function () {
                   "complete" === a.readyState && t.readyCallback();
@@ -252,16 +219,8 @@
           rgb(182, 227, 212) 50%,
           rgb(51, 167, 181) 100%
         );
-        --wp--preset--gradient--electric-grass: linear-gradient(
-          135deg,
-          rgb(202, 248, 128) 0%,
-          rgb(113, 206, 126) 100%
-        );
-        --wp--preset--gradient--midnight: linear-gradient(
-          135deg,
-          rgb(2, 3, 129) 0%,
-          rgb(40, 116, 252) 100%
-        );
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
         --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
         --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
         --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
@@ -327,14 +286,10 @@
         background-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-amber
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
       }
       .has-light-green-cyan-background-color {
         background-color: var(--wp--preset--color--light-green-cyan) !important;
@@ -367,9 +322,7 @@
         border-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-border-color {
-        border-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-border-color {
         border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
@@ -390,34 +343,22 @@
         border-color: var(--wp--preset--color--vivid-purple) !important;
       }
       .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-        background: var(
-          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
-        ) !important;
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
       }
       .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-        background: var(
-          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
-        ) !important;
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
       }
       .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
       }
       .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-        background: var(
-          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
-        ) !important;
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
       }
       .has-cool-to-warm-spectrum-gradient-background {
-        background: var(
-          --wp--preset--gradient--cool-to-warm-spectrum
-        ) !important;
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
       }
       .has-blush-light-purple-gradient-background {
         background: var(--wp--preset--gradient--blush-light-purple) !important;
@@ -496,33 +437,16 @@
       type="text/css"
       media="all"
     />
-    <script
-      type="text/javascript"
-      src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0"
-      id="jquery-core-js"
-    ></script>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
     <script
       type="text/javascript"
       src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
       id="jquery-migrate-js"
     ></script>
     <link rel="https://api.w.org/" href="/wp-json/" />
-    <link
-      rel="alternate"
-      type="application/json"
-      href="/wp-json/wp/v2/pages/30"
-    />
-    <link
-      rel="EditURI"
-      type="application/rsd+xml"
-      title="RSD"
-      href="/xmlrpc.php?rsd"
-    />
-    <link
-      rel="wlwmanifest"
-      type="application/wlwmanifest+xml"
-      href="/wp-includes/wlwmanifest.xml"
-    />
+    <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/30" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.0.1" />
     <link rel="canonical" href="/mini-buecher/" />
     <link rel="shortlink" href="https://wp.me/P6efJc-u" />
@@ -550,14 +474,8 @@
       property="og:description"
       content="Bravo, Bruno! Jetzt bestellen! Nach dem Spinnlikind Rosetta nun ein weiteres hochdeutsch-alemannisches Kinderbuch, ebenfalls von mir illustriert. Was selli Traumschneckli nit alles könne: Vo Marzip…"
     />
-    <meta
-      property="article:published_time"
-      content="2015-05-21T19:56:09+00:00"
-    />
-    <meta
-      property="article:modified_time"
-      content="2022-06-27T19:56:16+00:00"
-    />
+    <meta property="article:published_time" content="2015-05-21T19:56:09+00:00" />
+    <meta property="article:modified_time" content="2022-06-27T19:56:16+00:00" />
     <meta property="og:site_name" content="Website von Carola Horstmann" />
     <meta
       property="og:image"
@@ -591,8 +509,7 @@
       }
 
       .site-main {
-        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg")
-          repeat-y;
+        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg") repeat-y;
         min-height: 1500px;
       }
 
@@ -628,9 +545,7 @@
 
   <body class="page-template-default page page-id-30">
     <div id="page" class="hfeed site">
-      <a class="skip-link screen-reader-text" href="#content"
-        >Springe zum Inhalt</a
-      >
+      <a class="skip-link screen-reader-text" href="#content">Springe zum Inhalt</a>
 
       <div id="sidebar" class="sidebar">
         <header id="masthead" class="site-header" role="banner">
@@ -648,22 +563,13 @@
           <nav id="site-navigation" class="main-navigation" role="navigation">
             <div class="menu-menu-container">
               <ul id="menu-menu" class="nav-menu">
-                <li
-                  id="menu-item-17"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"
-                >
+                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17">
                   <a href="/uber-mi/">Über mi</a>
                 </li>
-                <li
-                  id="menu-item-12"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"
-                >
+                <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
                   <a href="/wurum-dialekt/">Wurum Dialekt?</a>
                 </li>
-                <li
-                  id="menu-item-26"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
-                >
+                <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
                   <a href="/gedichter/">Gedichter</a>
                 </li>
                 <li
@@ -672,40 +578,22 @@
                 >
                   <a href="/mini-buecher/" aria-current="page">Mini Büecher</a>
                 </li>
-                <li
-                  id="menu-item-28"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"
-                >
+                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
                   <a href="/kurzgschichte/">Kurzgschichte</a>
                 </li>
-                <li
-                  id="menu-item-45"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"
-                >
+                <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
                   <a href="/presse/">Presse</a>
                 </li>
-                <li
-                  id="menu-item-234"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"
-                >
+                <li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234">
                   <a href="/priiswuerdig/">Priiswürdig</a>
                 </li>
-                <li
-                  id="menu-item-40"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
-                >
+                <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
                   <a href="/looset-emool-iine/">Zum Loose</a>
                 </li>
-                <li
-                  id="menu-item-49"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
-                >
+                <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
                   <a href="/foti/">Zum Luege</a>
                 </li>
-                <li
-                  id="menu-item-115"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"
-                >
+                <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115">
                   <a href="/impressum/">Kontakt &#038; Impressum</a>
                 </li>
               </ul>
@@ -737,10 +625,7 @@
       <div id="content" class="site-content">
         <div id="primary" class="content-area">
           <main id="main" class="site-main" role="main">
-            <article
-              id="post-30"
-              class="post-30 page type-page status-publish hentry"
-            >
+            <article id="post-30" class="post-30 page type-page status-publish hentry">
               <header class="entry-header">
                 <h1 class="entry-title">Mini Büecher</h1>
               </header>
@@ -781,13 +666,11 @@
                   <a style="color: #f18343" href="#bruno">Jetzt bestellen!</a>
                 </p>
                 <p>
-                  Nach dem Spinnlikind Rosetta nun ein weiteres
-                  hochdeutsch-alemannisches Kinderbuch, ebenfalls von mir
+                  Nach dem Spinnlikind Rosetta nun ein weiteres hochdeutsch-alemannisches Kinderbuch, ebenfalls von mir
                   illustriert.
                 </p>
                 <p>
-                  <a
-                    href="/wp-content/uploads/2018/08/BRUNO_302X215_TITEL_RGB.jpg"
+                  <a href="/wp-content/uploads/2018/08/BRUNO_302X215_TITEL_RGB.jpg"
                     ><img
                       data-attachment-id="365"
                       data-permalink="httpscarola-horstmann.de/start/bruno_302x215_titel_rgb/"
@@ -814,30 +697,23 @@
                   /></a>
                 </p>
                 <p>
-                  Was selli Traumschneckli nit alles könne: Vo Marzipanschweinli
-                  träume, sich uf em e Aahänger furtfahre lo &#8230; Sogar in en
-                  füüchte Erdhuffe schliife si ine, au wenn s dä in ächt gar nit
-                  git. Dodähinter steckt uusgrechnet de Bruno. Normalerwiis hät
-                  er jo vor allem Angscht, egal ob er grad träumt oder wach
-                  isch. Aber d Liebi zue de Rosina hilft em, sini Angscht z
-                  meischtere un d Traumschneckli us ere große Gfahr z rette.
+                  Was selli Traumschneckli nit alles könne: Vo Marzipanschweinli träume, sich uf em e Aahänger furtfahre
+                  lo &#8230; Sogar in en füüchte Erdhuffe schliife si ine, au wenn s dä in ächt gar nit git. Dodähinter
+                  steckt uusgrechnet de Bruno. Normalerwiis hät er jo vor allem Angscht, egal ob er grad träumt oder
+                  wach isch. Aber d Liebi zue de Rosina hilft em, sini Angscht z meischtere un d Traumschneckli us ere
+                  große Gfahr z rette.
                 </p>
                 <p>
-                  Was diese Traumschnecken nicht alles können: Von
-                  Marzipanschweinchen träumen, sich von einem Anhänger wegfahren
-                  lassen &#8230; Sogar in einen feuchten Erdhaufen kriechen sie
-                  hinein, auch wenn es diesen in Wirklichkeit gar nicht gibt.
-                  Dahinter steckt ausgerechnet Bruno. Eigentlich hat er ja vor
-                  allem Angst, egal, ob er nun träumt oder wach ist. Aber aus
-                  Liebe zu Rosina überwindet er seine Angst und rettet die
-                  Traumschnecken aus großer Gefahr.
+                  Was diese Traumschnecken nicht alles können: Von Marzipanschweinchen träumen, sich von einem Anhänger
+                  wegfahren lassen &#8230; Sogar in einen feuchten Erdhaufen kriechen sie hinein, auch wenn es diesen in
+                  Wirklichkeit gar nicht gibt. Dahinter steckt ausgerechnet Bruno. Eigentlich hat er ja vor allem Angst,
+                  egal, ob er nun träumt oder wach ist. Aber aus Liebe zu Rosina überwindet er seine Angst und rettet
+                  die Traumschnecken aus großer Gefahr.
                 </p>
                 <p>
                   <i
-                    >Eine bezaubernde Geschichte über die Fähigkeit zum Träumen,
-                    aber auch eine Geschichte von Liebe, Angst und Heldenmut,
-                    die uns zum Lächeln bringt. S isch wohr, Träum wirke
-                    Wunder!</i
+                    >Eine bezaubernde Geschichte über die Fähigkeit zum Träumen, aber auch eine Geschichte von Liebe,
+                    Angst und Heldenmut, die uns zum Lächeln bringt. S isch wohr, Träum wirke Wunder!</i
                   ><br />
                   Friedel Scheer-Nahor
                 </p>
@@ -860,24 +736,17 @@
                   ISBN: 978-3-00-060440-9<br />
                   <strong>Vertrieb:</strong> Buchhandlung Losch<br />
                   E-Mail:
-                  <a href="mailto:Buchhandlung.Losch@t-online.de"
-                    >Buchhandlung.Losch@t-online.de</a
-                  >
+                  <a href="mailto:Buchhandlung.Losch@t-online.de">Buchhandlung.Losch@t-online.de</a>
                   Telefon: <a href="tel:076662153">0 76 66 / 21 53</a>
                 </p>
                 <p>
                   &#8230; oder direkt bei mir per Mail bestellen:<br />
-                  <a href="mailto:horstmann.carola@gmx.de"
-                    >horstmann.carola@gmx.de</a
-                  >
+                  <a href="mailto:horstmann.carola@gmx.de">horstmann.carola@gmx.de</a>
                 </p>
                 <h3>Ooh, wie isch des schön, des Panama</h3>
                 <p>
-                  &#8230; von Janosch; vo de Carola Horstmann ins Alemannischi
-                  übretrait.<br />
-                  <a
-                    href="/wp-content/uploads/2015/05/9783946190233.jpg"
-                    rel="attachment wp-att-253"
+                  &#8230; von Janosch; vo de Carola Horstmann ins Alemannischi übretrait.<br />
+                  <a href="/wp-content/uploads/2015/05/9783946190233.jpg" rel="attachment wp-att-253"
                     ><img
                       data-attachment-id="253"
                       data-permalink="httpscarola-horstmann.de/mini-buecher/oh-wie-schoen-ist-panama/"
@@ -911,8 +780,7 @@
                 </p>
                 <h3>Mi dritts Buech</h3>
                 <h4>
-                  <a
-                    href="http://www.carola-horstmann.de/wp-content/uploads/2015/06/rosetta_cover.jpg"
+                  <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/06/rosetta_cover.jpg"
                     ><img
                       data-attachment-id="91"
                       data-permalink="httpscarola-horstmann.de/mini-buecher/rosetta_cover/"
@@ -941,22 +809,17 @@
                 <h4>S Spinnlikind Rosetta – Das Spinnlein Rosetta</h4>
                 <p>Gschribe uf alemannisch un hochdütsch</p>
                 <p>
-                  Inhalt: Die kleine Rosetta spinnt immerzu etwas anderes, nur
-                  keine Netze. Als die Mutter endlich versteht, dass es das
-                  kleine Spinnlein einfach nicht besser kann, erlaubt sie ihm zu
-                  spinnen, was es will. Es dauert nicht lange, und Rosetta macht
-                  einen ganz unglaublichen Fang &#8230;
+                  Inhalt: Die kleine Rosetta spinnt immerzu etwas anderes, nur keine Netze. Als die Mutter endlich
+                  versteht, dass es das kleine Spinnlein einfach nicht besser kann, erlaubt sie ihm zu spinnen, was es
+                  will. Es dauert nicht lange, und Rosetta macht einen ganz unglaublichen Fang &#8230;
                 </p>
                 <p>
-                  Di klei Rosetta spinnt allwiil öbbis andris, numme keini
-                  Netzli nit. Wo d Muetter endlig verschtoht, dass es des
-                  Spinnli eifach nit besser ka, losst si s spinne, was es wott.
-                  Un ums Ummeluege macht d Rosetta en ganz verruckte Fang
-                  &#8230;
+                  Di klei Rosetta spinnt allwiil öbbis andris, numme keini Netzli nit. Wo d Muetter endlig verschtoht,
+                  dass es des Spinnli eifach nit besser ka, losst si s spinne, was es wott. Un ums Ummeluege macht d
+                  Rosetta en ganz verruckte Fang &#8230;
                 </p>
                 <p>
-                  <a
-                    href="http://www.carola-horstmann.de/wp-content/uploads/2015/06/rosetta_spinnen_klein.jpeg"
+                  <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/06/rosetta_spinnen_klein.jpeg"
                     ><img
                       data-attachment-id="107"
                       data-permalink="httpscarola-horstmann.de/mini-buecher/rosetta_spinnen_klein/"
@@ -984,9 +847,8 @@
                 </p>
                 <p>
                   <em
-                    >&#8222;Bildstark und klangschön in beiden Sprachvarianten,
-                    bezaubert &#8218;Rosetta&#8216; mit Phantasie und Witz. Mer
-                    mueß es eifach gern ha, sell klei Spinnechind!&#8220;</em
+                    >&#8222;Bildstark und klangschön in beiden Sprachvarianten, bezaubert &#8218;Rosetta&#8216; mit
+                    Phantasie und Witz. Mer mueß es eifach gern ha, sell klei Spinnechind!&#8220;</em
                   >
                   &#8211; Manfred Markus Jung
                 </p>
@@ -997,18 +859,14 @@
                   Erschienen im Juni 2015 im Verlag Edition Tintenfaß
                 </p>
                 <p>
-                  <a href="http://www.verlag-tintenfass.de/"
-                    >www.verlag-tintenfass.de</a
-                  >
+                  <a href="http://www.verlag-tintenfass.de/">www.verlag-tintenfass.de</a>
                 </p>
                 <p>
-                  Un des Ganzi git s au uf Englisch-Dütsch; des hät d Nadine
-                  Sauer vom Verlag Tintenfaß gmacht &#8211; un i find, dass ihre
-                  des ganz wunderbar glungen isch!
+                  Un des Ganzi git s au uf Englisch-Dütsch; des hät d Nadine Sauer vom Verlag Tintenfaß gmacht &#8211;
+                  un i find, dass ihre des ganz wunderbar glungen isch!
                 </p>
                 <p>
-                  <a
-                    href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/RosettaEnglish.jpg"
+                  <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/RosettaEnglish.jpg"
                     ><img
                       data-attachment-id="210"
                       data-permalink="httpscarola-horstmann.de/mini-buecher/rosettaenglish/"
@@ -1040,8 +898,7 @@
                   <div class="two_column">
                     <div class="two_column_left">
                       <p>
-                        <a
-                          href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/cover_daesche.png"
+                        <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/cover_daesche.png"
                           ><img
                             data-attachment-id="154"
                             data-permalink="httpscarola-horstmann.de/mini-buecher/cover_daesche/"
@@ -1079,60 +936,41 @@
                   </div>
                   <div class="two_column"></div>
                   <div class="two_column">
-                    In &#8222;däsche us schnee&#8220; findet mer mini
-                    alemannische Gedichter us de letschte fünf Johr. De Markus
-                    Jung hät si wider lektoriert &#8211; er macht des eifach
-                    schandbar guet, i wüßt kein Bessere. Dass nit numme
-                    Muetterschprööchler Freud am Alemannische hän, ka mer im
-                    Klappetext vom Volkmar Braunbehrens noochläse:
+                    In &#8222;däsche us schnee&#8220; findet mer mini alemannische Gedichter us de letschte fünf Johr.
+                    De Markus Jung hät si wider lektoriert &#8211; er macht des eifach schandbar guet, i wüßt kein
+                    Bessere. Dass nit numme Muetterschprööchler Freud am Alemannische hän, ka mer im Klappetext vom
+                    Volkmar Braunbehrens noochläse:
                   </div>
                   <p class="zitat">
-                    Das Alemannische ist Mundart, muss aus dem befremdlichen
-                    Schriftbild zurückverwandelt werden in den melodischen Klang
-                    der Laute. Und sogleich wirkt der Zauber der Worte, mit
-                    denen Carola Horstmann die Vielstimmigkeit und das Leuchten
-                    des Alltäglichen beobachtet und belauscht. Nur wer mit
-                    freundlicher Gelassenheit sagen kann, &#8222;derf sii, was
-                    isch&#8220;, kann &#8222;D Heiteri vom neue Tag&#8220;
-                    erfassen, die Helligkeit meint, ohne die Schatten
-                    auszublenden. So entsteht das poetische Vergnügen in der
-                    Zwiesprache, dem nachspürenden Hören, dem ungehemmten
-                    Staunen, dem musikalischen Verstehen.
+                    Das Alemannische ist Mundart, muss aus dem befremdlichen Schriftbild zurückverwandelt werden in den
+                    melodischen Klang der Laute. Und sogleich wirkt der Zauber der Worte, mit denen Carola Horstmann die
+                    Vielstimmigkeit und das Leuchten des Alltäglichen beobachtet und belauscht. Nur wer mit freundlicher
+                    Gelassenheit sagen kann, &#8222;derf sii, was isch&#8220;, kann &#8222;D Heiteri vom neue Tag&#8220;
+                    erfassen, die Helligkeit meint, ohne die Schatten auszublenden. So entsteht das poetische Vergnügen
+                    in der Zwiesprache, dem nachspürenden Hören, dem ungehemmten Staunen, dem musikalischen Verstehen.
                   </p>
                   <p>
-                    E bsundere Dank goht an de Wendelinus Wurth vom Drey Verlag.
-                    Nit numme dass de Verlag schöni Büecher macht, er hät au e
-                    Herz für d Minderheite im Literaturbetrieb, für uns
-                    Mundart-Autore.
+                    E bsundere Dank goht an de Wendelinus Wurth vom Drey Verlag. Nit numme dass de Verlag schöni Büecher
+                    macht, er hät au e Herz für d Minderheite im Literaturbetrieb, für uns Mundart-Autore.
                   </p>
-                  <p>
-                    Mine Läser viel Freud mit &#8222;däsche us schnee&#8220;!
-                  </p>
+                  <p>Mine Läser viel Freud mit &#8222;däsche us schnee&#8220;!</p>
                 </div>
                 <h3>Mi erschts Buech</h3>
                 <p>
                   S müeßt eigentlich heiße: mi erschts
-                  <span class="emph">richtigs</span> Büechli. Well Bilderbüechli
-                  han i früehjer scho mänki gmacht für mini Kinder, z.B. „Ein
-                  Franzos mit Unterhos“, un zletscht no „Der kleine Adalbert mit
-                  seinem dicken Gummischwert“, selle, wo d Luft in Stuck ghaue
-                  hät un däno durch des grossi Loch use gumpt isch ins Weltall
-                  &#8230; aber meh verzell i nit. Villicht gits jo doch no e
-                  richtigs Bilderbuech druus.
+                  <span class="emph">richtigs</span> Büechli. Well Bilderbüechli han i früehjer scho mänki gmacht für
+                  mini Kinder, z.B. „Ein Franzos mit Unterhos“, un zletscht no „Der kleine Adalbert mit seinem dicken
+                  Gummischwert“, selle, wo d Luft in Stuck ghaue hät un däno durch des grossi Loch use gumpt isch ins
+                  Weltall &#8230; aber meh verzell i nit. Villicht gits jo doch no e richtigs Bilderbuech druus.
                 </p>
-                <p>
-                  Aber jetz zue mim erschte richtige Büechli, gschribe im
-                  Wiesetäler Hochalemannisch:
-                </p>
+                <p>Aber jetz zue mim erschte richtige Büechli, gschribe im Wiesetäler Hochalemannisch:</p>
                 <p>
                   „katzegrabschtai“<br />
-                  22 Texter sin s un däzue 6 Illuschtrazione, wo n i am Computer
-                  gmacht ha.
+                  22 Texter sin s un däzue 6 Illuschtrazione, wo n i am Computer gmacht ha.
                 </p>
                 <div class="booklist">
                   <p>
-                    <a
-                      href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/Umschlag.jpg"
+                    <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/Umschlag.jpg"
                       ><img
                         data-attachment-id="155"
                         data-permalink="httpscarola-horstmann.de/mini-buecher/umschlag/"
@@ -1167,11 +1005,9 @@
                   </div>
                 </div>
                 <p>
-                  No öbbis zum Priis: S isch fescht bunde un hät en separate
-                  Iiband. Wie alli Büecher vom Drey-Verlag isch s mit vil
-                  Sorgfalt gmacht worde. S Land Bade-Württeberg hät 2006 de
-                  Drey-Verlag mit em e Priis für si bsundrigs verlegerischs
-                  Engagement un sini Usschtattig vo de Büecher gwürdigt.
+                  No öbbis zum Priis: S isch fescht bunde un hät en separate Iiband. Wie alli Büecher vom Drey-Verlag
+                  isch s mit vil Sorgfalt gmacht worde. S Land Bade-Württeberg hät 2006 de Drey-Verlag mit em e Priis
+                  für si bsundrigs verlegerischs Engagement un sini Usschtattig vo de Büecher gwürdigt.
                 </p>
                 <p>
                   Wenn Er meh über de Verlag wüsse wänn:<br />
@@ -1179,54 +1015,39 @@
                 </p>
                 <p>Bibliographie:</p>
                 <ul>
+                  <li>&#8222;D Moolermuus&#8220; bei Edition Tintenfaß</li>
                   <li>&#8222;Bravo, Bruno!&#8220; bei Appel &amp; Klinger</li>
+                  <li>&#8222;Ooh, wie isch des schön, des Panama&#8220; bei Edition Tintenfaß</li>
                   <li>
-                    &#8222;Ooh, wie isch des schön, des Panama&#8220; bei
-                    Edition Tintenfaß
+                    &#8222;An Itsy-Bitsy Spider Named Rosetta&#8220; bei Edition Tintenfaß (englische Übersetzung von
+                    &#8222;S Spinnlikind Rosetta&#8220;)
                   </li>
                   <li>
-                    &#8222;An Itsy-Bitsy Spider Named Rosetta&#8220; bei Edition
-                    Tintenfaß (englische Übersetzung von &#8222;S Spinnlikind
-                    Rosetta&#8220;)
+                    „Was wir sehen“, Anthologie des Förderkreises deutsche Schriftsteller, u.a. mit Gedichten von C.
+                    Horstmann, 2015
                   </li>
+                  <li>S Spinnlikind Rosetta &#8211; Das Spinnlein Rosetta, 2015</li>
                   <li>
-                    „Was wir sehen“, Anthologie des Förderkreises deutsche
-                    Schriftsteller, u.a. mit Gedichten von C. Horstmann, 2015
-                  </li>
-                  <li>
-                    S Spinnlikind Rosetta &#8211; Das Spinnlein Rosetta, 2015
-                  </li>
-                  <li>
-                    Lyrikband der Lyrikgesellschaft in Leipzig 2012
-                    &#8222;Vuglfrei. Gedichte, Lieder, Positionen&#8220;
+                    Lyrikband der Lyrikgesellschaft in Leipzig 2012 &#8222;Vuglfrei. Gedichte, Lieder, Positionen&#8220;
                   </li>
                   <li>däsche us schnee, 2011</li>
                   <li>
-                    Editions du Lys: Les galets du Rhin, Rheinkiesel, Anthologie
-                    poétique de la Région des Trois Pays, 2011
+                    Editions du Lys: Les galets du Rhin, Rheinkiesel, Anthologie poétique de la Région des Trois Pays,
+                    2011
                   </li>
                   <li>
-                    10 alemannischi Gedichter in &#8222;stimm bruch&#8220;,
-                    Förderband 9, Anthologie des Förderkreises deutsche
-                    Schriftsteller in Baden-Württemberg, 2010
+                    10 alemannischi Gedichter in &#8222;stimm bruch&#8220;, Förderband 9, Anthologie des Förderkreises
+                    deutsche Schriftsteller in Baden-Württemberg, 2010
                   </li>
                   <li>
-                    &#8222;I mag di mog di mig di&#8220;, alemannische
-                    Liebesgedichte, Anthologie, Drey-Verlag 2009
+                    &#8222;I mag di mog di mig di&#8220;, alemannische Liebesgedichte, Anthologie, Drey-Verlag 2009
                   </li>
-                  <li>
-                    Edition Isele: Freiburg und der Breisgau im Gedicht,
-                    Anthologie 2008
-                  </li>
+                  <li>Edition Isele: Freiburg und der Breisgau im Gedicht, Anthologie 2008</li>
                   <li>katzegrabschtai, 2007</li>
                   <li>
-                    Förderkreis deutscher Schriftsteller in B.-Württemberg:
-                    &#8222;Wahrnehmung&#8220;, Anthologie 2007
+                    Förderkreis deutscher Schriftsteller in B.-Württemberg: &#8222;Wahrnehmung&#8220;, Anthologie 2007
                   </li>
-                  <li>
-                    Rombach Verlag: &#8222;Alemannisch dichte&#8220;. Anthologie
-                    2006
-                  </li>
+                  <li>Rombach Verlag: &#8222;Alemannisch dichte&#8220;. Anthologie 2006</li>
                 </ul>
               </div>
               <!-- .entry-content -->
@@ -1241,9 +1062,7 @@
 
       <footer id="colophon" class="site-footer" role="contentinfo">
         <div class="site-info">
-          <a href="https://de.wordpress.org/"
-            >Stolz präsentiert von WordPress</a
-          >
+          <a href="https://de.wordpress.org/">Stolz präsentiert von WordPress</a>
         </div>
         <!-- .site-info -->
       </footer>
@@ -1266,100 +1085,43 @@
         >
           <div class="jp-carousel swiper-wrapper"></div>
           <div class="jp-swiper-button-prev swiper-button-prev">
-            <svg
-              width="25"
-              height="24"
-              viewbox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="maskPrev"
-                mask-type="alpha"
-                maskunits="userSpaceOnUse"
-                x="8"
-                y="6"
-                width="9"
-                height="12"
-              >
+            <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="maskPrev" mask-type="alpha" maskunits="userSpaceOnUse" x="8" y="6" width="9" height="12">
                 <path
                   d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z"
                   fill="white"
                 ></path>
               </mask>
               <g mask="url(#maskPrev)">
-                <rect
-                  x="0.579102"
-                  width="23.8823"
-                  height="24"
-                  fill="#FFFFFF"
-                ></rect>
+                <rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"></rect>
               </g>
             </svg>
           </div>
           <div class="jp-swiper-button-next swiper-button-next">
-            <svg
-              width="25"
-              height="24"
-              viewbox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="maskNext"
-                mask-type="alpha"
-                maskunits="userSpaceOnUse"
-                x="8"
-                y="6"
-                width="8"
-                height="12"
-              >
+            <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="maskNext" mask-type="alpha" maskunits="userSpaceOnUse" x="8" y="6" width="8" height="12">
                 <path
                   d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z"
                   fill="white"
                 ></path>
               </mask>
               <g mask="url(#maskNext)">
-                <rect
-                  x="0.34375"
-                  width="23.8822"
-                  height="24"
-                  fill="#FFFFFF"
-                ></rect>
+                <rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"></rect>
               </g>
             </svg>
           </div>
         </div>
         <!-- The main close buton -->
         <div class="jp-carousel-close-hint">
-          <svg
-            width="25"
-            height="24"
-            viewbox="0 0 25 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <mask
-              id="maskClose"
-              mask-type="alpha"
-              maskunits="userSpaceOnUse"
-              x="5"
-              y="5"
-              width="15"
-              height="14"
-            >
+          <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskClose" mask-type="alpha" maskunits="userSpaceOnUse" x="5" y="5" width="15" height="14">
               <path
                 d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z"
                 fill="white"
               ></path>
             </mask>
             <g mask="url(#maskClose)">
-              <rect
-                x="0.409668"
-                width="23.8823"
-                height="24"
-                fill="#FFFFFF"
-              ></rect>
+              <rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"></rect>
             </g>
           </svg>
         </div>
@@ -1380,22 +1142,8 @@
                 aria-label="Sichtbarkeit von Fotometadaten ändern"
               >
                 <span class="jp-carousel-icon">
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="maskInfo"
-                      mask-type="alpha"
-                      maskunits="userSpaceOnUse"
-                      x="2"
-                      y="2"
-                      width="21"
-                      height="20"
-                    >
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="maskInfo" mask-type="alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="20">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -1404,12 +1152,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#maskInfo)">
-                      <rect
-                        x="0.8125"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
                 </span>
@@ -1420,13 +1163,7 @@
                 aria-label="Sichtbarkeit von Fotokommentaren ändern"
               >
                 <span class="jp-carousel-icon">
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask
                       id="maskComments"
                       mask-type="alpha"
@@ -1444,12 +1181,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#maskComments)">
-                      <rect
-                        x="0.34668"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
 
@@ -1477,9 +1209,7 @@
                   <div id="jp-carousel-comment-form-commenting-as">
                     <p id="jp-carousel-commenting-as">
                       Du muss
-                      <a href="#" class="jp-carousel-comment-login"
-                        >angemeldet</a
-                      >
+                      <a href="#" class="jp-carousel-comment-login">angemeldet</a>
                       sein, um einen Kommentar zu veröffentlichen.
                     </p>
                   </div>
@@ -1488,36 +1218,15 @@
               <div class="jp-carousel-image-meta">
                 <div class="jp-carousel-title-and-caption">
                   <div class="jp-carousel-photo-info">
-                    <h3
-                      class="jp-carousel-caption"
-                      itemprop="caption description"
-                    ></h3>
+                    <h3 class="jp-carousel-caption" itemprop="caption description"></h3>
                   </div>
 
                   <div class="jp-carousel-photo-description"></div>
                 </div>
                 <ul class="jp-carousel-image-exif" style="display: none"></ul>
-                <a
-                  class="jp-carousel-image-download"
-                  target="_blank"
-                  style="display: none"
-                >
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="mask0"
-                      mask-type="alpha"
-                      maskunits="userSpaceOnUse"
-                      x="3"
-                      y="3"
-                      width="19"
-                      height="18"
-                    >
+                <a class="jp-carousel-image-download" target="_blank" style="display: none">
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha" maskunits="userSpaceOnUse" x="3" y="3" width="19" height="18">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -1526,12 +1235,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#mask0)">
-                      <rect
-                        x="0.870605"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
                   <span class="jp-carousel-download-text"></span>
@@ -1552,8 +1256,7 @@
       /* <![CDATA[ */
       var screenReaderText = {
         expand: '<span class="screen-reader-text">Untermenü anzeigen<\/span>',
-        collapse:
-          '<span class="screen-reader-text">Untermenü verbergen<\/span>',
+        collapse: '<span class="screen-reader-text">Untermenü verbergen<\/span>',
       };
       /* ]]> */
     </script>
@@ -1584,13 +1287,10 @@
         loading_comments: "Lade Kommentare …",
         download_original:
           'Bild in Originalgröße anschauen <span class="photo-size">{0}<span class="photo-size-times">×<\/span>{1}<\/span>',
-        no_comment_text:
-          "Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text übermittelst.",
-        no_comment_email:
-          "Bitte eine E-Mail-Adresse angeben, um zu kommentieren.",
+        no_comment_text: "Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text übermittelst.",
+        no_comment_email: "Bitte eine E-Mail-Adresse angeben, um zu kommentieren.",
         no_comment_author: "Bitte deinen Namen angeben, um zu kommentieren.",
-        comment_post_error:
-          "Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es später erneut.",
+        comment_post_error: "Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es später erneut.",
         comment_approved: "Dein Kommentar wurde genehmigt.",
         comment_unapproved: "Dein Kommentar wartet auf Freischaltung.",
         camera: "Kamera",
@@ -1600,16 +1300,9 @@
         copyright: "Copyright",
         comment_registration: "1",
         require_name_email: "1",
-        login_url:
-          "httpscarola-horstmann.de\/wp-login.php?redirect_to=httpscarola-horstmann.de%2Fmini-buecher%2F",
+        login_url: "httpscarola-horstmann.de\/wp-login.php?redirect_to=httpscarola-horstmann.de%2Fmini-buecher%2F",
         blog_id: "1",
-        meta_data: [
-          "camera",
-          "aperture",
-          "shutter_speed",
-          "focal_length",
-          "copyright",
-        ],
+        meta_data: ["camera", "aperture", "shutter_speed", "focal_length", "copyright"],
       };
       /* ]]> */
     </script>

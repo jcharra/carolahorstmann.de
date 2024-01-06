@@ -19,12 +19,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//s.w.org" />
     <link rel="dns-prefetch" href="//v0.wordpress.com" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Website von Carola Horstmann &raquo; Feed"
-      href="/feed/"
-    />
+    <link rel="alternate" type="application/rss+xml" title="Website von Carola Horstmann &raquo; Feed" href="/feed/" />
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -38,8 +33,7 @@
         svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         svgExt: ".svg",
         source: {
-          concatemoji:
-            "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
+          concatemoji: "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
         },
       };
       /*! This file is auto-generated */
@@ -51,69 +45,43 @@
           p = i.getContext && i.getContext("2d");
         function s(e, t) {
           var a = String.fromCharCode,
-            e =
-              (p.clearRect(0, 0, i.width, i.height),
-              p.fillText(a.apply(this, e), 0, 0),
-              i.toDataURL());
-          return (
-            p.clearRect(0, 0, i.width, i.height),
-            p.fillText(a.apply(this, t), 0, 0),
-            e === i.toDataURL()
-          );
+            e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+          return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL();
         }
         function c(e) {
           var t = a.createElement("script");
-          (t.src = e),
-            (t.defer = t.type = "text/javascript"),
-            a.getElementsByTagName("head")[0].appendChild(t);
+          (t.src = e), (t.defer = t.type = "text/javascript"), a.getElementsByTagName("head")[0].appendChild(t);
         }
         for (
-          o = Array("flag", "emoji"),
-            t.supports = { everything: !0, everythingExceptFlag: !0 },
-            r = 0;
+          o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0;
           r < o.length;
           r++
         )
           (t.supports[o[r]] = (function (e) {
             if (!p || !p.fillText) return !1;
-            switch (
-              ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
-            ) {
+            switch (((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)) {
               case "flag":
-                return s(
-                  [127987, 65039, 8205, 9895, 65039],
-                  [127987, 65039, 8203, 9895, 65039]
-                )
+                return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039])
                   ? !1
-                  : !s(
-                      [55356, 56826, 55356, 56819],
-                      [55356, 56826, 8203, 55356, 56819]
-                    ) &&
+                  : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) &&
                       !s(
                         [
-                          55356, 57332, 56128, 56423, 56128, 56418, 56128,
-                          56421, 56128, 56430, 56128, 56423, 56128, 56447,
+                          55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128,
+                          56447,
                         ],
                         [
-                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418,
-                          8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128,
-                          56423, 8203, 56128, 56447,
+                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430,
+                          8203, 56128, 56423, 8203, 56128, 56447,
                         ]
                       );
               case "emoji":
-                return !s(
-                  [129777, 127995, 8205, 129778, 127999],
-                  [129777, 127995, 8203, 129778, 127999]
-                );
+                return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]);
             }
             return !1;
           })(o[r])),
             (t.supports.everything = t.supports.everything && t.supports[o[r]]),
-            "flag" !== o[r] &&
-              (t.supports.everythingExceptFlag =
-                t.supports.everythingExceptFlag && t.supports[o[r]]);
-        (t.supports.everythingExceptFlag =
-          t.supports.everythingExceptFlag && !t.supports.flag),
+            "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag),
           (t.DOMReady = !1),
           (t.readyCallback = function () {
             t.DOMReady = !0;
@@ -123,8 +91,7 @@
               t.readyCallback();
             }),
             a.addEventListener
-              ? (a.addEventListener("DOMContentLoaded", n, !1),
-                e.addEventListener("load", n, !1))
+              ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1))
               : (e.attachEvent("onload", n),
                 a.attachEvent("onreadystatechange", function () {
                   "complete" === a.readyState && t.readyCallback();
@@ -134,6 +101,47 @@
               : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)));
       })(window, document, window._wpemojiSettings);
     </script>
+
+    <script type="module">
+      import PhotoSwipeLightbox from "./photoswipe/dist/photoswipe-lightbox.esm.js";
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: "#my-gallery",
+        children: "a",
+        pswpModule: () => import("./photoswipe/dist/photoswipe.esm.js"),
+      });
+
+      lightbox.on("uiRegister", function () {
+        lightbox.pswp.ui.registerElement({
+          name: "custom-caption",
+          order: 9,
+          isButton: false,
+          appendTo: "root",
+          html: "Caption text",
+          onInit: (el, pswp) => {
+            lightbox.pswp.on("change", () => {
+              const currSlideElement = lightbox.pswp.currSlide.data.element;
+              let captionHTML = "";
+              if (currSlideElement) {
+                const hiddenCaption = currSlideElement.querySelector(".hidden-caption-content");
+                if (hiddenCaption) {
+                  // get caption from element with class hidden-caption-content
+                  captionHTML = hiddenCaption.innerHTML;
+                } else {
+                  // get caption from alt attribute
+                  captionHTML = currSlideElement.querySelector("img").getAttribute("alt");
+                }
+              }
+              el.innerHTML = captionHTML || "";
+            });
+          },
+        });
+      });
+
+      lightbox.init();
+      console.log("LOADED PS");
+    </script>
+    <link rel="stylesheet" href="./photoswipe/dist/photoswipe.css" />
+
     <style type="text/css">
       img.wp-smiley,
       img.emoji {
@@ -146,6 +154,27 @@
         vertical-align: -0.1em !important;
         background: none !important;
         padding: 0 !important;
+      }
+
+      .pswp__custom-caption {
+        background: rgba(75, 150, 75, 0.75);
+        font-size: 16px;
+        color: #fff;
+        width: calc(100% - 32px);
+        max-width: 400px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        position: absolute;
+        left: 50%;
+        bottom: 16px;
+        transform: translateX(-50%);
+      }
+      .pswp__custom-caption a {
+        color: #fff;
+        text-decoration: underline;
+      }
+      .hidden-caption-content {
+        display: none;
       }
     </style>
     <link
@@ -252,16 +281,8 @@
           rgb(182, 227, 212) 50%,
           rgb(51, 167, 181) 100%
         );
-        --wp--preset--gradient--electric-grass: linear-gradient(
-          135deg,
-          rgb(202, 248, 128) 0%,
-          rgb(113, 206, 126) 100%
-        );
-        --wp--preset--gradient--midnight: linear-gradient(
-          135deg,
-          rgb(2, 3, 129) 0%,
-          rgb(40, 116, 252) 100%
-        );
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
         --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
         --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
         --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
@@ -327,14 +348,10 @@
         background-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-amber
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
       }
       .has-light-green-cyan-background-color {
         background-color: var(--wp--preset--color--light-green-cyan) !important;
@@ -367,9 +384,7 @@
         border-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-border-color {
-        border-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-border-color {
         border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
@@ -390,34 +405,22 @@
         border-color: var(--wp--preset--color--vivid-purple) !important;
       }
       .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-        background: var(
-          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
-        ) !important;
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
       }
       .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-        background: var(
-          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
-        ) !important;
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
       }
       .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
       }
       .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-        background: var(
-          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
-        ) !important;
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
       }
       .has-cool-to-warm-spectrum-gradient-background {
-        background: var(
-          --wp--preset--gradient--cool-to-warm-spectrum
-        ) !important;
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
       }
       .has-blush-light-purple-gradient-background {
         background: var(--wp--preset--gradient--blush-light-purple) !important;
@@ -496,33 +499,16 @@
       type="text/css"
       media="all"
     />
-    <script
-      type="text/javascript"
-      src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0"
-      id="jquery-core-js"
-    ></script>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
     <script
       type="text/javascript"
       src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
       id="jquery-migrate-js"
     ></script>
     <link rel="https://api.w.org/" href="/wp-json/" />
-    <link
-      rel="alternate"
-      type="application/json"
-      href="/wp-json/wp/v2/pages/48"
-    />
-    <link
-      rel="EditURI"
-      type="application/rsd+xml"
-      title="RSD"
-      href="/xmlrpc.php?rsd"
-    />
-    <link
-      rel="wlwmanifest"
-      type="application/wlwmanifest+xml"
-      href="/wp-includes/wlwmanifest.xml"
-    />
+    <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/48" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.0.1" />
     <link rel="canonical" href="/foti/" />
     <link rel="shortlink" href="https://wp.me/P6efJc-M" />
@@ -547,263 +533,9 @@
     <meta property="og:title" content="Zum Luege" />
     <meta property="og:url" content="httpscarola-horstmann.de/foti/" />
     <meta property="og:description" content="&nbsp;" />
-    <meta
-      property="article:published_time"
-      content="2015-05-21T20:33:53+00:00"
-    />
-    <meta
-      property="article:modified_time"
-      content="2020-06-20T19:33:21+00:00"
-    />
+    <meta property="article:published_time" content="2015-05-21T20:33:53+00:00" />
+    <meta property="article:modified_time" content="2020-06-20T19:33:21+00:00" />
     <meta property="og:site_name" content="Website von Carola Horstmann" />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/HebelRocca1.png"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/HebelRocca1.png"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Scholadenbuch.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Scholadenbuch.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-3.jpeg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-3.jpeg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Vorstellung.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Vorstellung.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2020/06/buscheli.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2020/06/buscheli.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2020/03/IMG-20200219-WA0000.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2020/03/IMG-20200219-WA0000.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/panama.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/panama.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/spinnlikindzhuse.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/spinnlikindzhuse.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-1.jpeg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-1.jpeg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/SWR2015.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/SWR2015.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/awo.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/awo.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2019/05/Backstage_im_Schlachthof.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2019/05/Backstage_im_Schlachthof.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Waldkirch-Kollnau-1.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Waldkirch-Kollnau-1.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/s-isch-nit-gnueg.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/s-isch-nit-gnueg.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2019/05/luddi.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2019/05/luddi.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Hannah-Lesung.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Hannah-Lesung.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/ErsterSchultag.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/ErsterSchultag.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Mail-Anhang1.jpeg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Mail-Anhang1.jpeg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/hebel_fuenf.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/hebel_fuenf.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/buchvorstellung_carola.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/buchvorstellung_carola.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/bildungswerk.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/bildungswerk.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Image7.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Image7.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung-2.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung-2.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/russhardt.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/russhardt.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/HebelRocca2.png"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/HebelRocca2.png"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2018/11/AWO_Bruno.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2018/11/AWO_Bruno.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2016/04/Neckarsteinach.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2016/04/Neckarsteinach.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/ehepaartintenfass.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/ehepaartintenfass.jpg"
-    />
-    <meta
-      property="og:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-2.jpeg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-2.jpeg"
-    />
-    <meta property="og:image:alt" content="" />
-    <meta property="og:locale" content="de_DE" />
-    <meta name="twitter:text:title" content="Zum Luege" />
-    <meta
-      name="twitter:image"
-      content="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/HebelRocca1.png?w=1400"
-    />
-    <meta name="twitter:card" content="summary_large_image" />
 
     <!-- End Jetpack Open Graph Tags -->
     <style type="text/css" id="wp-custom-css">
@@ -822,8 +554,7 @@
       }
 
       .site-main {
-        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg")
-          repeat-y;
+        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg") repeat-y;
         min-height: 1500px;
       }
 
@@ -859,9 +590,7 @@
 
   <body class="page-template-default page page-id-48">
     <div id="page" class="hfeed site">
-      <a class="skip-link screen-reader-text" href="#content"
-        >Springe zum Inhalt</a
-      >
+      <a class="skip-link screen-reader-text" href="#content">Springe zum Inhalt</a>
 
       <div id="sidebar" class="sidebar">
         <header id="masthead" class="site-header" role="banner">
@@ -879,52 +608,28 @@
           <nav id="site-navigation" class="main-navigation" role="navigation">
             <div class="menu-menu-container">
               <ul id="menu-menu" class="nav-menu">
-                <li
-                  id="menu-item-17"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"
-                >
+                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17">
                   <a href="/uber-mi/">Über mi</a>
                 </li>
-                <li
-                  id="menu-item-12"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"
-                >
+                <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
                   <a href="/wurum-dialekt/">Wurum Dialekt?</a>
                 </li>
-                <li
-                  id="menu-item-26"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
-                >
+                <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
                   <a href="/gedichter/">Gedichter</a>
                 </li>
-                <li
-                  id="menu-item-167"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"
-                >
+                <li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167">
                   <a href="/mini-buecher/">Mini Büecher</a>
                 </li>
-                <li
-                  id="menu-item-28"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"
-                >
+                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
                   <a href="/kurzgschichte/">Kurzgschichte</a>
                 </li>
-                <li
-                  id="menu-item-45"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"
-                >
+                <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
                   <a href="/presse/">Presse</a>
                 </li>
-                <li
-                  id="menu-item-234"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"
-                >
+                <li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234">
                   <a href="/priiswuerdig/">Priiswürdig</a>
                 </li>
-                <li
-                  id="menu-item-40"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
-                >
+                <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
                   <a href="/looset-emool-iine/">Zum Loose</a>
                 </li>
                 <li
@@ -933,10 +638,7 @@
                 >
                   <a href="/foti/" aria-current="page">Zum Luege</a>
                 </li>
-                <li
-                  id="menu-item-115"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"
-                >
+                <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115">
                   <a href="/impressum/">Kontakt &#038; Impressum</a>
                 </li>
               </ul>
@@ -968,10 +670,7 @@
       <div id="content" class="site-content">
         <div id="primary" class="content-area">
           <main id="main" class="site-main" role="main">
-            <article
-              id="post-48"
-              class="post-48 page type-page status-publish hentry"
-            >
+            <article id="post-48" class="post-48 page type-page status-publish hentry">
               <header class="entry-header">
                 <h1 class="entry-title">Zum Luege</h1>
               </header>
@@ -979,1466 +678,218 @@
 
               <div class="entry-content">
                 <div class="galerie">
-                  <div
-                    class="tiled-gallery type-rectangular tiled-gallery-unresized"
-                    data-original-width="660"
-                    data-carousel-extra='{"blog_id":1,"permalink":"httpscarola-horstmann.de\/foti\/","likes_blog_id":92055070}'
-                    itemscope
-                    itemtype="http://schema.org/ImageGallery"
-                  >
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 286px"
-                      data-original-width="660"
-                      data-original-height="286"
+                  <!-- PHOTOSWIPE GALLERY -->
+
+                  <div class="pswp-gallery pswp-gallery--single-column" id="my-gallery">
+                    <a href="/media/luddi.jpg" data-pswp-width="2560" data-pswp-height="1440" target="_blank">
+                      <img src="/media/luddi.jpg" alt="Proben mit den 'Luddi' im Lahrer Schlachthaus am 4.5.2019" />
+                    </a>
+
+                    <a href="/media/awo.jpg" data-pswp-width="1000" data-pswp-height="664" target="_blank">
+                      <img
+                        src="/media/awo.jpg"
+                        alt='Vorlesewoche im AWO Kinderhort Denzlingen; mit "Rosetta" alemannisch lernen'
+                      />
+                    </a>
+
+                    <a
+                      href="/media/Waldkirch-Kollnau-1.jpg"
+                      data-pswp-width="1000"
+                      data-pswp-height="667"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-2"
-                        style="width: 231px; height: 286px"
-                        data-original-width="231"
-                        data-original-height="286"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a href="/foti/luddi/" border="0" itemprop="url">
-                            <meta itemprop="width" content="227" />
-                            <meta itemprop="height" content="128" />
-                            <img
-                              data-attachment-id="403"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2019/05/luddi.jpg"
-                              data-orig-size="2560,1440"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="luddi"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2019/05/luddi-300x169.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2019/05/luddi-1024x576.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2019/05/luddi.jpg?w=227&#038;h=128&#038;ssl=1"
-                              width="227"
-                              height="128"
-                              data-original-width="227"
-                              data-original-height="128"
-                              itemprop="http://schema.org/image"
-                              title="luddi"
-                              alt='Proben mit den "Luddi" im Lahrer Schlachthaus am 4.5.19'
-                              style="width: 227px; height: 128px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Proben mit den &#8222;Luddi&#8220; im Lahrer
-                            Schlachthaus am 4.5.19
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/carola-horstmann/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="227" />
-                            <meta itemprop="height" content="150" /> <img
-                            data-attachment-id="263"
-                            data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/panama.jpg"
-                            data-orig-size="800,530" data-comments-opened=""
-                            data-image-meta="{&quot;aperture&quot;:&quot;9&quot;,&quot;credit&quot;:&quot;Max
-                            Schuler&quot;,&quot;camera&quot;:&quot;NIKON
-                            D5100&quot;,&quot;caption&quot;:&quot;Carola
-                            Horstmann hat "Oh wie schön ist Panama" ins
-                            Alemannische
-                            übersetzt&quot;,&quot;created_timestamp&quot;:&quot;1468852900&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;26&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;Carola
-                            Horstmann&quot;,&quot;orientation&quot;:&quot;1&quot;}"
-                            data-image-title="In der Redaktion der Badischen
-                            Zeitung, Foto Max Schuler" data-image-description=""
-                            data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/panama-300x199.jpg"
-                            data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/panama.jpg"
-                            src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/panama.jpg?w=227&#038;h=150&#038;ssl=1"
-                            width="227" height="150" data-original-width="227"
-                            data-original-height="150"
-                            itemprop="http://schema.org/image" title="In der
-                            Redaktion der Badischen Zeitung, Foto Max Schuler"
-                            alt="In der Redaktion der Badischen Zeitung, Foto
-                            Max Schuler" style="width: 227px; height: 150px;">
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            In der Redaktion der Badischen Zeitung, Foto Max
-                            Schuler
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 429px; height: 286px"
-                        data-original-width="429"
-                        data-original-height="286"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a href="/foti/awo/" border="0" itemprop="url">
-                            <meta itemprop="width" content="425" />
-                            <meta itemprop="height" content="282" />
-                            <img
-                              data-attachment-id="278"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/awo.jpg"
-                              data-orig-size="1000,664"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"5","credit":"","camera":"SLT-A37","caption":"","created_timestamp":"1479316013","copyright":"","focal_length":"55","iso":"3200","shutter_speed":"0.016666666666667","title":"","orientation":"1"}'
-                              data-image-title="awo"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/awo-300x199.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/awo.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/awo.jpg?w=425&#038;h=282&#038;ssl=1"
-                              width="425"
-                              height="282"
-                              data-original-width="425"
-                              data-original-height="282"
-                              itemprop="http://schema.org/image"
-                              title="awo"
-                              alt='Vorlesewoche im AWO Kinderhort Denzlingen; mit "Rosetta" alemannisch lernen'
-                              style="width: 425px; height: 282px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Vorlesewoche im AWO Kinderhort Denzlingen; mit
-                            &#8222;Rosetta&#8220; alemannisch lernen
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 324px"
-                      data-original-width="660"
-                      data-original-height="324"
+                      <img
+                        src="/media/Waldkirch-Kollnau-1.jpg"
+                        alt="Ein fulminanter Wettstreit zwischen Schwaben und Alemannen: der gelungene Mundart-Abend in der Kollnauer Festhallt vom 17.3.2018 (Foto: Horst Dauenhauer)"
+                      />
+                    </a>
+
+                    <a
+                      href="/media/Rosetta-Breisach-1.jpeg"
+                      data-pswp-width="1000"
+                      data-pswp-height="750"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-2"
-                        style="width: 227px; height: 324px"
-                        data-original-width="227"
-                        data-original-height="324"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/waldkirch-kollnau-2/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="223" />
-                            <meta itemprop="height" content="149" />
-                            <img
-                              data-attachment-id="348"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Waldkirch-Kollnau-1.jpg"
-                              data-orig-size="1000,667"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"7.1","credit":"Horst Dauenhauer","camera":"NIKON D700","caption":"","created_timestamp":"1521327681","copyright":"Horst Dauenhauer","focal_length":"35","iso":"800","shutter_speed":"0.016666666666667","title":"","orientation":"1"}'
-                              data-image-title="Waldkirch-Kollnau"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Waldkirch-Kollnau-1-300x200.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Waldkirch-Kollnau-1.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Waldkirch-Kollnau-1.jpg?w=223&#038;h=149&#038;ssl=1"
-                              width="223"
-                              height="149"
-                              data-original-width="223"
-                              data-original-height="149"
-                              itemprop="http://schema.org/image"
-                              title="Waldkirch-Kollnau"
-                              alt="Ein fulminanter Wettstreit zwischen Schwaben und Alemannen: der gelungene Mundart-Abend in der Kollnauer Festhallt vom 17.3.2018 (Foto: Horst Dauenhauer)"
-                              style="width: 223px; height: 149px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Ein fulminanter Wettstreit zwischen Schwaben und
-                            Alemannen: der gelungene Mundart-Abend in der
-                            Kollnauer Festhallt vom 17.3.2018 (Foto: Horst
-                            Dauenhauer)
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/rosetta-breisach-1/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="223" />
-                            <meta itemprop="height" content="167" />
-                            <img
-                              data-attachment-id="218"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-1.jpeg"
-                              data-orig-size="1000,750"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"3.4","credit":"","camera":"DMC-FZ150","caption":"","created_timestamp":"1445943914","copyright":"","focal_length":"15.5","iso":"1000","shutter_speed":"0.066666666666667","title":"","orientation":"1"}'
-                              data-image-title="Rosetta Breisach 1"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-1-300x225.jpeg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-1.jpeg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-1.jpeg?w=223&#038;h=167&#038;ssl=1"
-                              width="223"
-                              height="167"
-                              data-original-width="223"
-                              data-original-height="167"
-                              itemprop="http://schema.org/image"
-                              title="Rosetta Breisach 1"
-                              alt="Breisach, Theresianum: Rosetta ist offenbar auch was für Jungs ..."
-                              style="width: 223px; height: 167px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Breisach, Theresianum: Rosetta ist offenbar auch was
-                            für Jungs &#8230;
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 218px; height: 324px"
-                        data-original-width="218"
-                        data-original-height="324"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/hebelrocca2/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="214" />
-                            <meta itemprop="height" content="320" />
-                            <img
-                              data-attachment-id="135"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/HebelRocca2.png"
-                              data-orig-size="259,388"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="HebelRocca2"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/HebelRocca2-200x300.png"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/HebelRocca2.png"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/HebelRocca2.png?w=214&#038;h=320&#038;ssl=1"
-                              width="214"
-                              height="320"
-                              data-original-width="214"
-                              data-original-height="320"
-                              itemprop="http://schema.org/image"
-                              title="HebelRocca2"
-                              alt='Erinnerung an "Das Hexlein"im Hebel-Jubiläumsjahr 2010'
-                              style="width: 214px; height: 320px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Erinnerung an &#8222;Das Hexlein&#8220;im
-                            Hebel-Jubiläumsjahr 2010
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-2"
-                        style="width: 215px; height: 324px"
-                        data-original-width="215"
-                        data-original-height="324"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/bildungswerk/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="211" />
-                            <meta itemprop="height" content="158" />
-                            <img
-                              data-attachment-id="290"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/bildungswerk.jpg"
-                              data-orig-size="800,600"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"5.6","credit":"","camera":"DMC-FZ200","caption":"","created_timestamp":"1481841067","copyright":"","focal_length":"4.6","iso":"1600","shutter_speed":"0.033333333333333","title":"","orientation":"1"}'
-                              data-image-title="bildungswerk"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/bildungswerk-300x225.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/bildungswerk.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/bildungswerk.jpg?w=211&#038;h=158&#038;ssl=1"
-                              width="211"
-                              height="158"
-                              data-original-width="211"
-                              data-original-height="158"
-                              itemprop="http://schema.org/image"
-                              title="bildungswerk"
-                              alt="Weihnachtslesung beim Bildungswerk Heuweiler im Dezember 2016. Am Akkordeon Sophia Ruf."
-                              style="width: 211px; height: 158px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Weihnachtslesung beim Bildungswerk Heuweiler im
-                            Dezember 2016. Am Akkordeon Sophia Ruf.
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/buchvorstellung-2/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="211" />
-                            <meta itemprop="height" content="158" />
-                            <img
-                              data-attachment-id="173"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung-2.jpg"
-                              data-orig-size="1092,819"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="Buchvorstellung 2"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung-2-300x225.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung-2-1024x768.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung-2.jpg?w=211&#038;h=158&#038;ssl=1"
-                              width="211"
-                              height="158"
-                              data-original-width="211"
-                              data-original-height="158"
-                              itemprop="http://schema.org/image"
-                              title="Buchvorstellung 2"
-                              alt="Der Saal war gut gefüllt..."
-                              style="width: 211px; height: 158px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Der Saal war gut gefüllt&#8230;
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 320px"
-                      data-original-width="660"
-                      data-original-height="320"
+                      <img
+                        src="/media/Rosetta-Breisach-1.jpeg"
+                        alt="Breisach, Theresianum: Rosetta ist offenbar auch was für Jungs ..."
+                      />
+                    </a>
+
+                    <a href="/media/HebelRocca2.png" data-pswp-width="259" data-pswp-height="388" target="_blank">
+                      <img src="/media/HebelRocca2.png" alt='Erinnerung an "Das Hexlein"im Hebel-Jubiläumsjahr 2010' />
+                    </a>
+
+                    <a href="/media/bildungswerk.jpg" data-pswp-width="800" data-pswp-height="600" target="_blank">
+                      <img
+                        src="/media/bildungswerk.jpg"
+                        alt="Weihnachtslesung beim Bildungswerk Heuweiler im Dezember 2016. Am Akkordeon Sophia Ruf."
+                      />
+                    </a>
+
+                    <a
+                      href="/media/Buchvorstellung-2.jpg"
+                      data-pswp-width="1092"
+                      data-pswp-height="819"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 450px; height: 320px"
-                        data-original-width="450"
-                        data-original-height="320"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/vorstellung/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="446" />
-                            <meta itemprop="height" content="316" />
-                            <img
-                              data-attachment-id="216"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Vorstellung.jpg"
-                              data-orig-size="2913,2067"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="Vorstellung"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Vorstellung-300x213.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Vorstellung-1024x727.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Vorstellung.jpg?w=446&#038;h=316&#038;ssl=1"
-                              width="446"
-                              height="316"
-                              data-original-width="446"
-                              data-original-height="316"
-                              itemprop="http://schema.org/image"
-                              title="Vorstellung"
-                              alt="Mit Liliane Bertolini und Markus Heiniger bei der Kulturwoche 2015 auf der Bühne"
-                              style="width: 446px; height: 316px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Mit Liliane Bertolini und Markus Heiniger bei der
-                            Kulturwoche 2015 auf der Bühne
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-2"
-                        style="width: 210px; height: 320px"
-                        data-original-width="210"
-                        data-original-height="320"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a href="/foti/awo_bruno/" border="0" itemprop="url">
-                            <meta itemprop="width" content="206" />
-                            <meta itemprop="height" content="155" />
-                            <img
-                              data-attachment-id="390"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2018/11/AWO_Bruno.jpg"
-                              data-orig-size="1024,768"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"4.5","credit":"","camera":"SLT-A37","caption":"","created_timestamp":"1542215809","copyright":"","focal_length":"35","iso":"3200","shutter_speed":"0.0125","title":"","orientation":"1"}'
-                              data-image-title="AWO_Bruno"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2018/11/AWO_Bruno-300x225.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2018/11/AWO_Bruno-1024x768.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2018/11/AWO_Bruno.jpg?w=206&#038;h=155&#038;ssl=1"
-                              width="206"
-                              height="155"
-                              data-original-width="206"
-                              data-original-height="155"
-                              itemprop="http://schema.org/image"
-                              title="AWO_Bruno"
-                              alt='Mit "Bravo, Bruno!" im Denzlinger AWO-Schülerhort (Herbst 2018)'
-                              style="width: 206px; height: 155px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Mit &#8222;Bravo, Bruno!&#8220; im Denzlinger
-                            AWO-Schülerhort (Herbst 2018)
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/backstage_im_schlachthof/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="206" />
-                            <meta itemprop="height" content="157" />
-                            <img
-                              data-attachment-id="404"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2019/05/Backstage_im_Schlachthof.jpg"
-                              data-orig-size="3409,2600"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"2.2","credit":"","camera":"iPhone SE","caption":"","created_timestamp":"1556999158","copyright":"","focal_length":"4.15","iso":"250","shutter_speed":"0.058823529411765","title":"","orientation":"0"}'
-                              data-image-title="Backstage_im_Schlachthof"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2019/05/Backstage_im_Schlachthof-300x229.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2019/05/Backstage_im_Schlachthof-1024x781.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2019/05/Backstage_im_Schlachthof.jpg?w=206&#038;h=157&#038;ssl=1"
-                              width="206"
-                              height="157"
-                              data-original-width="206"
-                              data-original-height="157"
-                              itemprop="http://schema.org/image"
-                              title="Backstage_im_Schlachthof"
-                              alt='backstage im Lahrer Schlachthof mit "Luddi", Heinz Siebold und Uli Derndinger'
-                              style="width: 206px; height: 157px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            backstage im Lahrer Schlachthof mit
-                            &#8222;Luddi&#8220;, Heinz Siebold und Uli
-                            Derndinger
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 395px"
-                      data-original-width="660"
-                      data-original-height="395"
+                      <img src="/media/Buchvorstellung-2.jpg" alt="Der Saal war gut gefüllt..." />
+                    </a>
+
+                    <a href="/media/Vorstellung.jpg" data-pswp-width="2913" data-pswp-height="2067" target="_blank">
+                      <img
+                        src="/media/Vorstellung.jpg"
+                        alt="Mit Liliane Bertolini und Markus Heiniger bei der Kulturwoche 2015 auf der Bühne"
+                      />
+                    </a>
+
+                    <a href="/media/AWO_Bruno.jpg" data-pswp-width="1024" data-pswp-height="768" target="_blank">
+                      <img
+                        src="/media/AWO_Bruno.jpg"
+                        alt='Mit "Bravo, Bruno!" im Denzlinger AWO-Schülerhort (Herbst 2018)'
+                      />
+                    </a>
+
+                    <a
+                      href="/media/Backstage_im_Schlachthof.jpg"
+                      data-pswp-width="3409"
+                      data-pswp-height="2600"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-3"
-                        style="width: 184px; height: 395px"
-                        data-original-width="184"
-                        data-original-height="395"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/hebel_fuenf/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="180" />
-                            <meta itemprop="height" content="120" />
-                            <img
-                              data-attachment-id="131"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/hebel_fuenf.jpg"
-                              data-orig-size="3648,2432"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"2.8","credit":"","camera":"C-LUX 3","caption":"","created_timestamp":"1282847230","copyright":"","focal_length":"4.4","iso":"100","shutter_speed":"0.033333333333333","title":"","orientation":"1"}'
-                              data-image-title="hebel_fuenf"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/hebel_fuenf-300x200.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/hebel_fuenf-1024x683.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/hebel_fuenf.jpg?w=180&#038;h=120&#038;ssl=1"
-                              width="180"
-                              height="120"
-                              data-original-width="180"
-                              data-original-height="120"
-                              itemprop="http://schema.org/image"
-                              title="hebel_fuenf"
-                              alt='Unterwegs im "Hebelsommer"'
-                              style="width: 180px; height: 120px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Unterwegs im &#8222;Hebelsommer&#8220;
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/img-20200219-wa0000/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="180" />
-                            <meta itemprop="height" content="135" />
-                            <img
-                              data-attachment-id="407"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2020/03/IMG-20200219-WA0000.jpg"
-                              data-orig-size="1600,1200"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="IMG-20200219-WA0000"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2020/03/IMG-20200219-WA0000-300x225.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2020/03/IMG-20200219-WA0000-1024x768.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2020/03/IMG-20200219-WA0000.jpg?w=180&#038;h=135&#038;ssl=1"
-                              width="180"
-                              height="135"
-                              data-original-width="180"
-                              data-original-height="135"
-                              itemprop="http://schema.org/image"
-                              title="IMG-20200219-WA0000"
-                              alt="Zwei, die nicht nur das Alemannische verbindet: Uli Derndinger und ich"
-                              style="width: 180px; height: 135px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Zwei, die nicht nur das Alemannische verbindet: Uli
-                            Derndinger und ich
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a href="/foti/image7/" border="0" itemprop="url">
-                            <meta itemprop="width" content="180" />
-                            <meta itemprop="height" content="128" />
-                            <img
-                              data-attachment-id="171"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Image7.jpg"
-                              data-orig-size="1480,1050"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="Image7"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Image7-300x213.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Image7-1024x726.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Image7.jpg?w=180&#038;h=128&#038;ssl=1"
-                              width="180"
-                              height="128"
-                              data-original-width="180"
-                              data-original-height="128"
-                              itemprop="http://schema.org/image"
-                              title="Image7"
-                              alt="Uli Führe singt das Lied vom Spinnlein Rosetta"
-                              style="width: 180px; height: 128px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Uli Führe singt das Lied vom Spinnlein Rosetta
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 297px; height: 395px"
-                        data-original-width="297"
-                        data-original-height="395"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/buchvorstellung_carola/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="293" />
-                            <meta itemprop="height" content="391" />
-                            <img
-                              data-attachment-id="124"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/buchvorstellung_carola.jpg"
-                              data-orig-size="400,533"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"4","credit":"","camera":"Canon PowerShot SX100 IS","caption":"","created_timestamp":"1297460818","copyright":"","focal_length":"31.5","iso":"1600","shutter_speed":"0.025","title":"","orientation":"1"}'
-                              data-image-title="buchvorstellung_carola"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/buchvorstellung_carola-225x300.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/buchvorstellung_carola.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/buchvorstellung_carola.jpg?w=293&#038;h=391&#038;ssl=1"
-                              width="293"
-                              height="391"
-                              data-original-width="293"
-                              data-original-height="391"
-                              itemprop="http://schema.org/image"
-                              title="buchvorstellung_carola"
-                              alt='2011: "däsche us schnee" wird vorgestellt'
-                              style="width: 293px; height: 391px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            2011: &#8222;däsche us schnee&#8220; wird
-                            vorgestellt
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-3"
-                        style="width: 179px; height: 395px"
-                        data-original-width="179"
-                        data-original-height="395"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/rosetta-breisach-3/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="175" />
-                            <meta itemprop="height" content="127" />
-                            <img
-                              data-attachment-id="220"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-3.jpeg"
-                              data-orig-size="1000,726"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"2.8","credit":"","camera":"DMC-FZ150","caption":"","created_timestamp":"1445947933","copyright":"","focal_length":"4.5","iso":"400","shutter_speed":"0.033333333333333","title":"","orientation":"1"}'
-                              data-image-title="Rosetta Breisach 3"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-3-300x218.jpeg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-3.jpeg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-3.jpeg?w=175&#038;h=127&#038;ssl=1"
-                              width="175"
-                              height="127"
-                              data-original-width="175"
-                              data-original-height="127"
-                              itemprop="http://schema.org/image"
-                              title="Rosetta Breisach 3"
-                              alt="Breisach, Theresianum: Autogramme gehören auch dazu"
-                              style="width: 175px; height: 127px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Breisach, Theresianum: Autogramme gehören auch dazu
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/s-isch-nit-gnueg/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="175" />
-                            <meta itemprop="height" content="124" />
-                            <img
-                              data-attachment-id="215"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/s-isch-nit-gnueg.jpg"
-                              data-orig-size="2331,1654"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="s isch nit gnueg"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/s-isch-nit-gnueg-300x213.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/s-isch-nit-gnueg-1024x727.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/s-isch-nit-gnueg.jpg?w=175&#038;h=124&#038;ssl=1"
-                              width="175"
-                              height="124"
-                              data-original-width="175"
-                              data-original-height="124"
-                              itemprop="http://schema.org/image"
-                              title="s isch nit gnueg"
-                              alt='"S isch nit gnueg" - zusammen mit Markus Heiniger'
-                              style="width: 175px; height: 124px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            &#8222;S isch nit gnueg&#8220; &#8211; zusammen mit
-                            Markus Heiniger
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-small"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a href="/neckarsteinach/" border="0" itemprop="url">
-                            <meta itemprop="width" content="175" />
-                            <meta itemprop="height" content="132" />
-                            <img
-                              data-attachment-id="244"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2016/04/Neckarsteinach.jpg"
-                              data-orig-size="800,600"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"1"}'
-                              data-image-title="Neckarsteinach"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2016/04/Neckarsteinach-300x225.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2016/04/Neckarsteinach.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2016/04/Neckarsteinach.jpg?w=175&#038;h=132&#038;ssl=1"
-                              width="175"
-                              height="132"
-                              data-original-width="175"
-                              data-original-height="132"
-                              itemprop="http://schema.org/image"
-                              title="Neckarsteinach"
-                              alt='März 2016: Eine Lesung gemeinsam mit Nadine Sauer vom Tintenfaß-Verlag bei der "kleinen Buchmesse" in Neckarsteinach. Mit dabei: Rosetta auf deutsch, alemannisch und amerikanisch ...'
-                              style="width: 175px; height: 132px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            März 2016: Eine Lesung gemeinsam mit Nadine Sauer
-                            vom Tintenfaß-Verlag bei der &#8222;kleinen
-                            Buchmesse&#8220; in Neckarsteinach. Mit dabei:
-                            Rosetta auf deutsch, alemannisch und amerikanisch
-                            &#8230;
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 495px"
-                      data-original-width="660"
-                      data-original-height="495"
+                      <img
+                        src="/media/Backstage_im_Schlachthof.jpg"
+                        alt='backstage im Lahrer Schlachthof mit "Luddi", Heinz Siebold und Uli Derndinger'
+                      />
+                    </a>
+
+                    <a href="/media/hebel_fuenf.jpg" data-pswp-width="3648" data-pswp-height="2432" target="_blank">
+                      <img src="/media/hebel_fuenf.jpg" alt='Unterwegs im "Hebelsommer"' />
+                    </a>
+
+                    <a
+                      href="/media/IMG-20200219-WA0000.jpg"
+                      data-pswp-width="1600"
+                      data-pswp-height="1200"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-2"
-                        style="width: 329px; height: 495px"
-                        data-original-width="329"
-                        data-original-height="495"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/ehepaartintenfass/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="325" />
-                            <meta itemprop="height" content="244" />
-                            <img
-                              data-attachment-id="178"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/ehepaartintenfass.jpg"
-                              data-orig-size="1024,768"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="Das Verlegerehepaar Sauer von &#8222;Edition Tintenfaß&#8220; zu Besuch"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/ehepaartintenfass-300x225.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/ehepaartintenfass-1024x768.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/ehepaartintenfass.jpg?w=325&#038;h=244&#038;ssl=1"
-                              width="325"
-                              height="244"
-                              data-original-width="325"
-                              data-original-height="244"
-                              itemprop="http://schema.org/image"
-                              title='Das Verlegerehepaar Sauer von "Edition Tintenfaß" zu Besuch'
-                              alt='Das Verlegerehepaar Sauer von "Edition Tintenfaß" zu Besuch'
-                              style="width: 325px; height: 244px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Das Verlegerehepaar Sauer von &#8222;Edition
-                            Tintenfaß&#8220; zu Besuch
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a href="/foti/swr2015/" border="0" itemprop="url">
-                            <meta itemprop="width" content="325" />
-                            <meta itemprop="height" content="243" />
-                            <img
-                              data-attachment-id="180"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/SWR2015.jpg"
-                              data-orig-size="800,600"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"2.9","credit":"","camera":"DMC-FZ100","caption":"","created_timestamp":"1435760115","copyright":"","focal_length":"5","iso":"160","shutter_speed":"0.016666666666667","title":"","orientation":"1"}'
-                              data-image-title="Zu Besuch beim SWR in Freiburg (Foto: Klaus Gülker)"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/SWR2015-300x225.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/SWR2015.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/SWR2015.jpg?w=325&#038;h=243&#038;ssl=1"
-                              width="325"
-                              height="243"
-                              data-original-width="325"
-                              data-original-height="243"
-                              itemprop="http://schema.org/image"
-                              title="Zu Besuch beim SWR in Freiburg (Foto: Klaus Gülker)"
-                              alt="Zu Besuch beim SWR in Freiburg (Foto: Klaus Gülker)"
-                              style="width: 325px; height: 243px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Zu Besuch beim SWR in Freiburg (Foto: Klaus Gülker)
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 331px; height: 495px"
-                        data-original-width="331"
-                        data-original-height="495"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/hebelrocca1/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="327" />
-                            <meta itemprop="height" content="491" />
-                            <img
-                              data-attachment-id="134"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/HebelRocca1.png"
-                              data-orig-size="414,622"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="HebelRocca1"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/HebelRocca1-200x300.png"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/HebelRocca1.png"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/HebelRocca1.png?w=327&#038;h=491&#038;ssl=1"
-                              width="327"
-                              height="491"
-                              data-original-width="327"
-                              data-original-height="491"
-                              itemprop="http://schema.org/image"
-                              title="HebelRocca1"
-                              alt="Hebel als guter Geist"
-                              style="width: 327px; height: 491px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Hebel als guter Geist
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 452px"
-                      data-original-width="660"
-                      data-original-height="452"
+                      <img
+                        src="/media/IMG-20200219-WA0000.jpg"
+                        alt="Zwei, die nicht nur das Alemannische verbindet: Uli Derndinger und ich"
+                      />
+                    </a>
+
+                    <a href="/media/Image7.jpg" data-pswp-width="1480" data-pswp-height="1050" target="_blank">
+                      <img src="/media/Image7.jpg" alt="Uli Führe singt das Lied vom Spinnlein Rosetta" />
+                    </a>
+
+                    <a
+                      href="/media/buchvorstellung_carola.jpg"
+                      data-pswp-width="400"
+                      data-pswp-height="533"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 340px; height: 452px"
-                        data-original-width="340"
-                        data-original-height="452"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a href="/foti/russhardt/" border="0" itemprop="url">
-                            <meta itemprop="width" content="336" />
-                            <meta itemprop="height" content="448" />
-                            <img
-                              data-attachment-id="228"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/russhardt.jpg"
-                              data-orig-size="800,1067"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"3.4","credit":"","camera":"DMC-TZ4","caption":"","created_timestamp":"1417374948","copyright":"","focal_length":"5","iso":"100","shutter_speed":"0.02","title":"","orientation":"1"}'
-                              data-image-title="russhardt"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/russhardt-225x300.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/russhardt-768x1024.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/russhardt.jpg?w=336&#038;h=448&#038;ssl=1"
-                              width="336"
-                              height="448"
-                              data-original-width="336"
-                              data-original-height="448"
-                              itemprop="http://schema.org/image"
-                              title="russhardt"
-                              alt='Foto: Katja Russhardt ("Der Sonntag")'
-                              style="width: 336px; height: 448px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Foto: Katja Russhardt (&#8222;Der Sonntag&#8220;)
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 320px; height: 452px"
-                        data-original-width="320"
-                        data-original-height="452"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/spinnlikindzhuse/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="316" />
-                            <meta itemprop="height" content="448" />
-                            <img
-                              data-attachment-id="292"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/spinnlikindzhuse.jpg"
-                              data-orig-size="900,1277"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"1"}'
-                              data-image-title="spinnlikindzhuse"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/spinnlikindzhuse-211x300.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/spinnlikindzhuse-722x1024.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/spinnlikindzhuse.jpg?w=316&#038;h=448&#038;ssl=1"
-                              width="316"
-                              height="448"
-                              data-original-width="316"
-                              data-original-height="448"
-                              itemprop="http://schema.org/image"
-                              title="spinnlikindzhuse"
-                              alt='10.5.17: Am Hebeltag wurde "Spinnlikind Rosetta" in Hausen i.W. von Grundschülern szenisch aufgeführt. Eine hinreißende Inszenierung!'
-                              style="width: 316px; height: 448px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            10.5.17: Am Hebeltag wurde &#8222;Spinnlikind
-                            Rosetta&#8220; in Hausen i.W. von Grundschülern
-                            szenisch aufgeführt. Eine hinreißende Inszenierung!
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 569px"
-                      data-original-width="660"
-                      data-original-height="569"
+                      <img src="/media/buchvorstellung_carola.jpg" alt='2011: "däsche us schnee" wird vorgestellt' />
+                    </a>
+
+                    <a
+                      href="/media/Rosetta-Breisach-3.jpeg"
+                      data-pswp-width="1000"
+                      data-pswp-height="726"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-3"
-                        style="width: 261px; height: 569px"
-                        data-original-width="261"
-                        data-original-height="569"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/buchvorstellung/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="257" />
-                            <meta itemprop="height" content="193" />
-                            <img
-                              data-attachment-id="126"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung.jpg"
-                              data-orig-size="500,375"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"3.2","credit":"","camera":"DMC-FZ100","caption":"","created_timestamp":"1297454456","copyright":"","focal_length":"10.5","iso":"1250","shutter_speed":"0.125","title":"","orientation":"1"}'
-                              data-image-title="Buchvorstellung"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung-300x225.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Buchvorstellung.jpg?w=257&#038;h=193&#038;ssl=1"
-                              width="257"
-                              height="193"
-                              data-original-width="257"
-                              data-original-height="193"
-                              itemprop="http://schema.org/image"
-                              title="Buchvorstellung"
-                              alt="Markus Jung, an der Gitarre David Wendeborn"
-                              style="width: 257px; height: 193px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Markus Jung, an der Gitarre David Wendeborn
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/hannah-lesung/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="257" />
-                            <meta itemprop="height" content="182" />
-                            <img
-                              data-attachment-id="172"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Hannah-Lesung.jpg"
-                              data-orig-size="4440,3150"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="Buchvorstellung 20.6.15"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Hannah-Lesung-300x213.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Hannah-Lesung-1024x726.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Hannah-Lesung.jpg?w=257&#038;h=182&#038;ssl=1"
-                              width="257"
-                              height="182"
-                              data-original-width="257"
-                              data-original-height="182"
-                              itemprop="http://schema.org/image"
-                              title="Buchvorstellung 20.6.15"
-                              alt='"Rosetta" wird vorgestellt am 20.Juni 2015'
-                              style="width: 257px; height: 182px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            &#8222;Rosetta&#8220; wird vorgestellt am 20.Juni
-                            2015
-                          </div>
-                        </div>
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a href="/foti/buscheli/" border="0" itemprop="url">
-                            <meta itemprop="width" content="257" />
-                            <meta itemprop="height" content="182" />
-                            <img
-                              data-attachment-id="418"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2020/06/buscheli.jpg"
-                              data-orig-size="1000,709"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"1"}'
-                              data-image-title="buscheli"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2020/06/buscheli-300x213.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2020/06/buscheli.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2020/06/buscheli.jpg?w=257&#038;h=182&#038;ssl=1"
-                              width="257"
-                              height="182"
-                              data-original-width="257"
-                              data-original-height="182"
-                              itemprop="http://schema.org/image"
-                              title="buscheli"
-                              alt="Corona macht kreativ: Um die Besucher der Denzlinger Mediathek auf Abstand zu halten, wurden ausgedruckte Gedichte an den Boden geklebt. Eines davon ist von mir....super Idee, finde ich!"
-                              style="width: 257px; height: 182px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Corona macht kreativ: Um die Besucher der Denzlinger
-                            Mediathek auf Abstand zu halten, wurden ausgedruckte
-                            Gedichte an den Boden geklebt. Eines davon ist von
-                            mir&#8230;.super Idee, finde ich!
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 399px; height: 569px"
-                        data-original-width="399"
-                        data-original-height="569"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/ersterschultag/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="395" />
-                            <meta itemprop="height" content="565" />
-                            <img
-                              data-attachment-id="129"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/ErsterSchultag.jpg"
-                              data-orig-size="261,373"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="ErsterSchultag"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/ErsterSchultag-210x300.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/ErsterSchultag.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/ErsterSchultag.jpg?w=395&#038;h=565&#038;ssl=1"
-                              width="395"
-                              height="565"
-                              data-original-width="395"
-                              data-original-height="565"
-                              itemprop="http://schema.org/image"
-                              title="ErsterSchultag"
-                              alt="Erster Schultag 1954"
-                              style="width: 395px; height: 565px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Erster Schultag 1954
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 205px"
-                      data-original-width="660"
-                      data-original-height="205"
+                      <img
+                        src="/media/Rosetta-Breisach-3.jpeg"
+                        alt="Breisach, Theresianum: Autogramme gehören auch dazu"
+                      />
+                    </a>
+
+                    <a
+                      href="/media/s-isch-nit-gnueg.jpg"
+                      data-pswp-width="2331"
+                      data-pswp-height="1654"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 373px; height: 205px"
-                        data-original-width="373"
-                        data-original-height="205"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/mail-anhang-2/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="369" />
-                            <meta itemprop="height" content="201" />
-                            <img
-                              data-attachment-id="224"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Mail-Anhang1.jpeg"
-                              data-orig-size="1024,556"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"Dieses Bild wurde auf badische-zeitung.de veröffentlicht.","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="Mail-Anhang"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Mail-Anhang1-300x163.jpeg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Mail-Anhang1-1024x556.jpeg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Mail-Anhang1.jpeg?w=369&#038;h=201&#038;ssl=1"
-                              width="369"
-                              height="201"
-                              data-original-width="369"
-                              data-original-height="201"
-                              itemprop="http://schema.org/image"
-                              title="Mail-Anhang"
-                              alt='Preisverleihung in der Lahrer Mediathek: "Die Lahrer Murre". Mein Text "Rosa Hemmli" gewann den 1. Preis.'
-                              style="width: 369px; height: 201px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Preisverleihung in der Lahrer Mediathek: &#8222;Die
-                            Lahrer Murre&#8220;. Mein Text &#8222;Rosa
-                            Hemmli&#8220; gewann den 1. Preis.
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 287px; height: 205px"
-                        data-original-width="287"
-                        data-original-height="205"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/rosetta-breisach-2/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="283" />
-                            <meta itemprop="height" content="201" />
-                            <img
-                              data-attachment-id="219"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-2.jpeg"
-                              data-orig-size="1000,710"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"2.8","credit":"","camera":"DMC-FZ150","caption":"","created_timestamp":"1445947173","copyright":"","focal_length":"4.5","iso":"800","shutter_speed":"0.04","title":"","orientation":"1"}'
-                              data-image-title="Rosetta Breisach 2"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-2-300x213.jpeg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-2.jpeg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Rosetta-Breisach-2.jpeg?w=283&#038;h=201&#038;ssl=1"
-                              width="283"
-                              height="201"
-                              data-original-width="283"
-                              data-original-height="201"
-                              itemprop="http://schema.org/image"
-                              title="Rosetta Breisach 2"
-                              alt="Breisach, Theresianum: Kleine Künstler am Werk"
-                              style="width: 283px; height: 201px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Breisach, Theresianum: Kleine Künstler am Werk
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
-                    <div
-                      class="gallery-row"
-                      style="width: 660px; height: 511px"
-                      data-original-width="660"
-                      data-original-height="511"
+                      <img src="/media/s-isch-nit-gnueg.jpg" alt='"S isch nit gnueg" - zusammen mit Markus Heiniger' />
+                    </a>
+
+                    <a href="/media/Neckarsteinach.jpg" data-pswp-width="800" data-pswp-height="600" target="_blank">
+                      <img
+                        src="/media/Neckarsteinach.jpg"
+                        alt='März 2016: Eine Lesung gemeinsam mit Nadine Sauer vom Tintenfaß-Verlag bei der "kleinen Buchmesse" in Neckarsteinach. Mit dabei: Rosetta auf deutsch, alemannisch und amerikanisch ...'
+                      />
+                    </a>
+
+                    <a
+                      href="/media/ehepaartintenfass.jpg"
+                      data-pswp-width="1024"
+                      data-pswp-height="768"
+                      target="_blank"
                     >
-                      <div
-                        class="gallery-group images-1"
-                        style="width: 660px; height: 511px"
-                        data-original-width="660"
-                        data-original-height="511"
-                      >
-                        <div
-                          class="tiled-gallery-item tiled-gallery-item-large"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="/foti/scholadenbuch/"
-                            border="0"
-                            itemprop="url"
-                          >
-                            <meta itemprop="width" content="656" />
-                            <meta itemprop="height" content="507" />
-                            <img
-                              data-attachment-id="141"
-                              data-orig-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Scholadenbuch.jpg"
-                              data-orig-size="2138,1651"
-                              data-comments-opened=""
-                              data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}'
-                              data-image-title="Scholadenbuch"
-                              data-image-description=""
-                              data-medium-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Scholadenbuch-300x232.jpg"
-                              data-large-file="httpscarola-horstmann.de/wp-content/uploads/2015/05/Scholadenbuch-1024x791.jpg"
-                              src="https://i0.wp.com/carola-horstmann.de/wp-content/uploads/2015/05/Scholadenbuch.jpg?w=656&#038;h=507&#038;ssl=1"
-                              width="656"
-                              height="507"
-                              data-original-width="656"
-                              data-original-height="507"
-                              itemprop="http://schema.org/image"
-                              title="Scholadenbuch"
-                              alt="Ein Buch aus Schokolade"
-                              style="width: 656px; height: 507px"
-                            />
-                          </a>
-                          <div
-                            class="tiled-gallery-caption"
-                            itemprop="caption description"
-                          >
-                            Ein Buch aus Schokolade
-                          </div>
-                        </div>
-                      </div>
-                      <!-- close group -->
-                    </div>
-                    <!-- close row -->
+                      <img
+                        src="/media/ehepaartintenfass.jpg"
+                        alt='Das Verlegerehepaar Sauer von "Edition Tintenfaß" zu Besuch'
+                      />
+                    </a>
+
+                    <a href="/media/SWR2015.jpg" data-pswp-width="800" data-pswp-height="600" target="_blank">
+                      <img src="/media/SWR2015.jpg" alt="Zu Besuch beim SWR in Freiburg (Foto: Klaus Gülker)" />
+                    </a>
+
+                    <a href="/media/HebelRocca1.png" data-pswp-width="414" data-pswp-height="622" target="_blank">
+                      <img src="/media/HebelRocca1.png" alt="Hebel als guter Geist" />
+                    </a>
+
+                    <a href="/media/russhardt.jpg" data-pswp-width="800" data-pswp-height="1067" target="_blank">
+                      <img src="/media/russhardt.jpg" alt='Foto: Katja Russhardt ("Der Sonntag")' />
+                    </a>
+
+                    <a href="/media/spinnlikindzhuse.jpg" data-pswp-width="900" data-pswp-height="1277" target="_blank">
+                      <img
+                        src="/media/spinnlikindzhuse.jpg"
+                        alt='10.5.17: Am Hebeltag wurde "Spinnlikind Rosetta" in Hausen i.W. von Grundschülern szenisch aufgeführt. Eine hinreißende Inszenierung!'
+                      />
+                    </a>
+
+                    <a href="/media/Buchvorstellung.jpg" data-pswp-width="500" data-pswp-height="375" target="_blank">
+                      <img src="/media/Buchvorstellung.jpg" alt="Markus Jung, an der Gitarre David Wendeborn" />
+                    </a>
+
+                    <a href="/media/Hannah-Lesung.jpg" data-pswp-width="4440" data-pswp-height="3150" target="_blank">
+                      <img src="/media/Hannah-Lesung.jpg" alt='"Rosetta" wird vorgestellt am 20.Juni 2015' />
+                    </a>
+
+                    <a href="/media/buscheli.jpg" data-pswp-width="1000" data-pswp-height="709" target="_blank">
+                      <img
+                        src="/media/buscheli.jpg"
+                        alt="Corona macht kreativ: Um die Besucher der Denzlinger Mediathek auf Abstand zu halten, wurden ausgedruckte Gedichte an den Boden geklebt. Eines davon ist von mir....super Idee, finde ich!"
+                      />
+                    </a>
+
+                    <a href="/media/ErsterSchultag.jpg" data-pswp-width="261" data-pswp-height="373" target="_blank">
+                      <img src="/media/ErsterSchultag.jpg" alt="Erster Schultag 1954" />
+                    </a>
+
+                    <a href="/media/Mail-Anhang1.jpeg" data-pswp-width="1024" data-pswp-height="556" target="_blank">
+                      <img
+                        src="/media/Mail-Anhang1.jpeg"
+                        alt='Preisverleihung in der Lahrer Mediathek: "Die Lahrer Murre". Mein Text "Rosa Hemmli" gewann den 1. Preis.'
+                      />
+                    </a>
+
+                    <a
+                      href="/media/Rosetta-Breisach-2.jpeg"
+                      data-pswp-width="1000"
+                      data-pswp-height="710"
+                      target="_blank"
+                    >
+                      <img src="/media/Rosetta-Breisach-2.jpeg" alt="Breisach, Theresianum: Kleine Künstler am Werk" />
+                    </a>
+
+                    <a href="/media/Scholadenbuch.jpg" data-pswp-width="2138" data-pswp-height="1651" target="_blank">
+                      <img src="/media/Scholadenbuch.jpg" alt="Ein Buch aus Schokolade" />
+                    </a>
                   </div>
+
                   <p>&nbsp;</p>
                 </div>
               </div>
@@ -2454,9 +905,7 @@
 
       <footer id="colophon" class="site-footer" role="contentinfo">
         <div class="site-info">
-          <a href="https://de.wordpress.org/"
-            >Stolz präsentiert von WordPress</a
-          >
+          <a href="https://de.wordpress.org/">Stolz präsentiert von WordPress</a>
         </div>
         <!-- .site-info -->
       </footer>
@@ -2479,100 +928,43 @@
         >
           <div class="jp-carousel swiper-wrapper"></div>
           <div class="jp-swiper-button-prev swiper-button-prev">
-            <svg
-              width="25"
-              height="24"
-              viewbox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="maskPrev"
-                mask-type="alpha"
-                maskunits="userSpaceOnUse"
-                x="8"
-                y="6"
-                width="9"
-                height="12"
-              >
+            <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="maskPrev" mask-type="alpha" maskunits="userSpaceOnUse" x="8" y="6" width="9" height="12">
                 <path
                   d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z"
                   fill="white"
                 ></path>
               </mask>
               <g mask="url(#maskPrev)">
-                <rect
-                  x="0.579102"
-                  width="23.8823"
-                  height="24"
-                  fill="#FFFFFF"
-                ></rect>
+                <rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"></rect>
               </g>
             </svg>
           </div>
           <div class="jp-swiper-button-next swiper-button-next">
-            <svg
-              width="25"
-              height="24"
-              viewbox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="maskNext"
-                mask-type="alpha"
-                maskunits="userSpaceOnUse"
-                x="8"
-                y="6"
-                width="8"
-                height="12"
-              >
+            <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="maskNext" mask-type="alpha" maskunits="userSpaceOnUse" x="8" y="6" width="8" height="12">
                 <path
                   d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z"
                   fill="white"
                 ></path>
               </mask>
               <g mask="url(#maskNext)">
-                <rect
-                  x="0.34375"
-                  width="23.8822"
-                  height="24"
-                  fill="#FFFFFF"
-                ></rect>
+                <rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"></rect>
               </g>
             </svg>
           </div>
         </div>
         <!-- The main close buton -->
         <div class="jp-carousel-close-hint">
-          <svg
-            width="25"
-            height="24"
-            viewbox="0 0 25 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <mask
-              id="maskClose"
-              mask-type="alpha"
-              maskunits="userSpaceOnUse"
-              x="5"
-              y="5"
-              width="15"
-              height="14"
-            >
+          <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskClose" mask-type="alpha" maskunits="userSpaceOnUse" x="5" y="5" width="15" height="14">
               <path
                 d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z"
                 fill="white"
               ></path>
             </mask>
             <g mask="url(#maskClose)">
-              <rect
-                x="0.409668"
-                width="23.8823"
-                height="24"
-                fill="#FFFFFF"
-              ></rect>
+              <rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"></rect>
             </g>
           </svg>
         </div>
@@ -2593,22 +985,8 @@
                 aria-label="Sichtbarkeit von Fotometadaten ändern"
               >
                 <span class="jp-carousel-icon">
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="maskInfo"
-                      mask-type="alpha"
-                      maskunits="userSpaceOnUse"
-                      x="2"
-                      y="2"
-                      width="21"
-                      height="20"
-                    >
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="maskInfo" mask-type="alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="20">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -2617,12 +995,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#maskInfo)">
-                      <rect
-                        x="0.8125"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
                 </span>
@@ -2633,13 +1006,7 @@
                 aria-label="Sichtbarkeit von Fotokommentaren ändern"
               >
                 <span class="jp-carousel-icon">
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask
                       id="maskComments"
                       mask-type="alpha"
@@ -2657,12 +1024,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#maskComments)">
-                      <rect
-                        x="0.34668"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
 
@@ -2690,9 +1052,7 @@
                   <div id="jp-carousel-comment-form-commenting-as">
                     <p id="jp-carousel-commenting-as">
                       Du muss
-                      <a href="#" class="jp-carousel-comment-login"
-                        >angemeldet</a
-                      >
+                      <a href="#" class="jp-carousel-comment-login">angemeldet</a>
                       sein, um einen Kommentar zu veröffentlichen.
                     </p>
                   </div>
@@ -2701,36 +1061,15 @@
               <div class="jp-carousel-image-meta">
                 <div class="jp-carousel-title-and-caption">
                   <div class="jp-carousel-photo-info">
-                    <h3
-                      class="jp-carousel-caption"
-                      itemprop="caption description"
-                    ></h3>
+                    <h3 class="jp-carousel-caption" itemprop="caption description"></h3>
                   </div>
 
                   <div class="jp-carousel-photo-description"></div>
                 </div>
                 <ul class="jp-carousel-image-exif" style="display: none"></ul>
-                <a
-                  class="jp-carousel-image-download"
-                  target="_blank"
-                  style="display: none"
-                >
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="mask0"
-                      mask-type="alpha"
-                      maskunits="userSpaceOnUse"
-                      x="3"
-                      y="3"
-                      width="19"
-                      height="18"
-                    >
+                <a class="jp-carousel-image-download" target="_blank" style="display: none">
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha" maskunits="userSpaceOnUse" x="3" y="3" width="19" height="18">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -2739,12 +1078,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#mask0)">
-                      <rect
-                        x="0.870605"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
                   <span class="jp-carousel-download-text"></span>
@@ -2765,8 +1099,7 @@
       /* <![CDATA[ */
       var screenReaderText = {
         expand: '<span class="screen-reader-text">Untermenü anzeigen<\/span>',
-        collapse:
-          '<span class="screen-reader-text">Untermenü verbergen<\/span>',
+        collapse: '<span class="screen-reader-text">Untermenü verbergen<\/span>',
       };
       /* ]]> */
     </script>
@@ -2797,13 +1130,10 @@
         loading_comments: "Lade Kommentare …",
         download_original:
           'Bild in Originalgröße anschauen <span class="photo-size">{0}<span class="photo-size-times">×<\/span>{1}<\/span>',
-        no_comment_text:
-          "Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text übermittelst.",
-        no_comment_email:
-          "Bitte eine E-Mail-Adresse angeben, um zu kommentieren.",
+        no_comment_text: "Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text übermittelst.",
+        no_comment_email: "Bitte eine E-Mail-Adresse angeben, um zu kommentieren.",
         no_comment_author: "Bitte deinen Namen angeben, um zu kommentieren.",
-        comment_post_error:
-          "Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es später erneut.",
+        comment_post_error: "Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es später erneut.",
         comment_approved: "Dein Kommentar wurde genehmigt.",
         comment_unapproved: "Dein Kommentar wartet auf Freischaltung.",
         camera: "Kamera",
@@ -2813,16 +1143,9 @@
         copyright: "Copyright",
         comment_registration: "1",
         require_name_email: "1",
-        login_url:
-          "httpscarola-horstmann.de\/wp-login.php?redirect_to=httpscarola-horstmann.de%2Ffoti%2F",
+        login_url: "httpscarola-horstmann.de\/wp-login.php?redirect_to=httpscarola-horstmann.de%2Ffoti%2F",
         blog_id: "1",
-        meta_data: [
-          "camera",
-          "aperture",
-          "shutter_speed",
-          "focal_length",
-          "copyright",
-        ],
+        meta_data: ["camera", "aperture", "shutter_speed", "focal_length", "copyright"],
       };
       /* ]]> */
     </script>
