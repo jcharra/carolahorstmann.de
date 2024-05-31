@@ -26,3 +26,12 @@ aside#media_image-2 img {
     transform: scale(1);
   }
 }
+
+/* overrides for mobile view */
+@media only screen and (max-width: 480px) {
+  .hentry,
+  .page-header,
+  .page-content {
+    margin: 0;
+  }
+}

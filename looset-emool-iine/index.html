@@ -19,12 +19,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//s.w.org" />
     <link rel="dns-prefetch" href="//v0.wordpress.com" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Website von Carola Horstmann &raquo; Feed"
-      href="/feed/"
-    />
+    <link rel="alternate" type="application/rss+xml" title="Website von Carola Horstmann &raquo; Feed" href="/feed/" />
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -38,8 +33,7 @@
         svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         svgExt: ".svg",
         source: {
-          concatemoji:
-            "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
+          concatemoji: "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
         },
       };
       /*! This file is auto-generated */
@@ -51,69 +45,43 @@
           p = i.getContext && i.getContext("2d");
         function s(e, t) {
           var a = String.fromCharCode,
-            e =
-              (p.clearRect(0, 0, i.width, i.height),
-              p.fillText(a.apply(this, e), 0, 0),
-              i.toDataURL());
-          return (
-            p.clearRect(0, 0, i.width, i.height),
-            p.fillText(a.apply(this, t), 0, 0),
-            e === i.toDataURL()
-          );
+            e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+          return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL();
         }
         function c(e) {
           var t = a.createElement("script");
-          (t.src = e),
-            (t.defer = t.type = "text/javascript"),
-            a.getElementsByTagName("head")[0].appendChild(t);
+          (t.src = e), (t.defer = t.type = "text/javascript"), a.getElementsByTagName("head")[0].appendChild(t);
         }
         for (
-          o = Array("flag", "emoji"),
-            t.supports = { everything: !0, everythingExceptFlag: !0 },
-            r = 0;
+          o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0;
           r < o.length;
           r++
         )
           (t.supports[o[r]] = (function (e) {
             if (!p || !p.fillText) return !1;
-            switch (
-              ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
-            ) {
+            switch (((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)) {
               case "flag":
-                return s(
-                  [127987, 65039, 8205, 9895, 65039],
-                  [127987, 65039, 8203, 9895, 65039]
-                )
+                return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039])
                   ? !1
-                  : !s(
-                      [55356, 56826, 55356, 56819],
-                      [55356, 56826, 8203, 55356, 56819]
-                    ) &&
+                  : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) &&
                       !s(
                         [
-                          55356, 57332, 56128, 56423, 56128, 56418, 56128,
-                          56421, 56128, 56430, 56128, 56423, 56128, 56447,
+                          55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128,
+                          56447,
                         ],
                         [
-                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418,
-                          8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128,
-                          56423, 8203, 56128, 56447,
+                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430,
+                          8203, 56128, 56423, 8203, 56128, 56447,
                         ]
                       );
               case "emoji":
-                return !s(
-                  [129777, 127995, 8205, 129778, 127999],
-                  [129777, 127995, 8203, 129778, 127999]
-                );
+                return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]);
             }
             return !1;
           })(o[r])),
             (t.supports.everything = t.supports.everything && t.supports[o[r]]),
-            "flag" !== o[r] &&
-              (t.supports.everythingExceptFlag =
-                t.supports.everythingExceptFlag && t.supports[o[r]]);
-        (t.supports.everythingExceptFlag =
-          t.supports.everythingExceptFlag && !t.supports.flag),
+            "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag),
           (t.DOMReady = !1),
           (t.readyCallback = function () {
             t.DOMReady = !0;
@@ -123,8 +91,7 @@
               t.readyCallback();
             }),
             a.addEventListener
-              ? (a.addEventListener("DOMContentLoaded", n, !1),
-                e.addEventListener("load", n, !1))
+              ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1))
               : (e.attachEvent("onload", n),
                 a.attachEvent("onreadystatechange", function () {
                   "complete" === a.readyState && t.readyCallback();
@@ -252,16 +219,8 @@
           rgb(182, 227, 212) 50%,
           rgb(51, 167, 181) 100%
         );
-        --wp--preset--gradient--electric-grass: linear-gradient(
-          135deg,
-          rgb(202, 248, 128) 0%,
-          rgb(113, 206, 126) 100%
-        );
-        --wp--preset--gradient--midnight: linear-gradient(
-          135deg,
-          rgb(2, 3, 129) 0%,
-          rgb(40, 116, 252) 100%
-        );
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
         --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
         --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
         --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
@@ -327,14 +286,10 @@
         background-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-amber
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
       }
       .has-light-green-cyan-background-color {
         background-color: var(--wp--preset--color--light-green-cyan) !important;
@@ -367,9 +322,7 @@
         border-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-border-color {
-        border-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-border-color {
         border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
@@ -390,34 +343,22 @@
         border-color: var(--wp--preset--color--vivid-purple) !important;
       }
       .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-        background: var(
-          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
-        ) !important;
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
       }
       .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-        background: var(
-          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
-        ) !important;
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
       }
       .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
       }
       .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-        background: var(
-          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
-        ) !important;
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
       }
       .has-cool-to-warm-spectrum-gradient-background {
-        background: var(
-          --wp--preset--gradient--cool-to-warm-spectrum
-        ) !important;
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
       }
       .has-blush-light-purple-gradient-background {
         background: var(--wp--preset--gradient--blush-light-purple) !important;
@@ -496,33 +437,16 @@
       type="text/css"
       media="all"
     />
-    <script
-      type="text/javascript"
-      src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0"
-      id="jquery-core-js"
-    ></script>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
     <script
       type="text/javascript"
       src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
       id="jquery-migrate-js"
     ></script>
     <link rel="https://api.w.org/" href="/wp-json/" />
-    <link
-      rel="alternate"
-      type="application/json"
-      href="/wp-json/wp/v2/pages/39"
-    />
-    <link
-      rel="EditURI"
-      type="application/rsd+xml"
-      title="RSD"
-      href="/xmlrpc.php?rsd"
-    />
-    <link
-      rel="wlwmanifest"
-      type="application/wlwmanifest+xml"
-      href="/wp-includes/wlwmanifest.xml"
-    />
+    <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/39" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.0.1" />
     <link rel="canonical" href="/looset-emool-iine/" />
     <link rel="shortlink" href="https://wp.me/P6efJc-D" />
@@ -545,22 +469,13 @@
     <!-- Jetpack Open Graph Tags -->
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Zum Loose" />
-    <meta
-      property="og:url"
-      content="httpscarola-horstmann.de/looset-emool-iine/"
-    />
+    <meta property="og:url" content="httpscarola-horstmann.de/looset-emool-iine/" />
     <meta
       property="og:description"
       content="Unter mine Füeß Meine erste CD mit Erzählungen und Gedichten. Es sind &#8222;Klassiker&#8220; dabei wie Moneli oder Tschau bella, neu dazugekommen sind in den letzten Jahren z.B. &#8222;Früehji Eri…"
     />
-    <meta
-      property="article:published_time"
-      content="2015-05-21T20:06:12+00:00"
-    />
-    <meta
-      property="article:modified_time"
-      content="2022-06-27T19:55:34+00:00"
-    />
+    <meta property="article:published_time" content="2015-05-21T20:06:12+00:00" />
+    <meta property="article:modified_time" content="2022-06-27T19:55:34+00:00" />
     <meta property="og:site_name" content="Website von Carola Horstmann" />
     <meta
       property="og:image"
@@ -594,15 +509,8 @@
       }
 
       .site-main {
-        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg")
-          repeat-y;
+        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg") repeat-y;
         min-height: 1500px;
-      }
-
-      .hentry,
-      .page-header,
-      .page-content {
-        margin: 0 100px;
       }
 
       #comments,
@@ -631,9 +539,7 @@
 
   <body class="page-template-default page page-id-39">
     <div id="page" class="hfeed site">
-      <a class="skip-link screen-reader-text" href="#content"
-        >Springe zum Inhalt</a
-      >
+      <a class="skip-link screen-reader-text" href="#content">Springe zum Inhalt</a>
 
       <div id="sidebar" class="sidebar">
         <header id="masthead" class="site-header" role="banner">
@@ -651,66 +557,37 @@
           <nav id="site-navigation" class="main-navigation" role="navigation">
             <div class="menu-menu-container">
               <ul id="menu-menu" class="nav-menu">
-                <li
-                  id="menu-item-17"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"
-                >
+                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17">
                   <a href="/uber-mi/">Über mi</a>
                 </li>
-                <li
-                  id="menu-item-12"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"
-                >
+                <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
                   <a href="/wurum-dialekt/">Wurum Dialekt?</a>
                 </li>
-                <li
-                  id="menu-item-26"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
-                >
+                <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
                   <a href="/gedichter/">Gedichter</a>
                 </li>
-                <li
-                  id="menu-item-167"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"
-                >
+                <li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167">
                   <a href="/mini-buecher/">Mini Büecher</a>
                 </li>
-                <li
-                  id="menu-item-28"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"
-                >
+                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
                   <a href="/kurzgschichte/">Kurzgschichte</a>
                 </li>
-                <li
-                  id="menu-item-45"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"
-                >
+                <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
                   <a href="/presse/">Presse</a>
                 </li>
-                <li
-                  id="menu-item-234"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"
-                >
+                <li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234">
                   <a href="/priiswuerdig/">Priiswürdig</a>
                 </li>
                 <li
                   id="menu-item-40"
                   class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-39 current_page_item menu-item-40"
                 >
-                  <a href="/looset-emool-iine/" aria-current="page"
-                    >Zum Loose</a
-                  >
+                  <a href="/looset-emool-iine/" aria-current="page">Zum Loose</a>
                 </li>
-                <li
-                  id="menu-item-49"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
-                >
+                <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
                   <a href="/foti/">Zum Luege</a>
                 </li>
-                <li
-                  id="menu-item-115"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"
-                >
+                <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115">
                   <a href="/impressum/">Kontakt &#038; Impressum</a>
                 </li>
               </ul>
@@ -742,10 +619,7 @@
       <div id="content" class="site-content">
         <div id="primary" class="content-area">
           <main id="main" class="site-main" role="main">
-            <article
-              id="post-39"
-              class="post-39 page type-page status-publish hentry"
-            >
+            <article id="post-39" class="post-39 page type-page status-publish hentry">
               <header class="entry-header">
                 <h1 class="entry-title">Zum Loose</h1>
               </header>
@@ -783,34 +657,25 @@
                   /></a>
                 </p>
                 <p class="p1">
-                  Meine erste CD mit Erzählungen und Gedichten. Es sind
-                  &#8222;Klassiker&#8220; dabei wie <i>Moneli</i> oder
-                  <i>Tschau</i> <i>bella</i>, neu dazugekommen sind in den
-                  letzten Jahren z.B. &#8222;Früehji
-                  Erinnerigsschplitter&#8220;: Sie führen aus dem Bettschtättli
-                  über den Schulhof bis zur Schiffschaukel an der Chilbi.
+                  Meine erste CD mit Erzählungen und Gedichten. Es sind &#8222;Klassiker&#8220; dabei wie
+                  <i>Moneli</i> oder <i>Tschau</i> <i>bella</i>, neu dazugekommen sind in den letzten Jahren z.B.
+                  &#8222;Früehji Erinnerigsschplitter&#8220;: Sie führen aus dem Bettschtättli über den Schulhof bis zur
+                  Schiffschaukel an der Chilbi.
                 </p>
                 <p class="p1">
-                  Die Gedichte haben häufig einen Bezug zur Natur; einige von
-                  ihnen sind in meinem Gedichtband &#8222;däsche us
-                  schnee&#8220; zu finden. Das Gedicht &#8222;Angscht&#8220;
-                  fand 2016 Aufnahme im Dreylanddichterweg
+                  Die Gedichte haben häufig einen Bezug zur Natur; einige von ihnen sind in meinem Gedichtband
+                  &#8222;däsche us schnee&#8220; zu finden. Das Gedicht &#8222;Angscht&#8220; fand 2016 Aufnahme im
+                  Dreylanddichterweg
                 </p>
                 <p class="p1">
-                  <a href="http://www.dreylanddichterweg.eu/info.html"
-                    >http://www.dreylanddichterweg.eu/info.html</a
-                  >
+                  <a href="http://www.dreylanddichterweg.eu/info.html">http://www.dreylanddichterweg.eu/info.html</a>
                 </p>
                 <p class="p1">
-                  Die Produktion &#8211; Aufnahmen und Texttrenner &#8211; lagen
-                  in den erfahrenen Händen von Uli Führe. Das Layout des
-                  CD-Covers gestaltete Helga Echterbruch, die bereits meine
-                  Kinderbücher mit großer fachlicher Sicherheit betreut hat.
+                  Die Produktion &#8211; Aufnahmen und Texttrenner &#8211; lagen in den erfahrenen Händen von Uli Führe.
+                  Das Layout des CD-Covers gestaltete Helga Echterbruch, die bereits meine Kinderbücher mit großer
+                  fachlicher Sicherheit betreut hat.
                 </p>
-                <p class="p1">
-                  Zu beziehen ist &#8222;Unter mine Füeß&#8220; zum Preis von
-                  10€ direkt über mich.
-                </p>
+                <p class="p1">Zu beziehen ist &#8222;Unter mine Füeß&#8220; zum Preis von 10€ direkt über mich.</p>
                 <p class="p1">
                   horstmann.carola@gmx.de<br />
                   Tel.: 07666 &#8211; 5818
@@ -838,17 +703,14 @@
                       type="video/mp4"
                       src="https://www.carola-horstmann.de/wp-content/uploads/2019/04/bruno.mp4?_=1"
                     />
-                    <a
-                      href="https://www.carola-horstmann.de/wp-content/uploads/2019/04/bruno.mp4"
+                    <a href="https://www.carola-horstmann.de/wp-content/uploads/2019/04/bruno.mp4"
                       >https://www.carola-horstmann.de/wp-content/uploads/2019/04/bruno.mp4</a
                     >
                   </video>
                 </div>
                 <h4>&#8222;Bravo Bruno&#8220; bei SWR 4</h4>
                 <p>
-                  <a href="/wp-content/uploads/2018/11/BravoBruno221018.mp3"
-                    >Beitrag anhören</a
-                  >
+                  <a href="/wp-content/uploads/2018/11/BravoBruno221018.mp3">Beitrag anhören</a>
                 </p>
                 <h4>Auf youtube</h4>
                 <p>
@@ -944,26 +806,21 @@
                 <h4>&#8222;Rosetta&#8220; auf youtube</h4>
                 <p>
                   Hier findet ihr ein kleines
-                  <a href="https://www.youtube.com/watch?v=AqYs5alT0fg"
-                    >Video über Rosetta auf Youtube</a
-                  >
+                  <a href="https://www.youtube.com/watch?v=AqYs5alT0fg">Video über Rosetta auf Youtube</a>
                 </p>
                 <h4>Mundartsymposiums &#8222;Bosner Mühle&#8220; (2005)</h4>
                 <p>
-                  Öffentlicher Abend zum Abschluss des Mundartsymposiums
-                  &#8222;Bosner Mühle&#8220; aus dem Jahr 2005 mit Beiträgen,
-                  die in dieser Woche entstanden waren. Dieser Abend wurde vom
-                  saarländischen Rundfunk aufgezeichnet.
+                  Öffentlicher Abend zum Abschluss des Mundartsymposiums &#8222;Bosner Mühle&#8220; aus dem Jahr 2005
+                  mit Beiträgen, die in dieser Woche entstanden waren. Dieser Abend wurde vom saarländischen Rundfunk
+                  aufgezeichnet.
                 </p>
                 <p>
-                  <a
-                    href="http://www.mundartsymposium.de/25-jahre-symposium/1993-bis-1997/1993/detail/horstmann/"
+                  <a href="http://www.mundartsymposium.de/25-jahre-symposium/1993-bis-1997/1993/detail/horstmann/"
                     >Link zum Beitrag</a
                   >
                 </p>
                 <h4>
-                  Beitrag im Schweizer Rundfunk zu &#8222;S Spinnlikind Rosetta
-                  &#8211; Das Spinnlein Rosetta&#8220;
+                  Beitrag im Schweizer Rundfunk zu &#8222;S Spinnlikind Rosetta &#8211; Das Spinnlein Rosetta&#8220;
                 </h4>
                 <!--[if lt IE 9
                   ]><script>
@@ -977,10 +834,7 @@
                   style="width: 100%"
                   controls="controls"
                 >
-                  <source
-                    type="audio/mpeg"
-                    src="/wp-content/uploads/2015/05/sr.mp3?_=1"
-                  />
+                  <source type="audio/mpeg" src="/wp-content/uploads/2015/05/sr.mp3?_=1" />
                   <a href="/wp-content/uploads/2015/05/sr.mp3"
                     >httpscarola-horstmann.de/wp-content/uploads/2015/05/sr.mp3</a
                   >
@@ -997,8 +851,7 @@
                     type="audio/mpeg"
                     src="http://www.carola-horstmann.de/wp-content/uploads/2015/05/Yesterday.mp3?_=2"
                   />
-                  <a
-                    href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/Yesterday.mp3"
+                  <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/Yesterday.mp3"
                     >http://www.carola-horstmann.de/wp-content/uploads/2015/05/Yesterday.mp3</a
                   >
                 </audio>
@@ -1015,8 +868,7 @@
                     type="audio/mpeg"
                     src="http://www.carola-horstmann.de/wp-content/uploads/2015/05/si_koemme_nit_noecher.mp3?_=3"
                   />
-                  <a
-                    href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/si_koemme_nit_noecher.mp3"
+                  <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/si_koemme_nit_noecher.mp3"
                     >http://www.carola-horstmann.de/wp-content/uploads/2015/05/si_koemme_nit_noecher.mp3</a
                   >
                 </audio>
@@ -1032,8 +884,7 @@
                     type="audio/mpeg"
                     src="http://www.carola-horstmann.de/wp-content/uploads/2015/05/De-Aaschtand.mp3?_=4"
                   />
-                  <a
-                    href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/De-Aaschtand.mp3"
+                  <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/De-Aaschtand.mp3"
                     >http://www.carola-horstmann.de/wp-content/uploads/2015/05/De-Aaschtand.mp3</a
                   >
                 </audio>
@@ -1049,15 +900,14 @@
                     type="audio/mpeg"
                     src="http://www.carola-horstmann.de/wp-content/uploads/2015/05/Angscht.mp3?_=5"
                   />
-                  <a
-                    href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/Angscht.mp3"
+                  <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/Angscht.mp3"
                     >http://www.carola-horstmann.de/wp-content/uploads/2015/05/Angscht.mp3</a
                   >
                 </audio>
                 <h4>Die Jury</h4>
                 <p>
-                  Kurzhörspiel von Carola Horstmann und David Wendeborn aus dem
-                  Jahr 2008, produziert in Merdingen, Studio David Wendeborn.
+                  Kurzhörspiel von Carola Horstmann und David Wendeborn aus dem Jahr 2008, produziert in Merdingen,
+                  Studio David Wendeborn.
                 </p>
                 <p>Dialogstück für vier Personen und Klang-Collage mit Text.</p>
                 <p>
@@ -1075,16 +925,13 @@
                 <p>Sprecherin von &#8222;An de Elz&#8220;: Carola Horstmann</p>
                 <p>Einleitung:</p>
                 <p>
-                  Wir befinden uns bei einem namhaften deutschen Sender, der zu
-                  einem Kurzhörspiel-Wettbewerb aufgerufen hat, und hören der
-                  hochkarätig besetzten Jury zu.
+                  Wir befinden uns bei einem namhaften deutschen Sender, der zu einem Kurzhörspiel-Wettbewerb aufgerufen
+                  hat, und hören der hochkarätig besetzten Jury zu.
                 </p>
                 <p>
-                  Die Stimmung ist gereizt, von Übereinstimmung ist wenig zu
-                  spüren, und der angekündigte nächste Beitrag löst gar heftige
-                  Kontroversen aus: Da wurde ein alemannisches Gedicht zu einer
-                  Klangcollage verarbeitet. Hat Mundart in einem solchen
-                  Wettbewerb denn überhaupt etwas zu suchen? Wie werden die
+                  Die Stimmung ist gereizt, von Übereinstimmung ist wenig zu spüren, und der angekündigte nächste
+                  Beitrag löst gar heftige Kontroversen aus: Da wurde ein alemannisches Gedicht zu einer Klangcollage
+                  verarbeitet. Hat Mundart in einem solchen Wettbewerb denn überhaupt etwas zu suchen? Wie werden die
                   Juroren entscheiden?
                 </p>
                 <audio
@@ -1094,10 +941,7 @@
                   style="width: 100%"
                   controls="controls"
                 >
-                  <source
-                    type="audio/mpeg"
-                    src="/wp-content/uploads/2016/04/jury.mp3?_=6"
-                  />
+                  <source type="audio/mpeg" src="/wp-content/uploads/2016/04/jury.mp3?_=6" />
                   <a href="/wp-content/uploads/2016/04/jury.mp3"
                     >httpscarola-horstmann.de/wp-content/uploads/2016/04/jury.mp3</a
                   >
@@ -1115,9 +959,7 @@
 
       <footer id="colophon" class="site-footer" role="contentinfo">
         <div class="site-info">
-          <a href="https://de.wordpress.org/"
-            >Stolz präsentiert von WordPress</a
-          >
+          <a href="https://de.wordpress.org/">Stolz präsentiert von WordPress</a>
         </div>
         <!-- .site-info -->
       </footer>
@@ -1140,100 +982,43 @@
         >
           <div class="jp-carousel swiper-wrapper"></div>
           <div class="jp-swiper-button-prev swiper-button-prev">
-            <svg
-              width="25"
-              height="24"
-              viewbox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="maskPrev"
-                mask-type="alpha"
-                maskunits="userSpaceOnUse"
-                x="8"
-                y="6"
-                width="9"
-                height="12"
-              >
+            <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="maskPrev" mask-type="alpha" maskunits="userSpaceOnUse" x="8" y="6" width="9" height="12">
                 <path
                   d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z"
                   fill="white"
                 ></path>
               </mask>
               <g mask="url(#maskPrev)">
-                <rect
-                  x="0.579102"
-                  width="23.8823"
-                  height="24"
-                  fill="#FFFFFF"
-                ></rect>
+                <rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"></rect>
               </g>
             </svg>
           </div>
           <div class="jp-swiper-button-next swiper-button-next">
-            <svg
-              width="25"
-              height="24"
-              viewbox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="maskNext"
-                mask-type="alpha"
-                maskunits="userSpaceOnUse"
-                x="8"
-                y="6"
-                width="8"
-                height="12"
-              >
+            <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="maskNext" mask-type="alpha" maskunits="userSpaceOnUse" x="8" y="6" width="8" height="12">
                 <path
                   d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z"
                   fill="white"
                 ></path>
               </mask>
               <g mask="url(#maskNext)">
-                <rect
-                  x="0.34375"
-                  width="23.8822"
-                  height="24"
-                  fill="#FFFFFF"
-                ></rect>
+                <rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"></rect>
               </g>
             </svg>
           </div>
         </div>
         <!-- The main close buton -->
         <div class="jp-carousel-close-hint">
-          <svg
-            width="25"
-            height="24"
-            viewbox="0 0 25 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <mask
-              id="maskClose"
-              mask-type="alpha"
-              maskunits="userSpaceOnUse"
-              x="5"
-              y="5"
-              width="15"
-              height="14"
-            >
+          <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskClose" mask-type="alpha" maskunits="userSpaceOnUse" x="5" y="5" width="15" height="14">
               <path
                 d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z"
                 fill="white"
               ></path>
             </mask>
             <g mask="url(#maskClose)">
-              <rect
-                x="0.409668"
-                width="23.8823"
-                height="24"
-                fill="#FFFFFF"
-              ></rect>
+              <rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"></rect>
             </g>
           </svg>
         </div>
@@ -1254,22 +1039,8 @@
                 aria-label="Sichtbarkeit von Fotometadaten ändern"
               >
                 <span class="jp-carousel-icon">
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="maskInfo"
-                      mask-type="alpha"
-                      maskunits="userSpaceOnUse"
-                      x="2"
-                      y="2"
-                      width="21"
-                      height="20"
-                    >
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="maskInfo" mask-type="alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="20">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -1278,12 +1049,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#maskInfo)">
-                      <rect
-                        x="0.8125"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
                 </span>
@@ -1294,13 +1060,7 @@
                 aria-label="Sichtbarkeit von Fotokommentaren ändern"
               >
                 <span class="jp-carousel-icon">
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask
                       id="maskComments"
                       mask-type="alpha"
@@ -1318,12 +1078,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#maskComments)">
-                      <rect
-                        x="0.34668"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
 
@@ -1351,9 +1106,7 @@
                   <div id="jp-carousel-comment-form-commenting-as">
                     <p id="jp-carousel-commenting-as">
                       Du muss
-                      <a href="#" class="jp-carousel-comment-login"
-                        >angemeldet</a
-                      >
+                      <a href="#" class="jp-carousel-comment-login">angemeldet</a>
                       sein, um einen Kommentar zu veröffentlichen.
                     </p>
                   </div>
@@ -1362,36 +1115,15 @@
               <div class="jp-carousel-image-meta">
                 <div class="jp-carousel-title-and-caption">
                   <div class="jp-carousel-photo-info">
-                    <h3
-                      class="jp-carousel-caption"
-                      itemprop="caption description"
-                    ></h3>
+                    <h3 class="jp-carousel-caption" itemprop="caption description"></h3>
                   </div>
 
                   <div class="jp-carousel-photo-description"></div>
                 </div>
                 <ul class="jp-carousel-image-exif" style="display: none"></ul>
-                <a
-                  class="jp-carousel-image-download"
-                  target="_blank"
-                  style="display: none"
-                >
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="mask0"
-                      mask-type="alpha"
-                      maskunits="userSpaceOnUse"
-                      x="3"
-                      y="3"
-                      width="19"
-                      height="18"
-                    >
+                <a class="jp-carousel-image-download" target="_blank" style="display: none">
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha" maskunits="userSpaceOnUse" x="3" y="3" width="19" height="18">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -1400,12 +1132,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#mask0)">
-                      <rect
-                        x="0.870605"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
                   <span class="jp-carousel-download-text"></span>
@@ -1426,8 +1153,7 @@
       /* <![CDATA[ */
       var screenReaderText = {
         expand: '<span class="screen-reader-text">Untermenü anzeigen<\/span>',
-        collapse:
-          '<span class="screen-reader-text">Untermenü verbergen<\/span>',
+        collapse: '<span class="screen-reader-text">Untermenü verbergen<\/span>',
       };
       /* ]]> */
     </script>
@@ -1458,13 +1184,10 @@
         loading_comments: "Lade Kommentare …",
         download_original:
           'Bild in Originalgröße anschauen <span class="photo-size">{0}<span class="photo-size-times">×<\/span>{1}<\/span>',
-        no_comment_text:
-          "Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text übermittelst.",
-        no_comment_email:
-          "Bitte eine E-Mail-Adresse angeben, um zu kommentieren.",
+        no_comment_text: "Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text übermittelst.",
+        no_comment_email: "Bitte eine E-Mail-Adresse angeben, um zu kommentieren.",
         no_comment_author: "Bitte deinen Namen angeben, um zu kommentieren.",
-        comment_post_error:
-          "Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es später erneut.",
+        comment_post_error: "Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es später erneut.",
         comment_approved: "Dein Kommentar wurde genehmigt.",
         comment_unapproved: "Dein Kommentar wartet auf Freischaltung.",
         camera: "Kamera",
@@ -1474,16 +1197,9 @@
         copyright: "Copyright",
         comment_registration: "1",
         require_name_email: "1",
-        login_url:
-          "httpscarola-horstmann.de\/wp-login.php?redirect_to=httpscarola-horstmann.de%2Flooset-emool-iine%2F",
+        login_url: "httpscarola-horstmann.de\/wp-login.php?redirect_to=httpscarola-horstmann.de%2Flooset-emool-iine%2F",
         blog_id: "1",
-        meta_data: [
-          "camera",
-          "aperture",
-          "shutter_speed",
-          "focal_length",
-          "copyright",
-        ],
+        meta_data: ["camera", "aperture", "shutter_speed", "focal_length", "copyright"],
       };
       /* ]]> */
     </script>
@@ -1506,8 +1222,7 @@
           "mejs.time-help-text":
             "Benutze die Pfeiltasten Links\/Rechts, um 1 Sekunde vorzuspringen, und die Pfeiltasten Hoch\/Runter, um 10 Sekunden vorzuspringen.",
           "mejs.live-broadcast": "Live-Übertragung",
-          "mejs.volume-help-text":
-            "Pfeiltasten Hoch\/Runter benutzen, um die Lautstärke zu regeln.",
+          "mejs.volume-help-text": "Pfeiltasten Hoch\/Runter benutzen, um die Lautstärke zu regeln.",
           "mejs.unmute": "Laut schalten",
           "mejs.mute": "Stumm",
           "mejs.volume-slider": "Lautstärkeregler",

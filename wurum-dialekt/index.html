@@ -19,12 +19,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//s.w.org" />
     <link rel="dns-prefetch" href="//v0.wordpress.com" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Website von Carola Horstmann &raquo; Feed"
-      href="/feed/"
-    />
+    <link rel="alternate" type="application/rss+xml" title="Website von Carola Horstmann &raquo; Feed" href="/feed/" />
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -44,8 +39,7 @@
         svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         svgExt: ".svg",
         source: {
-          concatemoji:
-            "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
+          concatemoji: "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
         },
       };
       /*! This file is auto-generated */
@@ -57,69 +51,43 @@
           p = i.getContext && i.getContext("2d");
         function s(e, t) {
           var a = String.fromCharCode,
-            e =
-              (p.clearRect(0, 0, i.width, i.height),
-              p.fillText(a.apply(this, e), 0, 0),
-              i.toDataURL());
-          return (
-            p.clearRect(0, 0, i.width, i.height),
-            p.fillText(a.apply(this, t), 0, 0),
-            e === i.toDataURL()
-          );
+            e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+          return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL();
         }
         function c(e) {
           var t = a.createElement("script");
-          (t.src = e),
-            (t.defer = t.type = "text/javascript"),
-            a.getElementsByTagName("head")[0].appendChild(t);
+          (t.src = e), (t.defer = t.type = "text/javascript"), a.getElementsByTagName("head")[0].appendChild(t);
         }
         for (
-          o = Array("flag", "emoji"),
-            t.supports = { everything: !0, everythingExceptFlag: !0 },
-            r = 0;
+          o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0;
           r < o.length;
           r++
         )
           (t.supports[o[r]] = (function (e) {
             if (!p || !p.fillText) return !1;
-            switch (
-              ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
-            ) {
+            switch (((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)) {
               case "flag":
-                return s(
-                  [127987, 65039, 8205, 9895, 65039],
-                  [127987, 65039, 8203, 9895, 65039]
-                )
+                return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039])
                   ? !1
-                  : !s(
-                      [55356, 56826, 55356, 56819],
-                      [55356, 56826, 8203, 55356, 56819]
-                    ) &&
+                  : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) &&
                       !s(
                         [
-                          55356, 57332, 56128, 56423, 56128, 56418, 56128,
-                          56421, 56128, 56430, 56128, 56423, 56128, 56447,
+                          55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128,
+                          56447,
                         ],
                         [
-                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418,
-                          8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128,
-                          56423, 8203, 56128, 56447,
+                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430,
+                          8203, 56128, 56423, 8203, 56128, 56447,
                         ]
                       );
               case "emoji":
-                return !s(
-                  [129777, 127995, 8205, 129778, 127999],
-                  [129777, 127995, 8203, 129778, 127999]
-                );
+                return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]);
             }
             return !1;
           })(o[r])),
             (t.supports.everything = t.supports.everything && t.supports[o[r]]),
-            "flag" !== o[r] &&
-              (t.supports.everythingExceptFlag =
-                t.supports.everythingExceptFlag && t.supports[o[r]]);
-        (t.supports.everythingExceptFlag =
-          t.supports.everythingExceptFlag && !t.supports.flag),
+            "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag),
           (t.DOMReady = !1),
           (t.readyCallback = function () {
             t.DOMReady = !0;
@@ -129,8 +97,7 @@
               t.readyCallback();
             }),
             a.addEventListener
-              ? (a.addEventListener("DOMContentLoaded", n, !1),
-                e.addEventListener("load", n, !1))
+              ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1))
               : (e.attachEvent("onload", n),
                 a.attachEvent("onreadystatechange", function () {
                   "complete" === a.readyState && t.readyCallback();
@@ -258,16 +225,8 @@
           rgb(182, 227, 212) 50%,
           rgb(51, 167, 181) 100%
         );
-        --wp--preset--gradient--electric-grass: linear-gradient(
-          135deg,
-          rgb(202, 248, 128) 0%,
-          rgb(113, 206, 126) 100%
-        );
-        --wp--preset--gradient--midnight: linear-gradient(
-          135deg,
-          rgb(2, 3, 129) 0%,
-          rgb(40, 116, 252) 100%
-        );
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
         --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
         --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
         --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
@@ -333,14 +292,10 @@
         background-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-amber
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
       }
       .has-light-green-cyan-background-color {
         background-color: var(--wp--preset--color--light-green-cyan) !important;
@@ -373,9 +328,7 @@
         border-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-border-color {
-        border-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-border-color {
         border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
@@ -396,34 +349,22 @@
         border-color: var(--wp--preset--color--vivid-purple) !important;
       }
       .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-        background: var(
-          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
-        ) !important;
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
       }
       .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-        background: var(
-          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
-        ) !important;
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
       }
       .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
       }
       .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-        background: var(
-          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
-        ) !important;
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
       }
       .has-cool-to-warm-spectrum-gradient-background {
-        background: var(
-          --wp--preset--gradient--cool-to-warm-spectrum
-        ) !important;
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
       }
       .has-blush-light-purple-gradient-background {
         background: var(--wp--preset--gradient--blush-light-purple) !important;
@@ -502,33 +443,16 @@
       type="text/css"
       media="all"
     />
-    <script
-      type="text/javascript"
-      src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0"
-      id="jquery-core-js"
-    ></script>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
     <script
       type="text/javascript"
       src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
       id="jquery-migrate-js"
     ></script>
     <link rel="https://api.w.org/" href="/wp-json/" />
-    <link
-      rel="alternate"
-      type="application/json"
-      href="/wp-json/wp/v2/pages/5"
-    />
-    <link
-      rel="EditURI"
-      type="application/rsd+xml"
-      title="RSD"
-      href="/xmlrpc.php?rsd"
-    />
-    <link
-      rel="wlwmanifest"
-      type="application/wlwmanifest+xml"
-      href="/wp-includes/wlwmanifest.xml"
-    />
+    <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/5" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.0.1" />
     <link rel="canonical" href="/wurum-dialekt/" />
     <link rel="shortlink" href="https://wp.me/P6efJc-5" />
@@ -556,14 +480,8 @@
       property="og:description"
       content="Rar geworden und noch immer geliebt: mein Wiesentäler Dialekt jetzt auf CD Seit nun 17 Jahren ist mein heimatlicher Dialekt eine feste Größe für mich geworden, auch wenn ich in meiner direkten Umge…"
     />
-    <meta
-      property="article:published_time"
-      content="2015-05-21T08:59:00+00:00"
-    />
-    <meta
-      property="article:modified_time"
-      content="2020-05-11T07:05:58+00:00"
-    />
+    <meta property="article:published_time" content="2015-05-21T08:59:00+00:00" />
+    <meta property="article:modified_time" content="2020-05-11T07:05:58+00:00" />
     <meta property="og:site_name" content="Website von Carola Horstmann" />
     <meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
     <meta property="og:image:alt" content="" />
@@ -588,15 +506,8 @@
       }
 
       .site-main {
-        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg")
-          repeat-y;
+        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg") repeat-y;
         min-height: 1500px;
-      }
-
-      .hentry,
-      .page-header,
-      .page-content {
-        margin: 0 100px;
       }
 
       #comments,
@@ -625,9 +536,7 @@
 
   <body class="page-template-default page page-id-5">
     <div id="page" class="hfeed site">
-      <a class="skip-link screen-reader-text" href="#content"
-        >Springe zum Inhalt</a
-      >
+      <a class="skip-link screen-reader-text" href="#content">Springe zum Inhalt</a>
 
       <div id="sidebar" class="sidebar">
         <header id="masthead" class="site-header" role="banner">
@@ -645,66 +554,37 @@
           <nav id="site-navigation" class="main-navigation" role="navigation">
             <div class="menu-menu-container">
               <ul id="menu-menu" class="nav-menu">
-                <li
-                  id="menu-item-17"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"
-                >
+                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17">
                   <a href="/uber-mi/">Über mi</a>
                 </li>
                 <li
                   id="menu-item-12"
                   class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-12"
                 >
-                  <a href="/wurum-dialekt/" aria-current="page"
-                    >Wurum Dialekt?</a
-                  >
+                  <a href="/wurum-dialekt/" aria-current="page">Wurum Dialekt?</a>
                 </li>
-                <li
-                  id="menu-item-26"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
-                >
+                <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
                   <a href="/gedichter/">Gedichter</a>
                 </li>
-                <li
-                  id="menu-item-167"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"
-                >
+                <li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167">
                   <a href="/mini-buecher/">Mini Büecher</a>
                 </li>
-                <li
-                  id="menu-item-28"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"
-                >
+                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
                   <a href="/kurzgschichte/">Kurzgschichte</a>
                 </li>
-                <li
-                  id="menu-item-45"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"
-                >
+                <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
                   <a href="/presse/">Presse</a>
                 </li>
-                <li
-                  id="menu-item-234"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"
-                >
+                <li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234">
                   <a href="/priiswuerdig/">Priiswürdig</a>
                 </li>
-                <li
-                  id="menu-item-40"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
-                >
+                <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
                   <a href="/looset-emool-iine/">Zum Loose</a>
                 </li>
-                <li
-                  id="menu-item-49"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
-                >
+                <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
                   <a href="/foti/">Zum Luege</a>
                 </li>
-                <li
-                  id="menu-item-115"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"
-                >
+                <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115">
                   <a href="/impressum/">Kontakt &#038; Impressum</a>
                 </li>
               </ul>
@@ -736,10 +616,7 @@
       <div id="content" class="site-content">
         <div id="primary" class="content-area">
           <main id="main" class="site-main" role="main">
-            <article
-              id="post-5"
-              class="post-5 page type-page status-publish hentry"
-            >
+            <article id="post-5" class="post-5 page type-page status-publish hentry">
               <header class="entry-header">
                 <h1 class="entry-title">Wurum Dialekt?</h1>
               </header>
@@ -748,158 +625,108 @@
               <div class="entry-content">
                 <div class="zentriert">
                   <h3 class="p1">
-                    <b
-                      >Rar geworden und noch immer geliebt: mein Wiesentäler
-                      Dialekt jetzt auf CD</b
-                    >
+                    <b>Rar geworden und noch immer geliebt: mein Wiesentäler Dialekt jetzt auf CD</b>
                   </h3>
                   <p class="p1">
-                    Seit nun 17 Jahren ist mein heimatlicher Dialekt eine feste
-                    Größe für mich geworden, auch wenn ich in meiner direkten
-                    Umgebung, meinem heutigen Wohnort Denzlingen nicht viel
-                    Gelegenheit habe, ihn zu hören oder zu sprechen. Meine Söhne
-                    sprechen ihn nicht, auch wenn sie, um mir eine Freude zu
-                    machen, gerne etwas einfließen lassen, was sie für
-                    Alemannisch halten, und mein Mann, obschon Ostwestfale, sich
-                    in diesen Jahren einiges Verständnis für Alemannisches
-                    erworben hat und das auch gern einsetzt: Füre! Ufe! Abe! Und
-                    ich mich natürlich darüber freue.
+                    Seit nun 17 Jahren ist mein heimatlicher Dialekt eine feste Größe für mich geworden, auch wenn ich
+                    in meiner direkten Umgebung, meinem heutigen Wohnort Denzlingen nicht viel Gelegenheit habe, ihn zu
+                    hören oder zu sprechen. Meine Söhne sprechen ihn nicht, auch wenn sie, um mir eine Freude zu machen,
+                    gerne etwas einfließen lassen, was sie für Alemannisch halten, und mein Mann, obschon Ostwestfale,
+                    sich in diesen Jahren einiges Verständnis für Alemannisches erworben hat und das auch gern einsetzt:
+                    Füre! Ufe! Abe! Und ich mich natürlich darüber freue.
                   </p>
                   <p class="p1">
-                    Meine Mutter starb 2010. Während ihrer letzten acht
-                    Lebensjahre war ihr Denzlingen zu einer zweiten Heimat
-                    geworden, und in dieser Zeit brachte sie den Zeller Dialekt
-                    in mir zum Fließen: ich sprach ihn täglich, schwamm quasi im
-                    heimischen Gewässer der Kindersprache. Dann wurde<span
+                    Meine Mutter starb 2010. Während ihrer letzten acht Lebensjahre war ihr Denzlingen zu einer zweiten
+                    Heimat geworden, und in dieser Zeit brachte sie den Zeller Dialekt in mir zum Fließen: ich sprach
+                    ihn täglich, schwamm quasi im heimischen Gewässer der Kindersprache. Dann wurde<span
                       class="Apple-converted-space"
                       >  </span
-                    >Schreiben daraus und Bücher folgten, zunächst eine Art
-                    Eintauchen in die Vergangenheit (katzegrabschtai), dann
-                    folgten Gedichte (däsche us schnee), zwei Kinderbücher auf
-                    alemannisch und hochdeutsch erzählt und selbst illustriert,
-                    ein Janosch, von mir ins Alemannische übertragen &#8211; und
-                    jetzt also eine CD &#8222;unter mine Füeß&#8220;.
+                    >Schreiben daraus und Bücher folgten, zunächst eine Art Eintauchen in die Vergangenheit
+                    (katzegrabschtai), dann folgten Gedichte (däsche us schnee), zwei Kinderbücher auf alemannisch und
+                    hochdeutsch erzählt und selbst illustriert, ein Janosch, von mir ins Alemannische übertragen &#8211;
+                    und jetzt also eine CD &#8222;unter mine Füeß&#8220;.
                   </p>
                   <p class="p1">
-                    Wer schon einmal Tonaufnahmen von sich gehört hat und
-                    zurückgefahren ist, weil die eigene Stimme so fremd klang,
-                    so gar nicht angenehm, womöglich peinlich &#8211; der
-                    versteht vielleicht, dass es einige Zeit brauchte, bis da
-                    eine Versöhnung stattfinden konnte, hin zum:
+                    Wer schon einmal Tonaufnahmen von sich gehört hat und zurückgefahren ist, weil die eigene Stimme so
+                    fremd klang, so gar nicht angenehm, womöglich peinlich &#8211; der versteht vielleicht, dass es
+                    einige Zeit brauchte, bis da eine Versöhnung stattfinden konnte, hin zum:
                     <i>Ja, das bin ich. So klingt es, wenn ich spreche.</i>
                   </p>
                   <p class="p1">
-                    So oft hatte man mir nach Lesungen gesagt: Machen Sie doch
-                    eine CD! Mir war längst klar geworden, dass der
-                    verschriftlichte Dialekt eine große Hürde darstellt für
-                    ungeübte Leser. Dazu kamen Widerstände von akademischer
-                    Seite: Keine feste Grammatik, außerdem würde sich die
-                    Schreibweise je nach Dialektfärbung ändern&#8230;.kurz: Man
-                    sprach den Büchern, die in Dialekt verfasst wurden,
-                    schlichtweg ihre Berechtigung ab. Diese Auffassung teile ich
-                    nicht, aber ich habe Verständnis dafür, wenn Leser die
-                    Geduld verlieren über einem alemannischen Text, obwohl sie
-                    den Dialekt lieben.
+                    So oft hatte man mir nach Lesungen gesagt: Machen Sie doch eine CD! Mir war längst klar geworden,
+                    dass der verschriftlichte Dialekt eine große Hürde darstellt für ungeübte Leser. Dazu kamen
+                    Widerstände von akademischer Seite: Keine feste Grammatik, außerdem würde sich die Schreibweise je
+                    nach Dialektfärbung ändern&#8230;.kurz: Man sprach den Büchern, die in Dialekt verfasst wurden,
+                    schlichtweg ihre Berechtigung ab. Diese Auffassung teile ich nicht, aber ich habe Verständnis dafür,
+                    wenn Leser die Geduld verlieren über einem alemannischen Text, obwohl sie den Dialekt lieben.
                   </p>
                   <p class="p1">
-                    &#8222;Unter mine Füeß&#8220;, meine CD, wäre ohne die
-                    Unterstützung von Uli Führe nicht entstanden: mit ihm als
-                    Komponisten, Stimmbildner, Tontechniker und nicht zuletzt
-                    dank seinen alemannischen Wurzeln kam doch zustande, was
-                    erst unmöglich schien, nämlich ein Querschnitt durch die
-                    letzten Jahre meines Schaffens. Die Menge der Texte lockerte
-                    er mit kleinen Texttrennern auf, und so hoffe ich, dass die
-                    CD ihren Weg machen wird zu &#8222;geneigten Ohren&#8220;,
-                    zu Freunden des Dialekts &#8211; auch wenn der Dialekt vom
-                    Schwinden bedroht ist und die CD von manchen bereits als
+                    &#8222;Unter mine Füeß&#8220;, meine CD, wäre ohne die Unterstützung von Uli Führe nicht entstanden:
+                    mit ihm als Komponisten, Stimmbildner, Tontechniker und nicht zuletzt dank seinen alemannischen
+                    Wurzeln kam doch zustande, was erst unmöglich schien, nämlich ein Querschnitt durch die letzten
+                    Jahre meines Schaffens. Die Menge der Texte lockerte er mit kleinen Texttrennern auf, und so hoffe
+                    ich, dass die CD ihren Weg machen wird zu &#8222;geneigten Ohren&#8220;, zu Freunden des Dialekts
+                    &#8211; auch wenn der Dialekt vom Schwinden bedroht ist und die CD von manchen bereits als
                     veraltetes Medium angesehen wird im Zeitalter des Streamens.
                   </p>
                   <p class="p1">Jetz luege mer halt emool!</p>
                   <p class="p1">Mai 2020</p>
-                  <h3>
-                    Ab in die Heimatschublade! Klagelied einer Mundart-Autorin
-                  </h3>
+                  <h3>Ab in die Heimatschublade! Klagelied einer Mundart-Autorin</h3>
                 </div>
                 <p>
-                  Ständig diese Rechtfertigungen! Wer in Mundart schreibt, hat
-                  erst einmal eine Bringschuld: Er muss möglichst zügig darauf
-                  hinweisen, dass er nicht beschränkt ist, dass seine Sprache
-                  nicht verstümmelt, sein Denken nicht stehengeblieben ist. Das
-                  nervt! Im umgekehrten Fall ist es ja auch nicht so, dass
-                  Autoren, die in der Hochsprache schreiben (die, wie wir
-                  wissen, ein Konstrukt ist), sich dafür entschuldigen, dass es
-                  ihnen an Ursprünglichkeit, Wärme und Witz fehlt, der bei der
-                  Mundart mit großer Sicherheit anzutreffen ist.
+                  Ständig diese Rechtfertigungen! Wer in Mundart schreibt, hat erst einmal eine Bringschuld: Er muss
+                  möglichst zügig darauf hinweisen, dass er nicht beschränkt ist, dass seine Sprache nicht verstümmelt,
+                  sein Denken nicht stehengeblieben ist. Das nervt! Im umgekehrten Fall ist es ja auch nicht so, dass
+                  Autoren, die in der Hochsprache schreiben (die, wie wir wissen, ein Konstrukt ist), sich dafür
+                  entschuldigen, dass es ihnen an Ursprünglichkeit, Wärme und Witz fehlt, der bei der Mundart mit großer
+                  Sicherheit anzutreffen ist.
                 </p>
                 <p>
-                  Ein weiterer Rechtfertigungsdruck: dass wir nichts mit dem
-                  Heimatbegriff, der so dumpf aus dem 3. Reich heraufmodert, zu
-                  tun haben. Wir Mundartliteraten schmoren nicht im braunen
-                  Saft. Wir sind kreativ, manchmal anarchisch, wir lieben
-                  Brüche, und unsere Sprache ist ein wunderbares
-                  Transportmittel. Natürlich finden sich literarisch gesehen
-                  auch hier qualitative Unterschiede wie überall.
+                  Ein weiterer Rechtfertigungsdruck: dass wir nichts mit dem Heimatbegriff, der so dumpf aus dem 3.
+                  Reich heraufmodert, zu tun haben. Wir Mundartliteraten schmoren nicht im braunen Saft. Wir sind
+                  kreativ, manchmal anarchisch, wir lieben Brüche, und unsere Sprache ist ein wunderbares
+                  Transportmittel. Natürlich finden sich literarisch gesehen auch hier qualitative Unterschiede wie
+                  überall.
                 </p>
                 <p>
-                  Dialekt und Heimat – ein verhängnisvolles Paar. Schon ist man
-                  bei der nächsten Bringschuld. Heimat – Rrrrumtata! Ist ja gut!
-                  Nur: Warum trifft man so häufig auf eine Ablehnung des
-                  Heimatlichen? Heimat – o geh mir weg mit Heimat! Also Weggehen
-                  ist schon mal gut! Denn oft erfährt man erst beim Weggehen,
-                  was das ist, Heimat. Wer mit Heimat nur Traktoren und
-                  Trachtenkapellen assoziiert, dem ist allerdings nicht zu
-                  helfen.
+                  Dialekt und Heimat – ein verhängnisvolles Paar. Schon ist man bei der nächsten Bringschuld. Heimat –
+                  Rrrrumtata! Ist ja gut! Nur: Warum trifft man so häufig auf eine Ablehnung des Heimatlichen? Heimat –
+                  o geh mir weg mit Heimat! Also Weggehen ist schon mal gut! Denn oft erfährt man erst beim Weggehen,
+                  was das ist, Heimat. Wer mit Heimat nur Traktoren und Trachtenkapellen assoziiert, dem ist allerdings
+                  nicht zu helfen.
                 </p>
                 <p>
-                  Ich mache jetzt mal einen Test und werfe <i>heimatlos</i> in
-                  den Ring. Das ruft garantiert die Vertriebenen in der ganzen
-                  Welt auf den Plan, Dichter, Philosophen und Schlagersänger
-                  inbegriffen. Denn dieser artikulierte Schmerz ist erlaubt, er
-                  ist sogar erwünscht. Heimatlos zu sein &#8211; das kennen die
-                  meisten aus eigener Erfahrung. Bei manchen ist es noch ganz
-                  frisch.
+                  Ich mache jetzt mal einen Test und werfe <i>heimatlos</i> in den Ring. Das ruft garantiert die
+                  Vertriebenen in der ganzen Welt auf den Plan, Dichter, Philosophen und Schlagersänger inbegriffen.
+                  Denn dieser artikulierte Schmerz ist erlaubt, er ist sogar erwünscht. Heimatlos zu sein &#8211; das
+                  kennen die meisten aus eigener Erfahrung. Bei manchen ist es noch ganz frisch.
                 </p>
                 <p>
-                  Heimatlos zu sein bedeutet Amputation, Phantomschmerz
-                  lebenslänglich. Vertrieben aus einem geliebten Ort, getrennt
-                  von geliebten Menschen, der geliebten Sprache. Vertrieben ein
-                  weiteres Mal durch Aussonderung, durch die Geringschätzung des
-                  Verlorenen. Die alte Sprache taugt nicht mehr. Eine neue muss
-                  her. Nicht viel anders erging es früher Schulkindern, die im
-                  Dialekt aufgewachsen waren, und die sich dann in höheren
-                  Schulen die andere, die &#8222;richtige&#8220; Sprache
-                  anverwandeln mussten. Dialekt war minderwertig geworden,
-                  hinderlich. Man wurde als Dialektsprecher angreifbar und blieb
-                  es lange Zeit. Doch der Dialekt hat auch etwas von einer
-                  Geheimsprache. Einem übergeworfenen Zaubermantel. Passt nicht
-                  jedem. Ein bisschen ist man dann Ausländer im eigenen Land.
-                  Formuliert hat das einer, der es wissen muss, der kölsche
-                  Liedermacher und Rocksänger Wolfgang Niedecken in seinem Buch
-                  „Für ne Moment“:
+                  Heimatlos zu sein bedeutet Amputation, Phantomschmerz lebenslänglich. Vertrieben aus einem geliebten
+                  Ort, getrennt von geliebten Menschen, der geliebten Sprache. Vertrieben ein weiteres Mal durch
+                  Aussonderung, durch die Geringschätzung des Verlorenen. Die alte Sprache taugt nicht mehr. Eine neue
+                  muss her. Nicht viel anders erging es früher Schulkindern, die im Dialekt aufgewachsen waren, und die
+                  sich dann in höheren Schulen die andere, die &#8222;richtige&#8220; Sprache anverwandeln mussten.
+                  Dialekt war minderwertig geworden, hinderlich. Man wurde als Dialektsprecher angreifbar und blieb es
+                  lange Zeit. Doch der Dialekt hat auch etwas von einer Geheimsprache. Einem übergeworfenen
+                  Zaubermantel. Passt nicht jedem. Ein bisschen ist man dann Ausländer im eigenen Land. Formuliert hat
+                  das einer, der es wissen muss, der kölsche Liedermacher und Rocksänger Wolfgang Niedecken in seinem
+                  Buch „Für ne Moment“:
                 </p>
                 <p>
-                  &#8220; (&#8230;) Ohne es zu wollen, machte ich mich durch die
-                  „anderen kölschen Leeder“, die ich schrieb, zum Fremden in
-                  meiner eigenen Sprache und manchmal zum Fremden in meiner
-                  eigenen Band, wenn unterschwellig wieder einmal zu spüren war,
-                  dass die anderen den Dialekt als Hindernis auf dem Weg zu
-                  einem noch größeren Erfolg betrachteten. (&#8230;) An einer
-                  Hand konnte ich mir mittlerweile die Menschen abzählen, mit
-                  denen ich in meinem unmittelbaren Umfeld Kölsch sprach, und
-                  vor manch einem neuen Text fragte ich mich selbst, ob der
-                  Dialekt noch die Sprache meiner Empfindungen war. Die Antwort
-                  war allerdings immer eindeutig: Ja!&#8220;
+                  &#8220; (&#8230;) Ohne es zu wollen, machte ich mich durch die „anderen kölschen Leeder“, die ich
+                  schrieb, zum Fremden in meiner eigenen Sprache und manchmal zum Fremden in meiner eigenen Band, wenn
+                  unterschwellig wieder einmal zu spüren war, dass die anderen den Dialekt als Hindernis auf dem Weg zu
+                  einem noch größeren Erfolg betrachteten. (&#8230;) An einer Hand konnte ich mir mittlerweile die
+                  Menschen abzählen, mit denen ich in meinem unmittelbaren Umfeld Kölsch sprach, und vor manch einem
+                  neuen Text fragte ich mich selbst, ob der Dialekt noch die Sprache meiner Empfindungen war. Die
+                  Antwort war allerdings immer eindeutig: Ja!&#8220;
                 </p>
                 <p>
-                  &#8222;Aber vielleicht nehme ich bald
-                  Plattdeutsch-Unterricht&#8220;: Damit endete der
-                  Heimat-Artikel im Spiegel. Ich freue mich und sage: &#8222;Tun
-                  Sie&#8217;s&#8220;
+                  &#8222;Aber vielleicht nehme ich bald Plattdeutsch-Unterricht&#8220;: Damit endete der Heimat-Artikel
+                  im Spiegel. Ich freue mich und sage: &#8222;Tun Sie&#8217;s&#8220;
                 </p>
-                <div class="jahr">
-                  (Blog zum Thema „Was ist Heimat?“ im Spiegel, Ausgabe vom
-                  8.4.2012)
-                </div>
+                <div class="jahr">(Blog zum Thema „Was ist Heimat?“ im Spiegel, Ausgabe vom 8.4.2012)</div>
                 <p>&nbsp;</p>
                 <div class="zentriert">
                   <h3>Zurückgekommen</h3>
@@ -907,212 +734,151 @@
                   <h3>Keine Angst vor dem Bollenhut</h3>
                 </div>
                 <p>
-                  Wenn ich die letzten Heftli der Muetterschproch-Gsellschaft
-                  durchblättere mit ihren Versen, Bildern und Geschichtlein,
-                  wenn bei der Jahresversammlung Bollenhut und
-                  Schwarzwäldertrachten aufmarschieren, ich mich umsehe und
-                  frage, ob das nun der Preis für meine neu erwachte Liebe zur
-                  Sprache meiner Kindheit ist, ja, was dann?
+                  Wenn ich die letzten Heftli der Muetterschproch-Gsellschaft durchblättere mit ihren Versen, Bildern
+                  und Geschichtlein, wenn bei der Jahresversammlung Bollenhut und Schwarzwäldertrachten aufmarschieren,
+                  ich mich umsehe und frage, ob das nun der Preis für meine neu erwachte Liebe zur Sprache meiner
+                  Kindheit ist, ja, was dann?
                 </p>
                 <p>
-                  Es ist ein Verein &#8211; wie viele andere eben, ein
-                  Heimatverein. Und ein Heimwehverein dazu, weil der Blick so
-                  gern in die Vergangenheit schweift, die alemannische Sprache
-                  als Ausdruck unseres kraftvollen Kerns gefeiert wird, eine
-                  Kultur, mit der wir uns über die Jetztzeit hinwegtrösten und
-                  die uns schützen soll vor einer feindlichen Übernahme durch
-                  das Hochdeutsche mit seinen Anglizismen.
+                  Es ist ein Verein &#8211; wie viele andere eben, ein Heimatverein. Und ein Heimwehverein dazu, weil
+                  der Blick so gern in die Vergangenheit schweift, die alemannische Sprache als Ausdruck unseres
+                  kraftvollen Kerns gefeiert wird, eine Kultur, mit der wir uns über die Jetztzeit hinwegtrösten und die
+                  uns schützen soll vor einer feindlichen Übernahme durch das Hochdeutsche mit seinen Anglizismen.
                 </p>
+                <p>Und da gehöre ich jetzt also dazu und will es doch nicht so ganz und frage mich warum.</p>
                 <p>
-                  Und da gehöre ich jetzt also dazu und will es doch nicht so
-                  ganz und frage mich warum.
-                </p>
-                <p>
-                  In mir rebelliert noch immer die einstige Jugendliche, die mit
-                  derlei nichts zu tun haben wollte: mit Trachten nicht und
-                  nicht mit Blasmusik, deutsche Volksmusik nein danke, bloß
-                  keine deutschen Schlager, so herzzerreißend einfältig und für
-                  mein gefährlich schwankendes Herz der blanke Hohn. Niemals
-                  hätte ich solche direkten Worte auf mich selbst anwenden
-                  wollen:
+                  In mir rebelliert noch immer die einstige Jugendliche, die mit derlei nichts zu tun haben wollte: mit
+                  Trachten nicht und nicht mit Blasmusik, deutsche Volksmusik nein danke, bloß keine deutschen Schlager,
+                  so herzzerreißend einfältig und für mein gefährlich schwankendes Herz der blanke Hohn. Niemals hätte
+                  ich solche direkten Worte auf mich selbst anwenden wollen:
                   <span class="emph">Liebe. Sehnsucht. Du, nur du allein.</span>
                 </p>
                 <p>
-                  Bei uns jungen Leuten war alles viel vertrackter. Daher musste
-                  es englisch sein, englisch schafft Distanz. Distanz zur
-                  Heimat, zum Dialekt, zum Alltäglichen, Gewöhnlichen.
+                  Bei uns jungen Leuten war alles viel vertrackter. Daher musste es englisch sein, englisch schafft
+                  Distanz. Distanz zur Heimat, zum Dialekt, zum Alltäglichen, Gewöhnlichen.
                 </p>
                 <p>
-                  Ist der Dialekt denn gewöhnlich? Sprechen ihn nur die
-                  gewöhnlichen Leute, die einfache Bevölkerung? Oder ist er auch
-                  eine Geheimsprache, etwas, das man sich erst erarbeiten muss,
-                  wenn man von außen kommt?
+                  Ist der Dialekt denn gewöhnlich? Sprechen ihn nur die gewöhnlichen Leute, die einfache Bevölkerung?
+                  Oder ist er auch eine Geheimsprache, etwas, das man sich erst erarbeiten muss, wenn man von außen
+                  kommt?
                 </p>
                 <p>
-                  Der Dialekt kann etwas sehr Starkes sein: wir gegen den Rest
-                  der Welt, heute ein kleines Kunststück vor dem laufenden
-                  Fernseher, den es natürlich früher so nicht gab. Und schon
-                  sind wir bei dem gefährlichen Wörtchen früher,
-                  &#8222;damals&#8220; &#8211; hinter dem gerne Sätze kommen
-                  wie: damals gab es so etwas nicht. Oder: damals war alles
-                  besser.
+                  Der Dialekt kann etwas sehr Starkes sein: wir gegen den Rest der Welt, heute ein kleines Kunststück
+                  vor dem laufenden Fernseher, den es natürlich früher so nicht gab. Und schon sind wir bei dem
+                  gefährlichen Wörtchen früher, &#8222;damals&#8220; &#8211; hinter dem gerne Sätze kommen wie: damals
+                  gab es so etwas nicht. Oder: damals war alles besser.
                 </p>
                 <p>
-                  Damals: Man wusste, wer man ist, was man hat, wer die anderen
-                  sind, was man an ihnen hat. Wer dazu gehört und wer nicht.
-                  Familiengeschichten machten die Runde, vielleicht erzog ja
-                  wirklich das ganze Dorf ein Kind. Es gab da einen, der
-                  lächelnd die Straßen fegte und nicht ganz richtig im Kopf war,
-                  es gab ein paar wenige Autoritätspersonen, einen besonders
-                  Reichen, ein paar besonders Arme.
+                  Damals: Man wusste, wer man ist, was man hat, wer die anderen sind, was man an ihnen hat. Wer dazu
+                  gehört und wer nicht. Familiengeschichten machten die Runde, vielleicht erzog ja wirklich das ganze
+                  Dorf ein Kind. Es gab da einen, der lächelnd die Straßen fegte und nicht ganz richtig im Kopf war, es
+                  gab ein paar wenige Autoritätspersonen, einen besonders Reichen, ein paar besonders Arme.
                 </p>
                 <p>
-                  Aber das alles liegt in Gottes Namen, und von ihm wird auch
-                  noch die Rede sein, mindestens vierzig, wenn nicht fünfzig
-                  Jahre zurück. Denn das Dorf von früher gibt es so nicht mehr.
-                  Pfarrer, Lehrer und Doktor werden nicht mehr gefürchtet,
-                  sondern kritisch beäugt. Der Straßenfeger wäre ein anerkannter
-                  Behinderter, und reich und arm ist nicht so ohne weiteres mehr
-                  auszumachen. Autos haben fast alle, man trifft sich jetzt auf
-                  dem Parkplatz vor dem Supermarkt, die meisten Kinder besuchen
-                  fortführende Schulen und meiden die Enge des heimatlichen
-                  Tals. Und sie meiden ihren Dialekt.
+                  Aber das alles liegt in Gottes Namen, und von ihm wird auch noch die Rede sein, mindestens vierzig,
+                  wenn nicht fünfzig Jahre zurück. Denn das Dorf von früher gibt es so nicht mehr. Pfarrer, Lehrer und
+                  Doktor werden nicht mehr gefürchtet, sondern kritisch beäugt. Der Straßenfeger wäre ein anerkannter
+                  Behinderter, und reich und arm ist nicht so ohne weiteres mehr auszumachen. Autos haben fast alle, man
+                  trifft sich jetzt auf dem Parkplatz vor dem Supermarkt, die meisten Kinder besuchen fortführende
+                  Schulen und meiden die Enge des heimatlichen Tals. Und sie meiden ihren Dialekt.
+                </p>
+                <p>Also ist der Dialekt etwas für die Zurückgebliebenen &#8211; oder die Übriggebliebenen?</p>
+                <p>
+                  Und wie ist es mit den Zurückgekommenen? Was suchen diese denn &#8211; wenn sie überhaupt etwas
+                  suchen?
                 </p>
                 <p>
-                  Also ist der Dialekt etwas für die Zurückgebliebenen &#8211;
-                  oder die Übriggebliebenen?
+                  Aber sicher suchen sie etwas! Suchen nach dem, was früher war: die phantastische Freiheit auf leeren
+                  Straßen, in alten Schuppen, Steinbrüchen oder am Fluss. Den Geschmack von Teer und Staub nach einem
+                  Gewitterregen. Die Brennesseln am Bein, Hänge voller Himbeeren, der verschüttete Eingang zu einer
+                  Burg. Es ist dieser Taumel, der gesucht wird, diese grandios bunte Zeit der Freuden und der Schrecken,
+                  und mit ihr kommt die Sprache wieder und das Wiedererkennen.
                 </p>
                 <p>
-                  Und wie ist es mit den Zurückgekommenen? Was suchen diese denn
-                  &#8211; wenn sie überhaupt etwas suchen?
-                </p>
-                <p>
-                  Aber sicher suchen sie etwas! Suchen nach dem, was früher war:
-                  die phantastische Freiheit auf leeren Straßen, in alten
-                  Schuppen, Steinbrüchen oder am Fluss. Den Geschmack von Teer
-                  und Staub nach einem Gewitterregen. Die Brennesseln am Bein,
-                  Hänge voller Himbeeren, der verschüttete Eingang zu einer
-                  Burg. Es ist dieser Taumel, der gesucht wird, diese grandios
-                  bunte Zeit der Freuden und der Schrecken, und mit ihr kommt
-                  die Sprache wieder und das Wiedererkennen.
-                </p>
-                <p>
-                  Der Dialekt am heimatlichen Ort als einer Stätte des Erinnerns
-                  ist also etwas für Altgewordene oder mindestens Ältere, die
-                  einen Bogen schlagen wollen: sehr weit oder auch weniger weit
-                  gereist, suchen sie sich selbst. Wer war ich damals und wie
-                  ist das heute mit mir? Ist es wirklich so, dass früher alles
-                  viel intensiver erlebt wurde, auch wenn wir heute so stark auf
-                  unser Bewusstsein abheben und keine Minute ungenutzt
-                  verstreichen darf? Was waren das damals &#8211; jawohl, damals
-                  &#8211; für wilde und heiße Sommertage, wieviel Düfte, wieviel
-                  Geschmack! Herzklopfen und Heimlichkeiten. Feste, Warten und
-                  nochmals Warten in großer Unruhe und Aufregung. Wie viel
-                  Ängste auch und schlechtes Gewissen. Die Beichte am Samstag.
-                  Gott, der alles sieht. Aber auch Gott, der uns behütet.
+                  Der Dialekt am heimatlichen Ort als einer Stätte des Erinnerns ist also etwas für Altgewordene oder
+                  mindestens Ältere, die einen Bogen schlagen wollen: sehr weit oder auch weniger weit gereist, suchen
+                  sie sich selbst. Wer war ich damals und wie ist das heute mit mir? Ist es wirklich so, dass früher
+                  alles viel intensiver erlebt wurde, auch wenn wir heute so stark auf unser Bewusstsein abheben und
+                  keine Minute ungenutzt verstreichen darf? Was waren das damals &#8211; jawohl, damals &#8211; für
+                  wilde und heiße Sommertage, wieviel Düfte, wieviel Geschmack! Herzklopfen und Heimlichkeiten. Feste,
+                  Warten und nochmals Warten in großer Unruhe und Aufregung. Wie viel Ängste auch und schlechtes
+                  Gewissen. Die Beichte am Samstag. Gott, der alles sieht. Aber auch Gott, der uns behütet.
                 </p>
                 <p>All das eingebettet in die Sprache der Kindheit.</p>
                 <p>
-                  Dörfliche, ländliche Kindheit. Nicht dass man einem Stadtkind
-                  eine spannende Kindheit absprechen möchte. Es wird sein
-                  Betätigungsfeld gesucht und es gefunden haben. Aber seine
-                  Erinnerungen sind andere. Seine Sprache ist eine andere. Frühe
-                  Sprache und Erinnerungen sind eins. Sich im Dialekt erinnern
-                  ist die Verzauberung eines Erwachsenen in das Kind von früher.
-                  Sein ungläubiges Lachen, wenn er auf ein längst verschüttetes
-                  Wort, eine Redewendung stößt, und dieser Fund, reich behangen
-                  mit bunten Fetzen, an sein einstiges Kinderherz pocht.
+                  Dörfliche, ländliche Kindheit. Nicht dass man einem Stadtkind eine spannende Kindheit absprechen
+                  möchte. Es wird sein Betätigungsfeld gesucht und es gefunden haben. Aber seine Erinnerungen sind
+                  andere. Seine Sprache ist eine andere. Frühe Sprache und Erinnerungen sind eins. Sich im Dialekt
+                  erinnern ist die Verzauberung eines Erwachsenen in das Kind von früher. Sein ungläubiges Lachen, wenn
+                  er auf ein längst verschüttetes Wort, eine Redewendung stößt, und dieser Fund, reich behangen mit
+                  bunten Fetzen, an sein einstiges Kinderherz pocht.
                 </p>
                 <p>
-                  Sind Heimatvereine, in denen die Mundart gepflegt wird,
-                  deshalb etwas für alt gewordene Kinder? Ist es lächerlich,
-                  altes Handwerk vor dem Vergessen zu bewahren? Alte Lieder zu
-                  singen? Altüberlieferte Trachten zu tragen?
+                  Sind Heimatvereine, in denen die Mundart gepflegt wird, deshalb etwas für alt gewordene Kinder? Ist es
+                  lächerlich, altes Handwerk vor dem Vergessen zu bewahren? Alte Lieder zu singen? Altüberlieferte
+                  Trachten zu tragen?
                 </p>
                 <p>
-                  Nein, ganz gewiss nicht! Ein Augenzwinkern sollte dabei aber
-                  erlaubt sein, denn wir wollen ja nicht zurück. Wir könnten es
-                  gar nicht, selbst wenn wir wollten. Aber wenn wir das Heute
-                  verstehen wollen, müssen wir auch das Gestern kennen. Dazu
-                  gehört die Überlieferung von Traditionen, und nicht zuletzt
+                  Nein, ganz gewiss nicht! Ein Augenzwinkern sollte dabei aber erlaubt sein, denn wir wollen ja nicht
+                  zurück. Wir könnten es gar nicht, selbst wenn wir wollten. Aber wenn wir das Heute verstehen wollen,
+                  müssen wir auch das Gestern kennen. Dazu gehört die Überlieferung von Traditionen, und nicht zuletzt
                   die mündliche Überlieferung, und schon sind wir beim Dialekt.
                 </p>
                 <p>
-                  Solange er gesprochen wird, können wir zurückkommen.
-                  Heimkommen. Heimat und Heimkommen haben miteinander zu tun.
-                  Sprache ist geistige Heimat. Beim Dialekt schwingen Leib und
-                  Seele mit. Das macht ihn zu allem hin auch noch so wunderbar
-                  sinnlich. Und wer möchte schließlich auf so etwas Schönes
+                  Solange er gesprochen wird, können wir zurückkommen. Heimkommen. Heimat und Heimkommen haben
+                  miteinander zu tun. Sprache ist geistige Heimat. Beim Dialekt schwingen Leib und Seele mit. Das macht
+                  ihn zu allem hin auch noch so wunderbar sinnlich. Und wer möchte schließlich auf so etwas Schönes
                   verzichten?
                 </p>
                 <div class="jahr">(2006)</div>
                 <p>&nbsp;</p>
                 <h3>Un nonemool uf alemannisch:</h3>
                 <p>
-                  Nit numme vo geschtern un vorgeschtern schriibe wott i, han i
-                  emol gsait. Des isch wohr. Un ainewäg stimmts nit ganz. Wer in
-                  de Kindheit Dialekt schwätzt, däno furtgoht und
-                  &#8222;hochdütsch&#8220; wird, findet bim Zruckko in sini
-                  Kindersprooch e kleins Paradies, wo s z Entdecke git. Un bim
-                  gnauere Hiiluege findet er natürlig au des eini oder anderi
-                  Fägfüürli oder au en Zipfel vo de Höll. S isch nit numme schön
-                  gsi frühejer, des wüsse mer alli &#8211; au wämmer hüt über
-                  vils lache, was frühjer nit zum Lache gsi isch. Min Dialekt
-                  isch mini Kindheit, un des isch lang her. Schriibe, dichte im
-                  Dialekt isch de Boge spanne zwüsche hüt un geschtern. Des soll
-                  aber nit heiße, dass en Dialekt vo geschtern isch. Er läbt, un
-                  er isch &#8211; hoffentlig &#8211; nit dotzkriege, au wenn en
-                  di Junge verlehre oder er am e schöne Dag villicht de
-                  Globalisierig zum Opfer fallt.
+                  Nit numme vo geschtern un vorgeschtern schriibe wott i, han i emol gsait. Des isch wohr. Un ainewäg
+                  stimmts nit ganz. Wer in de Kindheit Dialekt schwätzt, däno furtgoht und &#8222;hochdütsch&#8220;
+                  wird, findet bim Zruckko in sini Kindersprooch e kleins Paradies, wo s z Entdecke git. Un bim gnauere
+                  Hiiluege findet er natürlig au des eini oder anderi Fägfüürli oder au en Zipfel vo de Höll. S isch nit
+                  numme schön gsi frühejer, des wüsse mer alli &#8211; au wämmer hüt über vils lache, was frühjer nit
+                  zum Lache gsi isch. Min Dialekt isch mini Kindheit, un des isch lang her. Schriibe, dichte im Dialekt
+                  isch de Boge spanne zwüsche hüt un geschtern. Des soll aber nit heiße, dass en Dialekt vo geschtern
+                  isch. Er läbt, un er isch &#8211; hoffentlig &#8211; nit dotzkriege, au wenn en di Junge verlehre oder
+                  er am e schöne Dag villicht de Globalisierig zum Opfer fallt.
                 </p>
                 <div class="jahr">(Hausach, 2007)</div>
                 <div class="textschmal">
                   <p>
-                    Ich glaube, es besteht ein Bedarf, über alemannische
-                    Literatur zu sprechen. Das Lager teilt sich in (mindestens)
-                    zwei Haufen: Ländliche Idylle und moderne, anspruchsvolle
-                    Mundart. Letztere wird von den Idyllikern gemieden, und die
-                    Anspruchsvollen wollen alles sein, nur nicht idyllisch.
+                    Ich glaube, es besteht ein Bedarf, über alemannische Literatur zu sprechen. Das Lager teilt sich in
+                    (mindestens) zwei Haufen: Ländliche Idylle und moderne, anspruchsvolle Mundart. Letztere wird von
+                    den Idyllikern gemieden, und die Anspruchsvollen wollen alles sein, nur nicht idyllisch.
                   </p>
                   <p>
-                    Und doch gibt es etwas, das im besten Fall beide miteinander
-                    verbindet. Es ist der Humor, Vater und Mutter aller
-                    Weisheit, dazu der ganz besondere Humor eines Dialekts. Wenn
-                    er fehlt, ist der alemannischen Literatur nicht zu helfen,
-                    ist übrigens auch keiner anderen Literatur zu helfen.
+                    Und doch gibt es etwas, das im besten Fall beide miteinander verbindet. Es ist der Humor, Vater und
+                    Mutter aller Weisheit, dazu der ganz besondere Humor eines Dialekts. Wenn er fehlt, ist der
+                    alemannischen Literatur nicht zu helfen, ist übrigens auch keiner anderen Literatur zu helfen.
                   </p>
                 </div>
                 <div class="jahr">(2007)</div>
                 <div id="dichten">
                   <h3>Warum bloß auf alemannisch?</h3>
                   <p>
-                    Dichten in der Hochsprache: auch das gab es einmal. Bis mir
-                    eine alte, äußerst versierte Dichterin mitteilte, dass man
-                    meinen hochdeutschen Gedichten die Mühe anmerkte, die sie
-                    kosteten.<br />
-                    Etwas Besseres konnte mir nicht passieren. Die alemannischen
-                    Gedichte durften kommen. Und sie kamen, wie Gedichte im
-                    besten Fall kommen: durch seelische Berührung, Erregung,
-                    Flügelschläge in der Brust.<br />
+                    Dichten in der Hochsprache: auch das gab es einmal. Bis mir eine alte, äußerst versierte Dichterin
+                    mitteilte, dass man meinen hochdeutschen Gedichten die Mühe anmerkte, die sie kosteten.<br />
+                    Etwas Besseres konnte mir nicht passieren. Die alemannischen Gedichte durften kommen. Und sie kamen,
+                    wie Gedichte im besten Fall kommen: durch seelische Berührung, Erregung, Flügelschläge in der
+                    Brust.<br />
                     Ich war gemeint!<br />
-                    Papageienvögel im Maisfeld, Taschen aus Schnee am Hang, der
-                    mondhelle Kniepsand. Es kamen Bilder aus der Kinderzeit,
-                    Gedanken zum Alter. Die alemannische Fasnacht. Und immer
-                    wieder die Natur, die zu mir sprach. Mich festhielt.
-                    Erinnert sein wollte, im alemannischen Gedicht, der Sprache
-                    meiner Kindheit, geweckt aus einem alten Schlummer.<br />
+                    Papageienvögel im Maisfeld, Taschen aus Schnee am Hang, der mondhelle Kniepsand. Es kamen Bilder aus
+                    der Kinderzeit, Gedanken zum Alter. Die alemannische Fasnacht. Und immer wieder die Natur, die zu
+                    mir sprach. Mich festhielt. Erinnert sein wollte, im alemannischen Gedicht, der Sprache meiner
+                    Kindheit, geweckt aus einem alten Schlummer.<br />
                     <strong>Dichten = Bildhauern</strong><br />
                     Flügelschläge allein machen kein Gedicht.<br />
-                    Einem inneren Bild, einer Unruhe nachgehen und Worte dafür
-                    finden. Bildhauern, geführt und genarrt von einem Phantom.
-                    All das Weggehauene, hat es nicht viel mehr poetisches
-                    Potenzial als das mühsam Gerettete? Das bisschen Gedicht am
-                    Ende? Manchmal kommt, sehr beiläufig und wie aus Versehen,
-                    etwas ganz anderes daher. Hat scheinbar gar nichts mit
-                    diesem ehrenwerten Ringen der letzten Tage und Wochen zu
-                    tun. Ist ein Geschenk.<br />
-                    Einfach so und einfach da. Dankbarkeit, auch das gibt es
-                    beim Dichten.
+                    Einem inneren Bild, einer Unruhe nachgehen und Worte dafür finden. Bildhauern, geführt und genarrt
+                    von einem Phantom. All das Weggehauene, hat es nicht viel mehr poetisches Potenzial als das mühsam
+                    Gerettete? Das bisschen Gedicht am Ende? Manchmal kommt, sehr beiläufig und wie aus Versehen, etwas
+                    ganz anderes daher. Hat scheinbar gar nichts mit diesem ehrenwerten Ringen der letzten Tage und
+                    Wochen zu tun. Ist ein Geschenk.<br />
+                    Einfach so und einfach da. Dankbarkeit, auch das gibt es beim Dichten.
                   </p>
                 </div>
                 <div class="jahr">(2011)</div>
@@ -1123,15 +889,10 @@
 
             <div id="comments" class="comments-area">
               <div id="respond" class="comment-respond">
-                <h3 id="reply-title" class="comment-reply-title">
-                  Schreibe einen Kommentar
-                </h3>
+                <h3 id="reply-title" class="comment-reply-title">Schreibe einen Kommentar</h3>
                 <p class="must-log-in">
                   Du musst
-                  <a
-                    href="/wp-login.php?redirect_to=https%3A%2F%2F%2Fwurum-dialekt%2F"
-                    >angemeldet</a
-                  >
+                  <a href="/wp-login.php?redirect_to=https%3A%2F%2F%2Fwurum-dialekt%2F">angemeldet</a>
                   sein, um einen Kommentar abzugeben.
                 </p>
               </div>
@@ -1147,9 +908,7 @@
 
       <footer id="colophon" class="site-footer" role="contentinfo">
         <div class="site-info">
-          <a href="https://de.wordpress.org/"
-            >Stolz präsentiert von WordPress</a
-          >
+          <a href="https://de.wordpress.org/">Stolz präsentiert von WordPress</a>
         </div>
         <!-- .site-info -->
       </footer>
@@ -1166,8 +925,7 @@
       /* <![CDATA[ */
       var screenReaderText = {
         expand: '<span class="screen-reader-text">Untermenü anzeigen<\/span>',
-        collapse:
-          '<span class="screen-reader-text">Untermenü verbergen<\/span>',
+        collapse: '<span class="screen-reader-text">Untermenü verbergen<\/span>',
       };
       /* ]]> */
     </script>

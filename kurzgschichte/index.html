@@ -19,12 +19,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//s.w.org" />
     <link rel="dns-prefetch" href="//v0.wordpress.com" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Website von Carola Horstmann &raquo; Feed"
-      href="/feed/"
-    />
+    <link rel="alternate" type="application/rss+xml" title="Website von Carola Horstmann &raquo; Feed" href="/feed/" />
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -38,8 +33,7 @@
         svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         svgExt: ".svg",
         source: {
-          concatemoji:
-            "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
+          concatemoji: "httpscarola-horstmann.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1",
         },
       };
       /*! This file is auto-generated */
@@ -51,69 +45,43 @@
           p = i.getContext && i.getContext("2d");
         function s(e, t) {
           var a = String.fromCharCode,
-            e =
-              (p.clearRect(0, 0, i.width, i.height),
-              p.fillText(a.apply(this, e), 0, 0),
-              i.toDataURL());
-          return (
-            p.clearRect(0, 0, i.width, i.height),
-            p.fillText(a.apply(this, t), 0, 0),
-            e === i.toDataURL()
-          );
+            e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+          return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL();
         }
         function c(e) {
           var t = a.createElement("script");
-          (t.src = e),
-            (t.defer = t.type = "text/javascript"),
-            a.getElementsByTagName("head")[0].appendChild(t);
+          (t.src = e), (t.defer = t.type = "text/javascript"), a.getElementsByTagName("head")[0].appendChild(t);
         }
         for (
-          o = Array("flag", "emoji"),
-            t.supports = { everything: !0, everythingExceptFlag: !0 },
-            r = 0;
+          o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0;
           r < o.length;
           r++
         )
           (t.supports[o[r]] = (function (e) {
             if (!p || !p.fillText) return !1;
-            switch (
-              ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
-            ) {
+            switch (((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)) {
               case "flag":
-                return s(
-                  [127987, 65039, 8205, 9895, 65039],
-                  [127987, 65039, 8203, 9895, 65039]
-                )
+                return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039])
                   ? !1
-                  : !s(
-                      [55356, 56826, 55356, 56819],
-                      [55356, 56826, 8203, 55356, 56819]
-                    ) &&
+                  : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) &&
                       !s(
                         [
-                          55356, 57332, 56128, 56423, 56128, 56418, 56128,
-                          56421, 56128, 56430, 56128, 56423, 56128, 56447,
+                          55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128,
+                          56447,
                         ],
                         [
-                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418,
-                          8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128,
-                          56423, 8203, 56128, 56447,
+                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430,
+                          8203, 56128, 56423, 8203, 56128, 56447,
                         ]
                       );
               case "emoji":
-                return !s(
-                  [129777, 127995, 8205, 129778, 127999],
-                  [129777, 127995, 8203, 129778, 127999]
-                );
+                return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]);
             }
             return !1;
           })(o[r])),
             (t.supports.everything = t.supports.everything && t.supports[o[r]]),
-            "flag" !== o[r] &&
-              (t.supports.everythingExceptFlag =
-                t.supports.everythingExceptFlag && t.supports[o[r]]);
-        (t.supports.everythingExceptFlag =
-          t.supports.everythingExceptFlag && !t.supports.flag),
+            "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag),
           (t.DOMReady = !1),
           (t.readyCallback = function () {
             t.DOMReady = !0;
@@ -123,8 +91,7 @@
               t.readyCallback();
             }),
             a.addEventListener
-              ? (a.addEventListener("DOMContentLoaded", n, !1),
-                e.addEventListener("load", n, !1))
+              ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1))
               : (e.attachEvent("onload", n),
                 a.attachEvent("onreadystatechange", function () {
                   "complete" === a.readyState && t.readyCallback();
@@ -252,16 +219,8 @@
           rgb(182, 227, 212) 50%,
           rgb(51, 167, 181) 100%
         );
-        --wp--preset--gradient--electric-grass: linear-gradient(
-          135deg,
-          rgb(202, 248, 128) 0%,
-          rgb(113, 206, 126) 100%
-        );
-        --wp--preset--gradient--midnight: linear-gradient(
-          135deg,
-          rgb(2, 3, 129) 0%,
-          rgb(40, 116, 252) 100%
-        );
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
         --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
         --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
         --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
@@ -327,14 +286,10 @@
         background-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-background-color {
-        background-color: var(
-          --wp--preset--color--luminous-vivid-amber
-        ) !important;
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
       }
       .has-light-green-cyan-background-color {
         background-color: var(--wp--preset--color--light-green-cyan) !important;
@@ -367,9 +322,7 @@
         border-color: var(--wp--preset--color--vivid-red) !important;
       }
       .has-luminous-vivid-orange-border-color {
-        border-color: var(
-          --wp--preset--color--luminous-vivid-orange
-        ) !important;
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-amber-border-color {
         border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
@@ -390,34 +343,22 @@
         border-color: var(--wp--preset--color--vivid-purple) !important;
       }
       .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-        background: var(
-          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
-        ) !important;
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
       }
       .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-        background: var(
-          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
-        ) !important;
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
       }
       .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
       }
       .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-        background: var(
-          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
-        ) !important;
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
       }
       .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-        background: var(
-          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
-        ) !important;
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
       }
       .has-cool-to-warm-spectrum-gradient-background {
-        background: var(
-          --wp--preset--gradient--cool-to-warm-spectrum
-        ) !important;
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
       }
       .has-blush-light-purple-gradient-background {
         background: var(--wp--preset--gradient--blush-light-purple) !important;
@@ -496,33 +437,16 @@
       type="text/css"
       media="all"
     />
-    <script
-      type="text/javascript"
-      src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0"
-      id="jquery-core-js"
-    ></script>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
     <script
       type="text/javascript"
       src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
       id="jquery-migrate-js"
     ></script>
     <link rel="https://api.w.org/" href="/wp-json/" />
-    <link
-      rel="alternate"
-      type="application/json"
-      href="/wp-json/wp/v2/pages/27"
-    />
-    <link
-      rel="EditURI"
-      type="application/rsd+xml"
-      title="RSD"
-      href="/xmlrpc.php?rsd"
-    />
-    <link
-      rel="wlwmanifest"
-      type="application/wlwmanifest+xml"
-      href="/wp-includes/wlwmanifest.xml"
-    />
+    <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/27" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.0.1" />
     <link rel="canonical" href="/kurzgschichte/" />
     <link rel="shortlink" href="https://wp.me/P6efJc-r" />
@@ -550,14 +474,8 @@
       property="og:description"
       content="Textproben Moneli S Moneli säh, des isch fascht no besser als Gutzeli un Brausi kaufe. Des hämmer nämlich grad gmacht, de Peter un i. Durch d Aalage dure grennt, am Sprützbrunne vorbei un abe zum B…"
     />
-    <meta
-      property="article:published_time"
-      content="2015-05-21T19:45:58+00:00"
-    />
-    <meta
-      property="article:modified_time"
-      content="2015-06-17T21:03:31+00:00"
-    />
+    <meta property="article:published_time" content="2015-05-21T19:45:58+00:00" />
+    <meta property="article:modified_time" content="2015-06-17T21:03:31+00:00" />
     <meta property="og:site_name" content="Website von Carola Horstmann" />
     <meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
     <meta property="og:image:alt" content="" />
@@ -587,15 +505,8 @@
       }
 
       .site-main {
-        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg")
-          repeat-y;
+        background: url("http://mudderhp.charra.de/wp-content/uploads/2015/06/siderosettig_100px.jpg") repeat-y;
         min-height: 1500px;
-      }
-
-      .hentry,
-      .page-header,
-      .page-content {
-        margin: 0 100px;
       }
 
       #comments,
@@ -624,9 +535,7 @@
 
   <body class="page-template-default page page-id-27">
     <div id="page" class="hfeed site">
-      <a class="skip-link screen-reader-text" href="#content"
-        >Springe zum Inhalt</a
-      >
+      <a class="skip-link screen-reader-text" href="#content">Springe zum Inhalt</a>
 
       <div id="sidebar" class="sidebar">
         <header id="masthead" class="site-header" role="banner">
@@ -644,66 +553,37 @@
           <nav id="site-navigation" class="main-navigation" role="navigation">
             <div class="menu-menu-container">
               <ul id="menu-menu" class="nav-menu">
-                <li
-                  id="menu-item-17"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"
-                >
+                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17">
                   <a href="/uber-mi/">Über mi</a>
                 </li>
-                <li
-                  id="menu-item-12"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"
-                >
+                <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
                   <a href="/wurum-dialekt/">Wurum Dialekt?</a>
                 </li>
-                <li
-                  id="menu-item-26"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
-                >
+                <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
                   <a href="/gedichter/">Gedichter</a>
                 </li>
-                <li
-                  id="menu-item-167"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"
-                >
+                <li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167">
                   <a href="/mini-buecher/">Mini Büecher</a>
                 </li>
                 <li
                   id="menu-item-28"
                   class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27 current_page_item menu-item-28"
                 >
-                  <a href="/kurzgschichte/" aria-current="page"
-                    >Kurzgschichte</a
-                  >
+                  <a href="/kurzgschichte/" aria-current="page">Kurzgschichte</a>
                 </li>
-                <li
-                  id="menu-item-45"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"
-                >
+                <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">
                   <a href="/presse/">Presse</a>
                 </li>
-                <li
-                  id="menu-item-234"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"
-                >
+                <li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234">
                   <a href="/priiswuerdig/">Priiswürdig</a>
                 </li>
-                <li
-                  id="menu-item-40"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"
-                >
+                <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
                   <a href="/looset-emool-iine/">Zum Loose</a>
                 </li>
-                <li
-                  id="menu-item-49"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
-                >
+                <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
                   <a href="/foti/">Zum Luege</a>
                 </li>
-                <li
-                  id="menu-item-115"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"
-                >
+                <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115">
                   <a href="/impressum/">Kontakt &#038; Impressum</a>
                 </li>
               </ul>
@@ -735,10 +615,7 @@
       <div id="content" class="site-content">
         <div id="primary" class="content-area">
           <main id="main" class="site-main" role="main">
-            <article
-              id="post-27"
-              class="post-27 page type-page status-publish hentry"
-            >
+            <article id="post-27" class="post-27 page type-page status-publish hentry">
               <header class="entry-header">
                 <h1 class="entry-title">Kurzgschichte</h1>
               </header>
@@ -749,53 +626,38 @@
                   <h3>Textproben</h3>
                   <h4>Moneli</h4>
                   <p>
-                    S Moneli säh, des isch fascht no besser als Gutzeli un
-                    Brausi kaufe. Des hämmer nämlich grad gmacht, de Peter un i.
-                    Durch d Aalage dure grennt, am Sprützbrunne vorbei un abe
-                    zum Bahnhofskiosk. Lueg, s Moneli&#8220;, hät de Peter gsait
-                    un schnell si Münz iigschteckt, &#8222;mach, suscht isch si
-                    furt.&#8220; Schad, dass es uff eimol so pressiert hät mit
-                    em Uussueche. Aber i han au so gwüßt, dass es für e gfüllti
-                    Waffle nit längt un au nit für Pfefferminzbruch, mi Geld.
-                    Moneli, wart&#8220;, hät jetz de Peter gruefe un hät em mit
-                    sim Züg gwunke. Drei Nappo sin s gsi un in de andere Hand e
-                    Rolle Bäredräck. S Moneli hät zu uns übereglinst un isch als
-                    wittergloffe. Schnell han i e Stängeli Zitronetäfeli kauft,
-                    selli wo mer so lang schlotzt, bis zletscht d Zungeschpitze
-                    imme Gitterli inne steckt. De Peter isch scho vorne an de
-                    Stroß gsi, s Moneli äne uff de andere Site, wie immer s Muul
-                    uff als hett s de Schnupper oder wär e Fisch. Bim Laufe hät
-                    s sini krumme Knü duredruckt un sich an dere vil z große
-                    Handdäsche feschtghebt &#8230;&#8230;
+                    S Moneli säh, des isch fascht no besser als Gutzeli un Brausi kaufe. Des hämmer nämlich grad gmacht,
+                    de Peter un i. Durch d Aalage dure grennt, am Sprützbrunne vorbei un abe zum Bahnhofskiosk. Lueg, s
+                    Moneli&#8220;, hät de Peter gsait un schnell si Münz iigschteckt, &#8222;mach, suscht isch si
+                    furt.&#8220; Schad, dass es uff eimol so pressiert hät mit em Uussueche. Aber i han au so gwüßt,
+                    dass es für e gfüllti Waffle nit längt un au nit für Pfefferminzbruch, mi Geld. Moneli, wart&#8220;,
+                    hät jetz de Peter gruefe un hät em mit sim Züg gwunke. Drei Nappo sin s gsi un in de andere Hand e
+                    Rolle Bäredräck. S Moneli hät zu uns übereglinst un isch als wittergloffe. Schnell han i e Stängeli
+                    Zitronetäfeli kauft, selli wo mer so lang schlotzt, bis zletscht d Zungeschpitze imme Gitterli inne
+                    steckt. De Peter isch scho vorne an de Stroß gsi, s Moneli äne uff de andere Site, wie immer s Muul
+                    uff als hett s de Schnupper oder wär e Fisch. Bim Laufe hät s sini krumme Knü duredruckt un sich an
+                    dere vil z große Handdäsche feschtghebt &#8230;&#8230;
                   </p>
                   <div class="untertitel">
-                    Oberrheinischer Rollwagen: &#8222;Moneli&#8220; wurde 2004
-                    an der &#8222;Buch Basel&#8220; mit dem 1. Preis
-                    ausgezeichnet
+                    Oberrheinischer Rollwagen: &#8222;Moneli&#8220; wurde 2004 an der &#8222;Buch Basel&#8220; mit dem
+                    1. Preis ausgezeichnet
                   </div>
                   <div class="jahr"></div>
                   <h4>Tschau bella!</h4>
                   <p>
-                    Klei sin si gsi, kurzi Stumpe mit me Käppi ufm Kopf, unseri
-                    erschte Gaschtarbeiter. An de gröschte Krüzig vom Stedtli
-                    gschtande, im Rucke d Abedeek mittem Türmli un visavis de
-                    herrschaftlig Löbe&#8220;, un hän gluegt: de Auto nooch, de
-                    Lütt. Des hät mer bi uns so nit kennt, aane stoh, numme zum
-                    go luege, un bal hät dä Treffpunkt e Name kriegt:
-                    Latschari-Platz. Jede im Stedtli hät gwüsst, wie des gmeint
-                    isch. Numme d Idaljäner nit. Si hän jo kei Dütsch gschwätzt.
-                    Am Sunndigobe hät mer si als in de Telifonzelle gsäh stoh,
-                    unte, vor de Poscht, un in Hörer iine briele. Des isch s
-                    Heimweh gsi. Di kleine Idaljäner hän Heimweh gha. Si hän ein
-                    duurt, jo, aber aaschiniert hät s ein au e weng. So lut go
-                    briele, wo s jede höre ka. Des hät mer bi uns so nit kennt
-                    &#8230;&#8230;
+                    Klei sin si gsi, kurzi Stumpe mit me Käppi ufm Kopf, unseri erschte Gaschtarbeiter. An de gröschte
+                    Krüzig vom Stedtli gschtande, im Rucke d Abedeek mittem Türmli un visavis de herrschaftlig
+                    Löbe&#8220;, un hän gluegt: de Auto nooch, de Lütt. Des hät mer bi uns so nit kennt, aane stoh,
+                    numme zum go luege, un bal hät dä Treffpunkt e Name kriegt: Latschari-Platz. Jede im Stedtli hät
+                    gwüsst, wie des gmeint isch. Numme d Idaljäner nit. Si hän jo kei Dütsch gschwätzt. Am Sunndigobe
+                    hät mer si als in de Telifonzelle gsäh stoh, unte, vor de Poscht, un in Hörer iine briele. Des isch
+                    s Heimweh gsi. Di kleine Idaljäner hän Heimweh gha. Si hän ein duurt, jo, aber aaschiniert hät s ein
+                    au e weng. So lut go briele, wo s jede höre ka. Des hät mer bi uns so nit kennt &#8230;&#8230;
                   </p>
                   <div class="jahr"></div>
                   <h4 id="schraetteli">Schrättelilarve</h4>
                   <p>
-                    <a
-                      href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/schraettelilarve.jpg"
+                    <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/schraettelilarve.jpg"
                       ><img
                         data-attachment-id="143"
                         data-permalink="httpscarola-horstmann.de/foti/schraettelilarve/"
@@ -813,31 +675,23 @@
                         alt="schraettelilarve"
                         width="160"
                         height="217" /></a
-                    >In de Nacht kunnt eins und luegt mi aa mit sine Auge,
-                    Larvenauge, wie usegschellt mit me scharfe Messer, drunter
-                    des niidigi Muul. E diefs Brumme. De Bär git im böse Zwerg
-                    mit sinere Datze en Streich, dass er dot umkheit. Aber
-                    Schrätteli sin keini Bäre.
+                    >In de Nacht kunnt eins und luegt mi aa mit sine Auge, Larvenauge, wie usegschellt mit me scharfe
+                    Messer, drunter des niidigi Muul. E diefs Brumme. De Bär git im böse Zwerg mit sinere Datze en
+                    Streich, dass er dot umkheit. Aber Schrätteli sin keini Bäre.
                   </p>
+                  <p>&#8222;Schrätteli sin Turner&#8220;, sait de älter Brueder.</p>
                   <p>
-                    &#8222;Schrätteli sin Turner&#8220;, sait de älter Brueder.
-                  </p>
-                  <p>
-                    S isch Tag, un mer warte uf de Umzug. Wimpeli flattere vo
-                    eim Dach zum andere. Uf de Strooße Schnee. D Lüt uf m
-                    Trottwar druckts anenander, s isch niene kei Dureko meh. Vor
-                    de Volksschuel di groß Tribüne, un us de Luttsprecher
-                    plärrts. D Schrätteli sin als die erschte. No bevor di ganze
-                    schnürligrade Kapelle an eim dure trampe, d Fanfare päpe un
-                    d Trummle trummle, bevor di erschte prächtige Zümft un d
-                    Umzugswäge kömme, fahre si uf de Stroß umenander wie
-                    wildgwordeni Hummle &#8230;..
+                    S isch Tag, un mer warte uf de Umzug. Wimpeli flattere vo eim Dach zum andere. Uf de Strooße Schnee.
+                    D Lüt uf m Trottwar druckts anenander, s isch niene kei Dureko meh. Vor de Volksschuel di groß
+                    Tribüne, un us de Luttsprecher plärrts. D Schrätteli sin als die erschte. No bevor di ganze
+                    schnürligrade Kapelle an eim dure trampe, d Fanfare päpe un d Trummle trummle, bevor di erschte
+                    prächtige Zümft un d Umzugswäge kömme, fahre si uf de Stroß umenander wie wildgwordeni Hummle
+                    &#8230;..
                   </p>
                   <div class="jahr"></div>
                   <h4>Vom Ässe</h4>
                   <p>
-                    <a
-                      href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/vomAesse.jpg"
+                    <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/vomAesse.jpg"
                       ><img
                         data-attachment-id="145"
                         data-permalink="httpscarola-horstmann.de/foti/vomaesse/"
@@ -857,33 +711,26 @@
                         width="144"
                         height="216" /></a
                     ><br />
-                    &#8230; un wurum des alles? Dampfnudle sin s gsi, dicki
-                    Hefeklöß mit ere salzige oder au süeße Kruschte, wo eim bim
-                    Kaue d Zäh, s ganz Muul verkläbt hänt. Brooteni
-                    Grießpfludde, Mehlsuppe, Herdöpfelschtock mit Zibelesooß,
-                    Spinat, alli Köhl, däno Brotuflauf mit Wiisooß, Bluet- un
-                    Läberwürscht, Suurkrutt, Griebe, Stockfisch &#8230; Ässe!
-                    Hät s gheiße. Anderi müen hungere &#8230;
+                    &#8230; un wurum des alles? Dampfnudle sin s gsi, dicki Hefeklöß mit ere salzige oder au süeße
+                    Kruschte, wo eim bim Kaue d Zäh, s ganz Muul verkläbt hänt. Brooteni Grießpfludde, Mehlsuppe,
+                    Herdöpfelschtock mit Zibelesooß, Spinat, alli Köhl, däno Brotuflauf mit Wiisooß, Bluet- un
+                    Läberwürscht, Suurkrutt, Griebe, Stockfisch &#8230; Ässe! Hät s gheiße. Anderi müen hungere &#8230;
                   </p>
                   <h4>Hotelzimmer in Paris</h4>
                   <p>
-                    Hüt hät mi e Bild aagluegt, un i ha zruckgluegt. S hängt
-                    scho lang in mim Zimmer, s isch e Druck, e Lithographi.
+                    Hüt hät mi e Bild aagluegt, un i ha zruckgluegt. S hängt scho lang in mim Zimmer, s isch e Druck, e
+                    Lithographi.
                     <span class="emph">E. A. Hotelzimmer in Paris, 1971</span>
-                    stoht unte links mit Bleischtift, un rechts de Namme vo
-                    sellem alte Moler, wo de Vreni dört de erschti Abzug
-                    gschenkt hät. D Vreni hät des groß Blatt eifach mit
-                    Riißnägel an d Düre vo ihrem Wohnzimmer aane pfetzt. Wämmer
-                    gfrogt hät, ob si s nit endlig iirahme wott, hät si glacht.
-                    Aber debii sin ihri Auge no blauer worde un d Hoor als wie
-                    röter, un de häsch gwüßt, dass de z witt gange bisch. Si hät
-                    sich nämlig nit gern bbis sage lo &#8230;&#8230;
+                    stoht unte links mit Bleischtift, un rechts de Namme vo sellem alte Moler, wo de Vreni dört de
+                    erschti Abzug gschenkt hät. D Vreni hät des groß Blatt eifach mit Riißnägel an d Düre vo ihrem
+                    Wohnzimmer aane pfetzt. Wämmer gfrogt hät, ob si s nit endlig iirahme wott, hät si glacht. Aber
+                    debii sin ihri Auge no blauer worde un d Hoor als wie röter, un de häsch gwüßt, dass de z witt gange
+                    bisch. Si hät sich nämlig nit gern bbis sage lo &#8230;&#8230;
                   </p>
                   <div class="jahr"></div>
                   <h4>Unter mine Füeß</h4>
                   <p>
-                    <a
-                      href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/vulkan.jpg"
+                    <a href="http://www.carola-horstmann.de/wp-content/uploads/2015/05/vulkan.jpg"
                       ><img
                         data-attachment-id="146"
                         data-permalink="httpscarola-horstmann.de/foti/vulkan/"
@@ -902,52 +749,36 @@
                         alt="vulkan"
                         width="160"
                         height="240" /></a
-                    >S erschti Stuck vom Ätna wirsch in ere Kabine ufe zooge. De
-                    Ätna isch min erschte Vulkan. No us Kinderzitte sin bi mir d
-                    Bilder vom e Vulkan un Bilder vo de Höll direkt näbenander
-                    gschpeicheret: In beide wüetet e großis Füür, un bi beide
-                    hilft Renne nüt. Un jetz gohts also uf so en Vulkan mit em e
-                    Bähnli. Noch de erschte paar Buckel meinsch, de luegsch uf e
-                    großi Hutkranket abe: Schuppe, Ruufe, Flächte. D Matte wie
-                    abplätzte alte Samt, über d Felse schliicht en gäle Schuum.
-                    Kei Baum un kei Struuch niene. Hän si dä Berg vergiftet? Obe
-                    müemer z Fueß an ere Schneise dure, wo d Lava in d Häng
-                    gschlage hät vor no gar nit langer Zitt. Hüt lit die
-                    Riisezunge, wo dörtmols noch de Hüser gschleckt hät, wien e
-                    Denkmol do, gschtrandet imme Huffe Steiplodere &#8230;
+                    >S erschti Stuck vom Ätna wirsch in ere Kabine ufe zooge. De Ätna isch min erschte Vulkan. No us
+                    Kinderzitte sin bi mir d Bilder vom e Vulkan un Bilder vo de Höll direkt näbenander gschpeicheret:
+                    In beide wüetet e großis Füür, un bi beide hilft Renne nüt. Un jetz gohts also uf so en Vulkan mit
+                    em e Bähnli. Noch de erschte paar Buckel meinsch, de luegsch uf e großi Hutkranket abe: Schuppe,
+                    Ruufe, Flächte. D Matte wie abplätzte alte Samt, über d Felse schliicht en gäle Schuum. Kei Baum un
+                    kei Struuch niene. Hän si dä Berg vergiftet? Obe müemer z Fueß an ere Schneise dure, wo d Lava in d
+                    Häng gschlage hät vor no gar nit langer Zitt. Hüt lit die Riisezunge, wo dörtmols noch de Hüser
+                    gschleckt hät, wien e Denkmol do, gschtrandet imme Huffe Steiplodere &#8230;
                   </p>
                   <div class="jahr"></div>
                   <h4>D Lehrergärte</h4>
                   <p>
-                    D Pia hät ihre Lehrer lang scho kennt, bevor si in d Schuel
-                    ko isch und selle Ärnscht vom Läbe agfange hät.
-                    <span class="emph">S Lehrerhuus</span> isch visavis vo ihrem
-                    Huus gschtande, am End vo de Stroß, un däzwüsche sin d Gärte
-                    vo de Lehrer ko. In die hät d Pia vo ihrem Fenschter us vo
-                    obe iine luege könne. Dört hät s en als gsäh, de Lehrer,
-                    wenn er am Obe in sim Gärtli grabe und gschnitte hät. Si hät
-                    em als öbbis zuegruefe un e gueti Nacht gwünscht, un er hät
-                    uffe gluegt, mit de Pfiife im Muul, un hät gnickt. Aber nit
-                    jedis Mool. Wo sie däno in d Schuel ko isch, hät si denkt,
-                    dass si ihm bi allem helfe derf, well er un si sich doch so
-                    lang scho kenne. Aber s isch alles ganz anderscht ko. Erscht
-                    emol hät s em nümmi &#8222;du&#8220; sage dürfe. Des hät ere
-                    weh due, un si häts nit so ganz verschtande. Si sin doch
-                    alti Fründ und bruuche doch nit so due, als däte si enander
-                    nit kenne. Si hät em e weng uff d Sprüng helfe welle un hät
-                    Spässli gmacht, sich unterm Pult verschteckt, Kuckuck gruefe
-                    un de Lehrer am Bei graablet. No unterm Pult hät s en
-                    gfrogt, ob er Durscht hett, un &#8222;Schlupf in e
-                    Wurscht!&#8220; gruefe, bevor er hät öbbis sage könne. De
-                    Lehrer hät des alles gar nit welle und isch bös worde. Sogar
-                    Tatze, hät er gsait, kriegt si, wenn si nit uffhört, oder si
-                    mueß use, vor d Türe. Sini helle Auge im summerschprossige
-                    Gsicht sin ganz duschter gworde, wenn er si agluegt hät
-                    &#8230;&#8230;
+                    D Pia hät ihre Lehrer lang scho kennt, bevor si in d Schuel ko isch und selle Ärnscht vom Läbe
+                    agfange hät.
+                    <span class="emph">S Lehrerhuus</span> isch visavis vo ihrem Huus gschtande, am End vo de Stroß, un
+                    däzwüsche sin d Gärte vo de Lehrer ko. In die hät d Pia vo ihrem Fenschter us vo obe iine luege
+                    könne. Dört hät s en als gsäh, de Lehrer, wenn er am Obe in sim Gärtli grabe und gschnitte hät. Si
+                    hät em als öbbis zuegruefe un e gueti Nacht gwünscht, un er hät uffe gluegt, mit de Pfiife im Muul,
+                    un hät gnickt. Aber nit jedis Mool. Wo sie däno in d Schuel ko isch, hät si denkt, dass si ihm bi
+                    allem helfe derf, well er un si sich doch so lang scho kenne. Aber s isch alles ganz anderscht ko.
+                    Erscht emol hät s em nümmi &#8222;du&#8220; sage dürfe. Des hät ere weh due, un si häts nit so ganz
+                    verschtande. Si sin doch alti Fründ und bruuche doch nit so due, als däte si enander nit kenne. Si
+                    hät em e weng uff d Sprüng helfe welle un hät Spässli gmacht, sich unterm Pult verschteckt, Kuckuck
+                    gruefe un de Lehrer am Bei graablet. No unterm Pult hät s en gfrogt, ob er Durscht hett, un
+                    &#8222;Schlupf in e Wurscht!&#8220; gruefe, bevor er hät öbbis sage könne. De Lehrer hät des alles
+                    gar nit welle und isch bös worde. Sogar Tatze, hät er gsait, kriegt si, wenn si nit uffhört, oder si
+                    mueß use, vor d Türe. Sini helle Auge im summerschprossige Gsicht sin ganz duschter gworde, wenn er
+                    si agluegt hät &#8230;&#8230;
                   </p>
-                  <div class="untertitel">
-                    3.Preis beim Oberrheinischen Rollwagen 2003
-                  </div>
+                  <div class="untertitel">3.Preis beim Oberrheinischen Rollwagen 2003</div>
                   <div class="jahr"></div>
                 </div>
               </div>
@@ -963,9 +794,7 @@
 
       <footer id="colophon" class="site-footer" role="contentinfo">
         <div class="site-info">
-          <a href="https://de.wordpress.org/"
-            >Stolz präsentiert von WordPress</a
-          >
+          <a href="https://de.wordpress.org/">Stolz präsentiert von WordPress</a>
         </div>
         <!-- .site-info -->
       </footer>
@@ -988,100 +817,43 @@
         >
           <div class="jp-carousel swiper-wrapper"></div>
           <div class="jp-swiper-button-prev swiper-button-prev">
-            <svg
-              width="25"
-              height="24"
-              viewbox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="maskPrev"
-                mask-type="alpha"
-                maskunits="userSpaceOnUse"
-                x="8"
-                y="6"
-                width="9"
-                height="12"
-              >
+            <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="maskPrev" mask-type="alpha" maskunits="userSpaceOnUse" x="8" y="6" width="9" height="12">
                 <path
                   d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z"
                   fill="white"
                 ></path>
               </mask>
               <g mask="url(#maskPrev)">
-                <rect
-                  x="0.579102"
-                  width="23.8823"
-                  height="24"
-                  fill="#FFFFFF"
-                ></rect>
+                <rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"></rect>
               </g>
             </svg>
           </div>
           <div class="jp-swiper-button-next swiper-button-next">
-            <svg
-              width="25"
-              height="24"
-              viewbox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <mask
-                id="maskNext"
-                mask-type="alpha"
-                maskunits="userSpaceOnUse"
-                x="8"
-                y="6"
-                width="8"
-                height="12"
-              >
+            <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="maskNext" mask-type="alpha" maskunits="userSpaceOnUse" x="8" y="6" width="8" height="12">
                 <path
                   d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z"
                   fill="white"
                 ></path>
               </mask>
               <g mask="url(#maskNext)">
-                <rect
-                  x="0.34375"
-                  width="23.8822"
-                  height="24"
-                  fill="#FFFFFF"
-                ></rect>
+                <rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"></rect>
               </g>
             </svg>
           </div>
         </div>
         <!-- The main close buton -->
         <div class="jp-carousel-close-hint">
-          <svg
-            width="25"
-            height="24"
-            viewbox="0 0 25 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <mask
-              id="maskClose"
-              mask-type="alpha"
-              maskunits="userSpaceOnUse"
-              x="5"
-              y="5"
-              width="15"
-              height="14"
-            >
+          <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskClose" mask-type="alpha" maskunits="userSpaceOnUse" x="5" y="5" width="15" height="14">
               <path
                 d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z"
                 fill="white"
               ></path>
             </mask>
             <g mask="url(#maskClose)">
-              <rect
-                x="0.409668"
-                width="23.8823"
-                height="24"
-                fill="#FFFFFF"
-              ></rect>
+              <rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"></rect>
             </g>
           </svg>
         </div>
@@ -1102,22 +874,8 @@
                 aria-label="Sichtbarkeit von Fotometadaten ändern"
               >
                 <span class="jp-carousel-icon">
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="maskInfo"
-                      mask-type="alpha"
-                      maskunits="userSpaceOnUse"
-                      x="2"
-                      y="2"
-                      width="21"
-                      height="20"
-                    >
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="maskInfo" mask-type="alpha" maskunits="userSpaceOnUse" x="2" y="2" width="21" height="20">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -1126,12 +884,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#maskInfo)">
-                      <rect
-                        x="0.8125"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
                 </span>
@@ -1142,13 +895,7 @@
                 aria-label="Sichtbarkeit von Fotokommentaren ändern"
               >
                 <span class="jp-carousel-icon">
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask
                       id="maskComments"
                       mask-type="alpha"
@@ -1166,12 +913,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#maskComments)">
-                      <rect
-                        x="0.34668"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
 
@@ -1199,9 +941,7 @@
                   <div id="jp-carousel-comment-form-commenting-as">
                     <p id="jp-carousel-commenting-as">
                       Du muss
-                      <a href="#" class="jp-carousel-comment-login"
-                        >angemeldet</a
-                      >
+                      <a href="#" class="jp-carousel-comment-login">angemeldet</a>
                       sein, um einen Kommentar zu veröffentlichen.
                     </p>
                   </div>
@@ -1210,36 +950,15 @@
               <div class="jp-carousel-image-meta">
                 <div class="jp-carousel-title-and-caption">
                   <div class="jp-carousel-photo-info">
-                    <h3
-                      class="jp-carousel-caption"
-                      itemprop="caption description"
-                    ></h3>
+                    <h3 class="jp-carousel-caption" itemprop="caption description"></h3>
                   </div>
 
                   <div class="jp-carousel-photo-description"></div>
                 </div>
                 <ul class="jp-carousel-image-exif" style="display: none"></ul>
-                <a
-                  class="jp-carousel-image-download"
-                  target="_blank"
-                  style="display: none"
-                >
-                  <svg
-                    width="25"
-                    height="24"
-                    viewbox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <mask
-                      id="mask0"
-                      mask-type="alpha"
-                      maskunits="userSpaceOnUse"
-                      x="3"
-                      y="3"
-                      width="19"
-                      height="18"
-                    >
+                <a class="jp-carousel-image-download" target="_blank" style="display: none">
+                  <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha" maskunits="userSpaceOnUse" x="3" y="3" width="19" height="18">
                       <path
                         fill-rule="evenodd"
                         clip-rule="evenodd"
@@ -1248,12 +967,7 @@
                       ></path>
                     </mask>
                     <g mask="url(#mask0)">
-                      <rect
-                        x="0.870605"
-                        width="23.8823"
-                        height="24"
-                        fill="#FFFFFF"
-                      ></rect>
+                      <rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"></rect>
                     </g>
                   </svg>
                   <span class="jp-carousel-download-text"></span>
@@ -1274,8 +988,7 @@
       /* <![CDATA[ */
       var screenReaderText = {
         expand: '<span class="screen-reader-text">Untermenü anzeigen<\/span>',
-        collapse:
-          '<span class="screen-reader-text">Untermenü verbergen<\/span>',
+        collapse: '<span class="screen-reader-text">Untermenü verbergen<\/span>',
       };
       /* ]]> */
     </script>
@@ -1306,13 +1019,10 @@
         loading_comments: "Lade Kommentare …",
         download_original:
           'Bild in Originalgröße anschauen <span class="photo-size">{0}<span class="photo-size-times">×<\/span>{1}<\/span>',
-        no_comment_text:
-          "Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text übermittelst.",
-        no_comment_email:
-          "Bitte eine E-Mail-Adresse angeben, um zu kommentieren.",
+        no_comment_text: "Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text übermittelst.",
+        no_comment_email: "Bitte eine E-Mail-Adresse angeben, um zu kommentieren.",
         no_comment_author: "Bitte deinen Namen angeben, um zu kommentieren.",
-        comment_post_error:
-          "Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es später erneut.",
+        comment_post_error: "Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es später erneut.",
         comment_approved: "Dein Kommentar wurde genehmigt.",
         comment_unapproved: "Dein Kommentar wartet auf Freischaltung.",
         camera: "Kamera",
@@ -1322,16 +1032,9 @@
         copyright: "Copyright",
         comment_registration: "1",
         require_name_email: "1",
-        login_url:
-          "httpscarola-horstmann.de\/wp-login.php?redirect_to=httpscarola-horstmann.de%2Fkurzgschichte%2F",
+        login_url: "httpscarola-horstmann.de\/wp-login.php?redirect_to=httpscarola-horstmann.de%2Fkurzgschichte%2F",
         blog_id: "1",
-        meta_data: [
-          "camera",
-          "aperture",
-          "shutter_speed",
-          "focal_length",
-          "copyright",
-        ],
+        meta_data: ["camera", "aperture", "shutter_speed", "focal_length", "copyright"],
       };
       /* ]]> */
     </script>
