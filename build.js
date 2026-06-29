@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const posthtml = require('posthtml');
+const include = require('posthtml-include');
 
 const SRC = path.join(__dirname, 'src');
 const DIST = path.join(__dirname, 'dist');
@@ -16,7 +17,7 @@ async function processDir(src, dest) {
     } else if (entry.name.endsWith('.html')) {
       const html = fs.readFileSync(srcPath, 'utf8');
       promises.push(
-        posthtml([]).process(html).then(result => {
+        posthtml([include({ root: SRC })]).process(html).then(result => {
           fs.writeFileSync(destPath, result.html);
         })
       );

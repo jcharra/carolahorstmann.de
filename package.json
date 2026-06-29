@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jcharra/carolahorstmann.de#readme",
   "devDependencies": {
     "posthtml": "^0.16.7",
+    "posthtml-include": "^2.0.1",
     "serve": "^14.2.6"
   }
 }
